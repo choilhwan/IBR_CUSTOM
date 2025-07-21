@@ -1,0 +1,82 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.typeName: 'Projection CDS View for I_PRODPLANTSTORAGELOCATIONTP_2'
+@UI.headerInfo.typeNamePlural: 'Projection CDS View for I_PRODPLANTSTORAGELOCATIONTP_2'
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Product'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Product'
+annotate view ZC_PRDPLANTSTORAGELOCATIONTP_2 with
+{
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 
+  } ]
+  @UI.lineItem: [ {
+    position: 10 
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  Product;
+  
+  @UI.identification: [ {
+    position: 20 
+  } ]
+  @UI.lineItem: [ {
+    position: 20 
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  Plant;
+  
+  @UI.identification: [ {
+    position: 30 
+  } ]
+  @UI.lineItem: [ {
+    position: 30 
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  StorageLocation;
+  
+  @UI.identification: [ {
+    position: 40 
+  } ]
+  @UI.lineItem: [ {
+    position: 40 
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  WarehouseStorageBin;
+  
+  @UI.identification: [ {
+    position: 50 
+  } ]
+  @UI.lineItem: [ {
+    position: 50 
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  IsMarkedForDeletion;
+  
+  @UI.identification: [ {
+    position: 60 
+  } ]
+  @UI.lineItem: [ {
+    position: 60 
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  LeanWrhsManagementPickingArea;
+}

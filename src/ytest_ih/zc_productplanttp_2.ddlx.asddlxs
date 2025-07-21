@@ -1,0 +1,392 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.typeName: 'Projection CDS View for I_PRODUCTPLANTTP_2'
+@UI.headerInfo.typeNamePlural: 'Projection CDS View for I_PRODUCTPLANTTP_2'
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Product'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Product'
+annotate view ZC_PRODUCTPLANTTP_2 with
+{
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  }, 
+  {
+    label: 'Details', 
+    id: 'Details', 
+    purpose: #STANDARD, 
+    position: 11 , 
+    type: #IDENTIFICATION_REFERENCE, 
+    targetElement: '_ProdPlantInternationalTrade'
+  }, 
+  {
+    label: 'Details2', 
+    id: 'Details2', 
+    purpose: #STANDARD, 
+    position: 12 , 
+    type: #IDENTIFICATION_REFERENCE, 
+    targetElement: '_ProductPlantCosting'
+  }, 
+  {
+    label: 'Details3', 
+    id: 'Details3', 
+    purpose: #STANDARD, 
+    position: 13 , 
+    type: #IDENTIFICATION_REFERENCE, 
+    targetElement: '_ProductPlantForecast'
+  }, 
+  {
+    label: 'Items', 
+    id: 'Items', 
+    purpose: #STANDARD, 
+    position: 14 , 
+    type: #LINEITEM_REFERENCE, 
+    targetElement: '_ProductPlantInspTypeSetting'
+  }, 
+  {
+    label: 'Items2', 
+    id: 'Items2', 
+    purpose: #STANDARD, 
+    position: 15 , 
+    type: #LINEITEM_REFERENCE, 
+    targetElement: '_ProductPlantMRP'
+  }, 
+  {
+    label: 'Details4', 
+    id: 'Details4', 
+    purpose: #STANDARD, 
+    position: 16 , 
+    type: #IDENTIFICATION_REFERENCE, 
+    targetElement: '_ProductPlantPlanning'
+  }, 
+  {
+    label: 'Details5', 
+    id: 'Details5', 
+    purpose: #STANDARD, 
+    position: 17 , 
+    type: #IDENTIFICATION_REFERENCE, 
+    targetElement: '_ProductPlantProcurement'
+  }, 
+  {
+    label: 'Items3', 
+    id: 'Items3', 
+    purpose: #STANDARD, 
+    position: 18 , 
+    type: #LINEITEM_REFERENCE, 
+    targetElement: '_ProductPlantPurchaseTax'
+  }, 
+  {
+    label: 'Details6', 
+    id: 'Details6', 
+    purpose: #STANDARD, 
+    position: 19 , 
+    type: #IDENTIFICATION_REFERENCE, 
+    targetElement: '_ProductPlantQualityManagement'
+  }, 
+  {
+    label: 'Details7', 
+    id: 'Details7', 
+    purpose: #STANDARD, 
+    position: 20 , 
+    type: #IDENTIFICATION_REFERENCE, 
+    targetElement: '_ProductPlantSales'
+  }, 
+  {
+    label: 'Details8', 
+    id: 'Details8', 
+    purpose: #STANDARD, 
+    position: 21 , 
+    type: #IDENTIFICATION_REFERENCE, 
+    targetElement: '_ProductPlantStorage'
+  }, 
+  {
+    label: 'Items4', 
+    id: 'Items4', 
+    purpose: #STANDARD, 
+    position: 22 , 
+    type: #LINEITEM_REFERENCE, 
+    targetElement: '_ProductPlantStorageLocation'
+  }, 
+  {
+    label: 'Details9', 
+    id: 'Details9', 
+    purpose: #STANDARD, 
+    position: 23 , 
+    type: #IDENTIFICATION_REFERENCE, 
+    targetElement: '_ProductPlantSupplyPlanning'
+  }, 
+  {
+    label: 'Details10', 
+    id: 'Details10', 
+    purpose: #STANDARD, 
+    position: 24 , 
+    type: #IDENTIFICATION_REFERENCE, 
+    targetElement: '_ProductPlantWorkScheduling'
+  } ]
+  @UI.identification: [ {
+    position: 10 
+  } ]
+  @UI.lineItem: [ {
+    position: 10 
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  Product;
+  
+  @UI.identification: [ {
+    position: 20 
+  } ]
+  @UI.lineItem: [ {
+    position: 20 
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  Plant;
+  
+  @UI.identification: [ {
+    position: 30 
+  } ]
+  @UI.lineItem: [ {
+    position: 30 
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  ProfileCode;
+  
+  @UI.identification: [ {
+    position: 40 
+  } ]
+  @UI.lineItem: [ {
+    position: 40 
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  ProfileValidityStartDate;
+  
+  @UI.identification: [ {
+    position: 50 
+  } ]
+  @UI.lineItem: [ {
+    position: 50 
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  FiscalYearVariant;
+  
+  @UI.identification: [ {
+    position: 60 
+  } ]
+  @UI.lineItem: [ {
+    position: 60 
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  PeriodType;
+  
+  @UI.identification: [ {
+    position: 70 
+  } ]
+  @UI.lineItem: [ {
+    position: 70 
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  ProfitCenter;
+  
+  @UI.identification: [ {
+    position: 80 
+  } ]
+  @UI.lineItem: [ {
+    position: 80 
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  IsMarkedForDeletion;
+  
+  @UI.identification: [ {
+    position: 90 
+  } ]
+  @UI.lineItem: [ {
+    position: 90 
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  ConfigurableProduct;
+  
+  @UI.identification: [ {
+    position: 100 
+  } ]
+  @UI.lineItem: [ {
+    position: 100 
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  StockDeterminationGroup;
+  
+  @UI.identification: [ {
+    position: 110 
+  } ]
+  @UI.lineItem: [ {
+    position: 110 
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  IsBatchManagementRequired;
+  
+  @UI.identification: [ {
+    position: 120 
+  } ]
+  @UI.lineItem: [ {
+    position: 120 
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  SerialNumberProfile;
+  
+  @UI.identification: [ {
+    position: 130 
+  } ]
+  @UI.lineItem: [ {
+    position: 130 
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  IsNegativeStockAllowed;
+  
+  @UI.identification: [ {
+    position: 140 
+  } ]
+  @UI.lineItem: [ {
+    position: 140 
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  ProductCFOPCategory;
+  
+  @UI.identification: [ {
+    position: 150 
+  } ]
+  @UI.lineItem: [ {
+    position: 150 
+  } ]
+  @UI.selectionField: [ {
+    position: 150 
+  } ]
+  ProductIsExciseTaxRelevant;
+  
+  @UI.identification: [ {
+    position: 160 
+  } ]
+  @UI.lineItem: [ {
+    position: 160 
+  } ]
+  @UI.selectionField: [ {
+    position: 160 
+  } ]
+  GoodsIssueUnit;
+  
+  @UI.identification: [ {
+    position: 170 
+  } ]
+  @UI.lineItem: [ {
+    position: 170 
+  } ]
+  @UI.selectionField: [ {
+    position: 170 
+  } ]
+  DistrCntrDistributionProfile;
+  
+  @UI.identification: [ {
+    position: 180 
+  } ]
+  @UI.lineItem: [ {
+    position: 180 
+  } ]
+  @UI.selectionField: [ {
+    position: 180 
+  } ]
+  ProductIsCriticalPrt;
+  
+  @UI.identification: [ {
+    position: 190 
+  } ]
+  @UI.lineItem: [ {
+    position: 190 
+  } ]
+  @UI.selectionField: [ {
+    position: 190 
+  } ]
+  ProductLogisticsHandlingGroup;
+  
+  @UI.identification: [ {
+    position: 200 
+  } ]
+  @UI.lineItem: [ {
+    position: 200 
+  } ]
+  @UI.selectionField: [ {
+    position: 200 
+  } ]
+  ProductFreightGroup;
+  
+  @UI.identification: [ {
+    position: 210 
+  } ]
+  @UI.lineItem: [ {
+    position: 210 
+  } ]
+  @UI.selectionField: [ {
+    position: 210 
+  } ]
+  OriginalBatchReferenceProduct;
+  
+  @UI.identification: [ {
+    position: 220 
+  } ]
+  @UI.lineItem: [ {
+    position: 220 
+  } ]
+  @UI.selectionField: [ {
+    position: 220 
+  } ]
+  ProductMinControlTemperature;
+  
+  @UI.identification: [ {
+    position: 230 
+  } ]
+  @UI.lineItem: [ {
+    position: 230 
+  } ]
+  @UI.selectionField: [ {
+    position: 230 
+  } ]
+  ProductMaxControlTemperature;
+  
+  @UI.identification: [ {
+    position: 240 
+  } ]
+  @UI.lineItem: [ {
+    position: 240 
+  } ]
+  @UI.selectionField: [ {
+    position: 240 
+  } ]
+  BaseUnit;
+}

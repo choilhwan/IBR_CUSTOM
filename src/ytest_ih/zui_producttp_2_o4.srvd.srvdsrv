@@ -1,0 +1,46 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_PRODUCTTP_2'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_PRODUCTTP_2'
+  }
+}
+define service ZUI_PRODUCTTP_2_O4
+  provider contracts odata_v4_ui {
+  expose ZC_PRDPLANTSTORAGELOCATIONTP_2 as ProductPlantStorageLocation;
+  expose ZC_PRODPLANTSUPPLYPLANNINGTP_2 as ProductPlantSupplyPlanning;
+  expose ZC_PRODPLANTWORKSCHEDULINGTP_2 as ProductPlantWorkScheduling;
+  expose ZC_PRODPLNTINSPTYPESETTINGTP_2 as ProdPlntInspTypeSetting;
+  expose ZC_PRODPLNTINTLTRADETP_2       as ProductPlantInternationalTrade;
+  expose ZC_PRODPLNTQLTYMANAGEMENTTP_2  as ProductPlantQualityManagement;
+  expose ZC_PRODSLSDELIVERYSALESTAXTP_2 as ProductSalesDeliverySalesTax;
+  expose ZC_PRODSLSDELIVPOINTOFSALETP_2 as ProdSlsDelivPointOfSale;
+  expose ZC_PRODUCTCHANGEMASTERTP_2     as ProductChangeMaster;
+  expose ZC_PRODUCTDESCRIPTIONTP_2      as ProductDescription;
+  expose ZC_PRODUCTEWMSTORAGETYPETP_2   as ProductEWMStorageType;
+  expose ZC_PRODUCTEWMWAREHOUSETP_2     as ProductEWMWarehouse;
+  expose ZC_PRODUCTPLANTCOSTINGTP_2     as ProductPlantCosting;
+  expose ZC_PRODUCTPLANTFORECASTTP_2    as ProductPlantForecast;
+  expose ZC_PRODUCTPLANTMRPTP_2         as ProductPlantMRP;
+  expose ZC_PRODUCTPLANTPLANNINGTP_2    as ProductPlantPlanning;
+  expose ZC_PRODUCTPLANTPROCUREMENTTP_2 as ProductPlantProcurement;
+  expose ZC_PRODUCTPLANTPURCHASETAXTP_2 as ProductPlantPurchaseTax;
+  expose ZC_PRODUCTPLANTSALESTP_2       as ProductPlantSales;
+  expose ZC_PRODUCTPLANTSTORAGETP_2     as ProductPlantStorage;
+  expose ZC_PRODUCTPLANTTP_2            as ProductPlant;
+  expose ZC_PRODUCTPROCUREMENTTP_2      as ProductProcurement;
+  expose ZC_PRDUCTQUALITYMANAGEMENTTP_2 as ProductQualityManagement;
+  expose ZC_PRODUCTSALESDELIVERYTP_2    as ProductSalesDelivery;
+  expose ZC_PRODUCTSALESTP_2            as ProductSales;
+  expose ZC_PRODUCTSTORAGETP_2          as ProductStorage;
+  expose ZC_PRODUCTTP_2                 as Product;
+  expose ZC_PRODUCTUNITOFMEASUREEANTP_2 as ProductUnitOfMeasureEAN;
+  expose ZC_PRODUCTUNITOFMEASURETP_2    as ProductUnitOfMeasure;
+  expose ZC_PRODUCTVALUATIONCOSTINGTP_2 as ProductValuationCosting;
+  expose ZC_PRODUCTVALUATIONTP_2        as ProductValuation;
+  expose ZC_PRODUOMSUPLREANTP_2         as ProdUoMSuplrEAN;
+  expose ZC_PRODVALNLEDGERACCOUNTTP_2   as ProductValuationLedgerAccount;
+  expose ZC_PRODVALNLEDGERPRICESTP_2    as ProductValuationLedgerPrices;
+  expose ZC_PRODVALUATIONACCOUNTINGTP_2 as ProductValuationAccounting;
+}

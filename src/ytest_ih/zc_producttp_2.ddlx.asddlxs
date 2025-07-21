@@ -1,0 +1,1210 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.typeName: 'Projection CDS View for I_PRODUCTTP_2'
+@UI.headerInfo.typeNamePlural: 'Projection CDS View for I_PRODUCTTP_2'
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Product'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Product'
+annotate view ZC_PRODUCTTP_2 with
+{
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  }, 
+  {
+    label: 'Items', 
+    id: 'Items', 
+    purpose: #STANDARD, 
+    position: 11 , 
+    type: #LINEITEM_REFERENCE, 
+    targetElement: '_ProductChangeMaster'
+  }, 
+  {
+    label: 'Items2', 
+    id: 'Items2', 
+    purpose: #STANDARD, 
+    position: 12 , 
+    type: #LINEITEM_REFERENCE, 
+    targetElement: '_ProductDescription'
+  }, 
+  {
+    label: 'Items3', 
+    id: 'Items3', 
+    purpose: #STANDARD, 
+    position: 13 , 
+    type: #LINEITEM_REFERENCE, 
+    targetElement: '_ProductEWMWarehouse'
+  }, 
+  {
+    label: 'Items4', 
+    id: 'Items4', 
+    purpose: #STANDARD, 
+    position: 14 , 
+    type: #LINEITEM_REFERENCE, 
+    targetElement: '_ProductPlant'
+  }, 
+  {
+    label: 'Details', 
+    id: 'Details', 
+    purpose: #STANDARD, 
+    position: 15 , 
+    type: #IDENTIFICATION_REFERENCE, 
+    targetElement: '_ProductProcurement'
+  }, 
+  {
+    label: 'Details2', 
+    id: 'Details2', 
+    purpose: #STANDARD, 
+    position: 16 , 
+    type: #IDENTIFICATION_REFERENCE, 
+    targetElement: '_ProductQualityManagement'
+  }, 
+  {
+    label: 'Details3', 
+    id: 'Details3', 
+    purpose: #STANDARD, 
+    position: 17 , 
+    type: #IDENTIFICATION_REFERENCE, 
+    targetElement: '_ProductSales'
+  }, 
+  {
+    label: 'Items5', 
+    id: 'Items5', 
+    purpose: #STANDARD, 
+    position: 18 , 
+    type: #LINEITEM_REFERENCE, 
+    targetElement: '_ProductSalesDelivery'
+  }, 
+  {
+    label: 'Details4', 
+    id: 'Details4', 
+    purpose: #STANDARD, 
+    position: 19 , 
+    type: #IDENTIFICATION_REFERENCE, 
+    targetElement: '_ProductStorage'
+  }, 
+  {
+    label: 'Items6', 
+    id: 'Items6', 
+    purpose: #STANDARD, 
+    position: 20 , 
+    type: #LINEITEM_REFERENCE, 
+    targetElement: '_ProductUnitOfMeasure'
+  }, 
+  {
+    label: 'Items7', 
+    id: 'Items7', 
+    purpose: #STANDARD, 
+    position: 21 , 
+    type: #LINEITEM_REFERENCE, 
+    targetElement: '_ProductValuation'
+  } ]
+  @UI.identification: [ {
+    position: 10 
+  } ]
+  @UI.lineItem: [ {
+    position: 10 
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  Product;
+  
+  @UI.identification: [ {
+    position: 20 
+  } ]
+  @UI.lineItem: [ {
+    position: 20 
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  ProductType;
+  
+  @UI.identification: [ {
+    position: 30 
+  } ]
+  @UI.lineItem: [ {
+    position: 30 
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  CreationDate;
+  
+  @UI.identification: [ {
+    position: 40 
+  } ]
+  @UI.lineItem: [ {
+    position: 40 
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  CreationTime;
+  
+  @UI.identification: [ {
+    position: 50 
+  } ]
+  @UI.lineItem: [ {
+    position: 50 
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  CreationDateTime;
+  
+  @UI.identification: [ {
+    position: 60 
+  } ]
+  @UI.lineItem: [ {
+    position: 60 
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  CreatedByUser;
+  
+  @UI.identification: [ {
+    position: 70 
+  } ]
+  @UI.lineItem: [ {
+    position: 70 
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  LastChangeDate;
+  
+  @UI.identification: [ {
+    position: 80 
+  } ]
+  @UI.lineItem: [ {
+    position: 80 
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  LastChangedByUser;
+  
+  @UI.identification: [ {
+    position: 90 
+  } ]
+  @UI.lineItem: [ {
+    position: 90 
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  IsMarkedForDeletion;
+  
+  @UI.identification: [ {
+    position: 100 
+  } ]
+  @UI.lineItem: [ {
+    position: 100 
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  CrossPlantStatus;
+  
+  @UI.identification: [ {
+    position: 110 
+  } ]
+  @UI.lineItem: [ {
+    position: 110 
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  CrossPlantStatusValidityDate;
+  
+  @UI.identification: [ {
+    position: 120 
+  } ]
+  @UI.lineItem: [ {
+    position: 120 
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  ProductOldID;
+  
+  @UI.identification: [ {
+    position: 130 
+  } ]
+  @UI.lineItem: [ {
+    position: 130 
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  GrossWeight;
+  
+  @UI.identification: [ {
+    position: 140 
+  } ]
+  @UI.lineItem: [ {
+    position: 140 
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  ProductGroup;
+  
+  @UI.identification: [ {
+    position: 150 
+  } ]
+  @UI.lineItem: [ {
+    position: 150 
+  } ]
+  @UI.selectionField: [ {
+    position: 150 
+  } ]
+  BaseUnit;
+  
+  @UI.identification: [ {
+    position: 160 
+  } ]
+  @UI.lineItem: [ {
+    position: 160 
+  } ]
+  @UI.selectionField: [ {
+    position: 160 
+  } ]
+  ItemCategoryGroup;
+  
+  @UI.identification: [ {
+    position: 170 
+  } ]
+  @UI.lineItem: [ {
+    position: 170 
+  } ]
+  @UI.selectionField: [ {
+    position: 170 
+  } ]
+  NetWeight;
+  
+  @UI.identification: [ {
+    position: 180 
+  } ]
+  @UI.lineItem: [ {
+    position: 180 
+  } ]
+  @UI.selectionField: [ {
+    position: 180 
+  } ]
+  Division;
+  
+  @UI.identification: [ {
+    position: 190 
+  } ]
+  @UI.lineItem: [ {
+    position: 190 
+  } ]
+  @UI.selectionField: [ {
+    position: 190 
+  } ]
+  ProductVolume;
+  
+  @UI.identification: [ {
+    position: 200 
+  } ]
+  @UI.lineItem: [ {
+    position: 200 
+  } ]
+  @UI.selectionField: [ {
+    position: 200 
+  } ]
+  AuthorizationGroup;
+  
+  @UI.identification: [ {
+    position: 210 
+  } ]
+  @UI.lineItem: [ {
+    position: 210 
+  } ]
+  @UI.selectionField: [ {
+    position: 210 
+  } ]
+  ANPCode;
+  
+  @UI.identification: [ {
+    position: 220 
+  } ]
+  @UI.lineItem: [ {
+    position: 220 
+  } ]
+  @UI.selectionField: [ {
+    position: 220 
+  } ]
+  SizeOrDimensionText;
+  
+  @UI.identification: [ {
+    position: 230 
+  } ]
+  @UI.lineItem: [ {
+    position: 230 
+  } ]
+  @UI.selectionField: [ {
+    position: 230 
+  } ]
+  IndustryStandardName;
+  
+  @UI.identification: [ {
+    position: 240 
+  } ]
+  @UI.lineItem: [ {
+    position: 240 
+  } ]
+  @UI.selectionField: [ {
+    position: 240 
+  } ]
+  ProductStandardID;
+  
+  @UI.identification: [ {
+    position: 250 
+  } ]
+  @UI.lineItem: [ {
+    position: 250 
+  } ]
+  @UI.selectionField: [ {
+    position: 250 
+  } ]
+  InternationalArticleNumberCat;
+  
+  @UI.identification: [ {
+    position: 260 
+  } ]
+  @UI.lineItem: [ {
+    position: 260 
+  } ]
+  @UI.selectionField: [ {
+    position: 260 
+  } ]
+  ProductIsConfigurable;
+  
+  @UI.identification: [ {
+    position: 270 
+  } ]
+  @UI.lineItem: [ {
+    position: 270 
+  } ]
+  @UI.selectionField: [ {
+    position: 270 
+  } ]
+  IsBatchManagementRequired;
+  
+  @UI.identification: [ {
+    position: 280 
+  } ]
+  @UI.lineItem: [ {
+    position: 280 
+  } ]
+  @UI.selectionField: [ {
+    position: 280 
+  } ]
+  ExternalProductGroup;
+  
+  @UI.identification: [ {
+    position: 290 
+  } ]
+  @UI.lineItem: [ {
+    position: 290 
+  } ]
+  @UI.selectionField: [ {
+    position: 290 
+  } ]
+  CrossPlantConfigurableProduct;
+  
+  @UI.identification: [ {
+    position: 300 
+  } ]
+  @UI.lineItem: [ {
+    position: 300 
+  } ]
+  @UI.selectionField: [ {
+    position: 300 
+  } ]
+  SerialNoExplicitnessLevel;
+  
+  @UI.identification: [ {
+    position: 310 
+  } ]
+  @UI.lineItem: [ {
+    position: 310 
+  } ]
+  @UI.selectionField: [ {
+    position: 310 
+  } ]
+  IsApprovedBatchRecordReqd;
+  
+  @UI.identification: [ {
+    position: 320 
+  } ]
+  @UI.lineItem: [ {
+    position: 320 
+  } ]
+  @UI.selectionField: [ {
+    position: 320 
+  } ]
+  HandlingIndicator;
+  
+  @UI.identification: [ {
+    position: 330 
+  } ]
+  @UI.lineItem: [ {
+    position: 330 
+  } ]
+  @UI.selectionField: [ {
+    position: 330 
+  } ]
+  WarehouseProductGroup;
+  
+  @UI.identification: [ {
+    position: 340 
+  } ]
+  @UI.lineItem: [ {
+    position: 340 
+  } ]
+  @UI.selectionField: [ {
+    position: 340 
+  } ]
+  WarehouseStorageCondition;
+  
+  @UI.identification: [ {
+    position: 350 
+  } ]
+  @UI.lineItem: [ {
+    position: 350 
+  } ]
+  @UI.selectionField: [ {
+    position: 350 
+  } ]
+  StandardHandlingUnitType;
+  
+  @UI.identification: [ {
+    position: 360 
+  } ]
+  @UI.lineItem: [ {
+    position: 360 
+  } ]
+  @UI.selectionField: [ {
+    position: 360 
+  } ]
+  SerialNumberProfile;
+  
+  @UI.identification: [ {
+    position: 370 
+  } ]
+  @UI.lineItem: [ {
+    position: 370 
+  } ]
+  @UI.selectionField: [ {
+    position: 370 
+  } ]
+  IsPilferable;
+  
+  @UI.identification: [ {
+    position: 380 
+  } ]
+  @UI.lineItem: [ {
+    position: 380 
+  } ]
+  @UI.selectionField: [ {
+    position: 380 
+  } ]
+  IsRelevantForHzdsSubstances;
+  
+  @UI.identification: [ {
+    position: 390 
+  } ]
+  @UI.lineItem: [ {
+    position: 390 
+  } ]
+  @UI.selectionField: [ {
+    position: 390 
+  } ]
+  QuarantinePeriod;
+  
+  @UI.identification: [ {
+    position: 400 
+  } ]
+  @UI.lineItem: [ {
+    position: 400 
+  } ]
+  @UI.selectionField: [ {
+    position: 400 
+  } ]
+  QualityInspectionGroup;
+  
+  @UI.identification: [ {
+    position: 410 
+  } ]
+  @UI.lineItem: [ {
+    position: 410 
+  } ]
+  @UI.selectionField: [ {
+    position: 410 
+  } ]
+  HandlingUnitType;
+  
+  @UI.identification: [ {
+    position: 420 
+  } ]
+  @UI.lineItem: [ {
+    position: 420 
+  } ]
+  @UI.selectionField: [ {
+    position: 420 
+  } ]
+  HasVariableTareWeight;
+  
+  @UI.identification: [ {
+    position: 430 
+  } ]
+  @UI.lineItem: [ {
+    position: 430 
+  } ]
+  @UI.selectionField: [ {
+    position: 430 
+  } ]
+  MaximumPackagingLength;
+  
+  @UI.identification: [ {
+    position: 440 
+  } ]
+  @UI.lineItem: [ {
+    position: 440 
+  } ]
+  @UI.selectionField: [ {
+    position: 440 
+  } ]
+  MaximumPackagingWidth;
+  
+  @UI.identification: [ {
+    position: 450 
+  } ]
+  @UI.lineItem: [ {
+    position: 450 
+  } ]
+  @UI.selectionField: [ {
+    position: 450 
+  } ]
+  MaximumPackagingHeight;
+  
+  @UI.identification: [ {
+    position: 460 
+  } ]
+  @UI.lineItem: [ {
+    position: 460 
+  } ]
+  @UI.selectionField: [ {
+    position: 460 
+  } ]
+  MaximumCapacity;
+  
+  @UI.identification: [ {
+    position: 470 
+  } ]
+  @UI.lineItem: [ {
+    position: 470 
+  } ]
+  @UI.selectionField: [ {
+    position: 470 
+  } ]
+  OvercapacityTolerance;
+  
+  @UI.identification: [ {
+    position: 480 
+  } ]
+  @UI.lineItem: [ {
+    position: 480 
+  } ]
+  @UI.selectionField: [ {
+    position: 480 
+  } ]
+  BaseUnitSpecificProductLength;
+  
+  @UI.identification: [ {
+    position: 490 
+  } ]
+  @UI.lineItem: [ {
+    position: 490 
+  } ]
+  @UI.selectionField: [ {
+    position: 490 
+  } ]
+  BaseUnitSpecificProductWidth;
+  
+  @UI.identification: [ {
+    position: 500 
+  } ]
+  @UI.lineItem: [ {
+    position: 500 
+  } ]
+  @UI.selectionField: [ {
+    position: 500 
+  } ]
+  BaseUnitSpecificProductHeight;
+  
+  @UI.identification: [ {
+    position: 510 
+  } ]
+  @UI.lineItem: [ {
+    position: 510 
+  } ]
+  @UI.selectionField: [ {
+    position: 510 
+  } ]
+  ArticleCategory;
+  
+  @UI.identification: [ {
+    position: 520 
+  } ]
+  @UI.lineItem: [ {
+    position: 520 
+  } ]
+  @UI.selectionField: [ {
+    position: 520 
+  } ]
+  IndustrySector;
+  
+  @UI.identification: [ {
+    position: 530 
+  } ]
+  @UI.lineItem: [ {
+    position: 530 
+  } ]
+  @UI.selectionField: [ {
+    position: 530 
+  } ]
+  LastChangeDateTime;
+  
+  @UI.identification: [ {
+    position: 540 
+  } ]
+  @UI.lineItem: [ {
+    position: 540 
+  } ]
+  @UI.selectionField: [ {
+    position: 540 
+  } ]
+  LastChangeTime;
+  
+  @UI.identification: [ {
+    position: 550 
+  } ]
+  @UI.lineItem: [ {
+    position: 550 
+  } ]
+  @UI.selectionField: [ {
+    position: 550 
+  } ]
+  DangerousGoodsIndProfile;
+  
+  @UI.identification: [ {
+    position: 560 
+  } ]
+  @UI.lineItem: [ {
+    position: 560 
+  } ]
+  @UI.selectionField: [ {
+    position: 560 
+  } ]
+  ProductDocumentChangeNumber;
+  
+  @UI.identification: [ {
+    position: 570 
+  } ]
+  @UI.lineItem: [ {
+    position: 570 
+  } ]
+  @UI.selectionField: [ {
+    position: 570 
+  } ]
+  ProductDocumentPageCount;
+  
+  @UI.identification: [ {
+    position: 580 
+  } ]
+  @UI.lineItem: [ {
+    position: 580 
+  } ]
+  @UI.selectionField: [ {
+    position: 580 
+  } ]
+  ProductDocumentPageNumber;
+  
+  @UI.identification: [ {
+    position: 590 
+  } ]
+  @UI.lineItem: [ {
+    position: 590 
+  } ]
+  @UI.selectionField: [ {
+    position: 590 
+  } ]
+  DocumentIsCreatedByCAD;
+  
+  @UI.identification: [ {
+    position: 600 
+  } ]
+  @UI.lineItem: [ {
+    position: 600 
+  } ]
+  @UI.selectionField: [ {
+    position: 600 
+  } ]
+  ProductionOrInspectionMemoTxt;
+  
+  @UI.identification: [ {
+    position: 610 
+  } ]
+  @UI.lineItem: [ {
+    position: 610 
+  } ]
+  @UI.selectionField: [ {
+    position: 610 
+  } ]
+  ProductionMemoPageFormat;
+  
+  @UI.identification: [ {
+    position: 620 
+  } ]
+  @UI.lineItem: [ {
+    position: 620 
+  } ]
+  @UI.selectionField: [ {
+    position: 620 
+  } ]
+  ProductIsHighlyViscous;
+  
+  @UI.identification: [ {
+    position: 630 
+  } ]
+  @UI.lineItem: [ {
+    position: 630 
+  } ]
+  @UI.selectionField: [ {
+    position: 630 
+  } ]
+  TransportIsInBulk;
+  
+  @UI.identification: [ {
+    position: 640 
+  } ]
+  @UI.lineItem: [ {
+    position: 640 
+  } ]
+  @UI.selectionField: [ {
+    position: 640 
+  } ]
+  ProdEffctyParamValsAreAssigned;
+  
+  @UI.identification: [ {
+    position: 650 
+  } ]
+  @UI.lineItem: [ {
+    position: 650 
+  } ]
+  @UI.selectionField: [ {
+    position: 650 
+  } ]
+  ProdIsEnvironmentallyRelevant;
+  
+  @UI.identification: [ {
+    position: 660 
+  } ]
+  @UI.lineItem: [ {
+    position: 660 
+  } ]
+  @UI.selectionField: [ {
+    position: 660 
+  } ]
+  LaboratoryOrDesignOffice;
+  
+  @UI.identification: [ {
+    position: 670 
+  } ]
+  @UI.lineItem: [ {
+    position: 670 
+  } ]
+  @UI.selectionField: [ {
+    position: 670 
+  } ]
+  PackagingProductGroup;
+  
+  @UI.identification: [ {
+    position: 680 
+  } ]
+  @UI.lineItem: [ {
+    position: 680 
+  } ]
+  @UI.selectionField: [ {
+    position: 680 
+  } ]
+  PackingReferenceProduct;
+  
+  @UI.identification: [ {
+    position: 690 
+  } ]
+  @UI.lineItem: [ {
+    position: 690 
+  } ]
+  @UI.selectionField: [ {
+    position: 690 
+  } ]
+  BasicProduct;
+  
+  @UI.identification: [ {
+    position: 700 
+  } ]
+  @UI.lineItem: [ {
+    position: 700 
+  } ]
+  @UI.selectionField: [ {
+    position: 700 
+  } ]
+  ProductDocumentNumber;
+  
+  @UI.identification: [ {
+    position: 710 
+  } ]
+  @UI.lineItem: [ {
+    position: 710 
+  } ]
+  @UI.selectionField: [ {
+    position: 710 
+  } ]
+  ProductDocumentVersion;
+  
+  @UI.identification: [ {
+    position: 720 
+  } ]
+  @UI.lineItem: [ {
+    position: 720 
+  } ]
+  @UI.selectionField: [ {
+    position: 720 
+  } ]
+  ProductDocumentType;
+  
+  @UI.identification: [ {
+    position: 730 
+  } ]
+  @UI.lineItem: [ {
+    position: 730 
+  } ]
+  @UI.selectionField: [ {
+    position: 730 
+  } ]
+  ProductDocumentPageFormat;
+  
+  @UI.identification: [ {
+    position: 740 
+  } ]
+  @UI.lineItem: [ {
+    position: 740 
+  } ]
+  @UI.selectionField: [ {
+    position: 740 
+  } ]
+  ProdChmlCmplncRelevanceCode;
+  
+  @UI.identification: [ {
+    position: 750 
+  } ]
+  @UI.lineItem: [ {
+    position: 750 
+  } ]
+  @UI.selectionField: [ {
+    position: 750 
+  } ]
+  DiscountInKindEligibility;
+  
+  @UI.identification: [ {
+    position: 760 
+  } ]
+  @UI.lineItem: [ {
+    position: 760 
+  } ]
+  @UI.selectionField: [ {
+    position: 760 
+  } ]
+  ProdCompetitorCustomerNumber;
+  
+  @UI.identification: [ {
+    position: 770 
+  } ]
+  @UI.lineItem: [ {
+    position: 770 
+  } ]
+  @UI.selectionField: [ {
+    position: 770 
+  } ]
+  ProductHierarchy;
+  
+  @UI.identification: [ {
+    position: 780 
+  } ]
+  @UI.lineItem: [ {
+    position: 780 
+  } ]
+  @UI.selectionField: [ {
+    position: 780 
+  } ]
+  ProdAllocDetnProcedure;
+  
+  @UI.identification: [ {
+    position: 790 
+  } ]
+  @UI.lineItem: [ {
+    position: 790 
+  } ]
+  @UI.selectionField: [ {
+    position: 790 
+  } ]
+  CountryOfOrigin;
+  
+  @UI.identification: [ {
+    position: 800 
+  } ]
+  @UI.lineItem: [ {
+    position: 800 
+  } ]
+  @UI.selectionField: [ {
+    position: 800 
+  } ]
+  RetailArticleBrand;
+  
+  @UI.identification: [ {
+    position: 810 
+  } ]
+  @UI.lineItem: [ {
+    position: 810 
+  } ]
+  @UI.selectionField: [ {
+    position: 810 
+  } ]
+  ProductValidStartDate;
+  
+  @UI.identification: [ {
+    position: 820 
+  } ]
+  @UI.lineItem: [ {
+    position: 820 
+  } ]
+  @UI.selectionField: [ {
+    position: 820 
+  } ]
+  ProductNetContentQuantity;
+  
+  @UI.identification: [ {
+    position: 830 
+  } ]
+  @UI.lineItem: [ {
+    position: 830 
+  } ]
+  @UI.selectionField: [ {
+    position: 830 
+  } ]
+  ProductGrossContentQuantity;
+  
+  @UI.identification: [ {
+    position: 840 
+  } ]
+  @UI.lineItem: [ {
+    position: 840 
+  } ]
+  @UI.selectionField: [ {
+    position: 840 
+  } ]
+  ProductValidEndDate;
+  
+  @UI.identification: [ {
+    position: 850 
+  } ]
+  @UI.lineItem: [ {
+    position: 850 
+  } ]
+  @UI.selectionField: [ {
+    position: 850 
+  } ]
+  AssortmentListType;
+  
+  @UI.identification: [ {
+    position: 860 
+  } ]
+  @UI.lineItem: [ {
+    position: 860 
+  } ]
+  @UI.selectionField: [ {
+    position: 860 
+  } ]
+  TextilePartsIsWithAnimalOrigin;
+  
+  @UI.identification: [ {
+    position: 870 
+  } ]
+  @UI.lineItem: [ {
+    position: 870 
+  } ]
+  @UI.selectionField: [ {
+    position: 870 
+  } ]
+  ProductSeasonUsageCategory;
+  
+  @UI.identification: [ {
+    position: 880 
+  } ]
+  @UI.lineItem: [ {
+    position: 880 
+  } ]
+  @UI.selectionField: [ {
+    position: 880 
+  } ]
+  BillOfMaterialIsForEmpties;
+  
+  @UI.identification: [ {
+    position: 890 
+  } ]
+  @UI.lineItem: [ {
+    position: 890 
+  } ]
+  @UI.selectionField: [ {
+    position: 890 
+  } ]
+  ServiceAgreement;
+  
+  @UI.identification: [ {
+    position: 900 
+  } ]
+  @UI.lineItem: [ {
+    position: 900 
+  } ]
+  @UI.selectionField: [ {
+    position: 900 
+  } ]
+  ConsumptionValueCategory;
+  
+  @UI.identification: [ {
+    position: 910 
+  } ]
+  @UI.lineItem: [ {
+    position: 910 
+  } ]
+  @UI.selectionField: [ {
+    position: 910 
+  } ]
+  GoodsIssueUnit;
+  
+  @UI.identification: [ {
+    position: 920 
+  } ]
+  @UI.lineItem: [ {
+    position: 920 
+  } ]
+  @UI.selectionField: [ {
+    position: 920 
+  } ]
+  RegionOfOrigin;
+  
+  @UI.identification: [ {
+    position: 930 
+  } ]
+  @UI.lineItem: [ {
+    position: 930 
+  } ]
+  @UI.selectionField: [ {
+    position: 930 
+  } ]
+  ValuationClass;
+  
+  @UI.identification: [ {
+    position: 940 
+  } ]
+  @UI.lineItem: [ {
+    position: 940 
+  } ]
+  @UI.selectionField: [ {
+    position: 940 
+  } ]
+  SalesUnit;
+  
+  @UI.identification: [ {
+    position: 950 
+  } ]
+  @UI.lineItem: [ {
+    position: 950 
+  } ]
+  @UI.selectionField: [ {
+    position: 950 
+  } ]
+  ProductManufacturerNumber;
+  
+  @UI.identification: [ {
+    position: 960 
+  } ]
+  @UI.lineItem: [ {
+    position: 960 
+  } ]
+  @UI.selectionField: [ {
+    position: 960 
+  } ]
+  ManufacturerNumber;
+  
+  @UI.identification: [ {
+    position: 970 
+  } ]
+  @UI.lineItem: [ {
+    position: 970 
+  } ]
+  @UI.selectionField: [ {
+    position: 970 
+  } ]
+  ManufacturerPartProfile;
+  
+  @UI.identification: [ {
+    position: 980 
+  } ]
+  @UI.lineItem: [ {
+    position: 980 
+  } ]
+  @UI.selectionField: [ {
+    position: 980 
+  } ]
+  OwnInventoryManagedProduct;
+  
+  @EndUserText.label: '_ProductGroup_2'
+  @UI.identification: [ {
+    position: 990 , 
+    label: '_ProductGroup_2'
+  } ]
+  @UI.lineItem: [ {
+    position: 990 , 
+    label: '_ProductGroup_2'
+  } ]
+  @UI.selectionField: [ {
+    position: 990 
+  } ]
+  _ProductGroup_2;
+  
+  @EndUserText.label: '_ProductType'
+  @UI.identification: [ {
+    position: 1000 , 
+    label: '_ProductType'
+  } ]
+  @UI.lineItem: [ {
+    position: 1000 , 
+    label: '_ProductType'
+  } ]
+  @UI.selectionField: [ {
+    position: 1000 
+  } ]
+  _ProductType;
+}

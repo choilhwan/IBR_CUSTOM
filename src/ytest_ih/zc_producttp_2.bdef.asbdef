@@ -1,0 +1,342 @@
+projection implementation in class ZBP_C_PRODUCTTP_2 unique;
+strict ( 2 );
+define behavior for ZC_PRDPLANTSTORAGELOCATIONTP_2 alias ProductPlantStorageLocation
+
+{
+  use update;
+
+  use association _product;
+  use association _productplant;
+}
+
+define behavior for ZC_PRODPLANTSUPPLYPLANNINGTP_2 alias ProductPlantSupplyPlanning
+
+{
+  use update;
+
+  use association _product;
+  use association _productplant;
+}
+
+define behavior for ZC_PRODPLANTWORKSCHEDULINGTP_2 alias ProductPlantWorkScheduling
+
+{
+  use update;
+
+  use association _product;
+  use association _productplant;
+}
+
+define behavior for ZC_PRODPLNTINSPTYPESETTINGTP_2 alias ProdPlntInspTypeSetting
+
+{
+  use update;
+
+  use association _product;
+  use association _productplant;
+}
+
+define behavior for ZC_PRODPLNTINTLTRADETP_2 alias ProductPlantInternationalTrade
+
+{
+  use update;
+
+  use association _product;
+  use association _productplant;
+}
+
+define behavior for ZC_PRODPLNTQLTYMANAGEMENTTP_2 alias ProductPlantQualityManagement
+
+{
+  use update;
+
+  use association _product;
+  use association _productplant;
+}
+
+define behavior for ZC_PRODSLSDELIVERYSALESTAXTP_2 alias ProductSalesDeliverySalesTax
+
+{
+  use update;
+
+  use association _product;
+  use association _productsalesdelivery;
+}
+
+define behavior for ZC_PRODSLSDELIVPOINTOFSALETP_2 alias ProdSlsDelivPointOfSale
+
+{
+  use update;
+
+  use association _product;
+  use association _productsalesdelivery;
+}
+
+define behavior for ZC_PRODUCTCHANGEMASTERTP_2 alias ProductChangeMaster
+
+{
+  use association _product;
+}
+
+define behavior for ZC_PRODUCTDESCRIPTIONTP_2 alias ProductDescription
+
+{
+  use update;
+  use delete;
+
+  use association _product;
+}
+
+define behavior for ZC_PRODUCTEWMSTORAGETYPETP_2 alias ProductEWMStorageType
+
+{
+  use update;
+  use delete;
+
+  use association _product;
+  use association _productewmwarehouse;
+}
+
+define behavior for ZC_PRODUCTEWMWAREHOUSETP_2 alias ProductEWMWarehouse
+
+{
+  use update;
+
+  use association _product;
+  use association _productewmstoragetype { create; }
+}
+
+define behavior for ZC_PRODUCTPLANTCOSTINGTP_2 alias ProductPlantCosting
+
+{
+  use update;
+
+  use association _product;
+  use association _productplant;
+}
+
+define behavior for ZC_PRODUCTPLANTFORECASTTP_2 alias ProductPlantForecast
+
+{
+  use update;
+
+  use association _product;
+  use association _productplant;
+}
+
+define behavior for ZC_PRODUCTPLANTMRPTP_2 alias ProductPlantMRP
+
+{
+  use update;
+
+  use association _product;
+  use association _productplant;
+}
+
+define behavior for ZC_PRODUCTPLANTPLANNINGTP_2 alias ProductPlantPlanning
+
+{
+  use update;
+
+  use association _product;
+  use association _productplant;
+}
+
+define behavior for ZC_PRODUCTPLANTPROCUREMENTTP_2 alias ProductPlantProcurement
+
+{
+  use update;
+
+  use association _product;
+  use association _productplant;
+}
+
+define behavior for ZC_PRODUCTPLANTPURCHASETAXTP_2 alias ProductPlantPurchaseTax
+
+{
+  use update;
+
+  use association _product;
+  use association _productplant;
+}
+
+define behavior for ZC_PRODUCTPLANTSALESTP_2 alias ProductPlantSales
+
+{
+  use update;
+
+  use association _product;
+  use association _productplant;
+}
+
+define behavior for ZC_PRODUCTPLANTSTORAGETP_2 alias ProductPlantStorage
+
+{
+  use update;
+
+  use association _product;
+  use association _productplant;
+}
+
+define behavior for ZC_PRODUCTPLANTTP_2 alias ProductPlant
+
+{
+  use update;
+
+  use association _prodplantinternationaltrade { create; }
+  use association _product;
+  use association _productplantcosting { create; }
+  use association _productplantforecast { create; }
+  use association _productplantinsptypesetting { create; }
+  use association _productplantmrp { create; }
+  use association _productplantplanning { create; }
+  use association _productplantprocurement { create; }
+  use association _productplantpurchasetax { create; }
+  use association _productplantqualitymanagement { create; }
+  use association _productplantsales { create; }
+  use association _productplantstorage { create; }
+  use association _productplantstoragelocation { create; }
+  use association _productplantsupplyplanning { create; }
+  use association _productplantworkscheduling { create; }
+}
+
+define behavior for ZC_PRODUCTPROCUREMENTTP_2 alias ProductProcurement
+
+{
+  use update;
+
+  use association _product;
+}
+
+define behavior for ZC_PRDUCTQUALITYMANAGEMENTTP_2 alias ProductQualityManagement
+
+{
+  use update;
+
+  use association _product;
+}
+
+define behavior for ZC_PRODUCTSALESDELIVERYTP_2 alias ProductSalesDelivery
+
+{
+  use update;
+
+  use association _prodsalesdeliverysalestax { create; }
+  use association _prodslsdelivpointofsale { create; }
+  use association _product;
+}
+
+define behavior for ZC_PRODUCTSALESTP_2 alias ProductSales
+
+{
+  use update;
+
+  use association _product;
+}
+
+define behavior for ZC_PRODUCTSTORAGETP_2 alias ProductStorage
+
+{
+  use update;
+
+  use association _product;
+}
+
+define behavior for ZC_PRODUCTTP_2 alias Product
+use etag
+
+{
+  use create;
+  use update;
+
+  use association _productchangemaster { create; }
+  use association _productdescription { create; }
+  use association _productewmwarehouse { create; }
+  use association _productplant { create; }
+  use association _productprocurement { create; }
+  use association _productqualitymanagement { create; }
+  use association _productsales { create; }
+  use association _productsalesdelivery { create; }
+  use association _productstorage { create; }
+  use association _productunitofmeasure { create; }
+  use association _productvaluation { create; }
+}
+
+define behavior for ZC_PRODUCTUNITOFMEASUREEANTP_2 alias ProductUnitOfMeasureEAN
+
+{
+  use update;
+  use delete;
+
+  use association _product;
+  use association _productunitofmeasure;
+}
+
+define behavior for ZC_PRODUCTUNITOFMEASURETP_2 alias ProductUnitOfMeasure
+
+{
+  use update;
+  use delete;
+
+  use association _product;
+  use association _productunitofmeasureean { create; }
+  use association _produomsuplrean { create; }
+}
+
+define behavior for ZC_PRODUCTVALUATIONCOSTINGTP_2 alias ProductValuationCosting
+
+{
+  use update;
+
+  use association _product;
+  use association _productvaluation;
+}
+
+define behavior for ZC_PRODUCTVALUATIONTP_2 alias ProductValuation
+
+{
+  use update;
+
+  use association _product;
+  use association _productvaluationaccounting { create; }
+  use association _productvaluationcosting { create; }
+  use association _productvaluationledgeraccount { create; }
+  use association _productvaluationledgerprices { create; }
+}
+
+define behavior for ZC_PRODUOMSUPLREANTP_2 alias ProdUoMSuplrEAN
+
+{
+  use update;
+  use delete;
+
+  use association _product;
+  use association _productunitofmeasure;
+}
+
+define behavior for ZC_PRODVALNLEDGERACCOUNTTP_2 alias ProductValuationLedgerAccount
+
+{
+  use update;
+
+  use association _product;
+  use association _productvaluation;
+}
+
+define behavior for ZC_PRODVALNLEDGERPRICESTP_2 alias ProductValuationLedgerPrices
+
+{
+  use update;
+
+  use association _product;
+  use association _productvaluation;
+}
+
+define behavior for ZC_PRODVALUATIONACCOUNTINGTP_2 alias ProductValuationAccounting
+
+{
+  use update;
+
+  use association _product;
+  use association _productvaluation;
+}
