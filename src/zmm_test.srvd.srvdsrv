@@ -1,0 +1,4 @@
+@EndUserText.label: '[MM] Product Plant Service Definition'
+define service zmm_test {
+  expose ZMM_C_PRODUCTPLANT as ProductPlant;
+}

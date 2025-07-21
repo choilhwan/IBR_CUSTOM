@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_HTTP" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <HTTPID>ZAPI_MM_MATERIAL_SEND</HTTPID>
+   <HTTPTEXT>
+    <ID>ZAPI_MM_MATERIAL_SEND</ID>
+    <VERSION>I</VERSION>
+    <LANG>E</LANG>
+    <SHORTTEXT>[MM] 자재마스터 생셩, 변경 정보 전송(CJ대한통운)</SHORTTEXT>
+   </HTTPTEXT>
+   <HTTPHDL>
+    <UCONSERVHANDLER>
+     <ID>ZAPI_MM_MATERIAL_SEND</ID>
+     <VERSION>I</VERSION>
+     <SERVICEORDER>01</SERVICEORDER>
+     <SERVICEHANDLER>ZCL_API_MM_MATERIAL_SEND</SERVICEHANDLER>
+    </UCONSERVHANDLER>
+   </HTTPHDL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

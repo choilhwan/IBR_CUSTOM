@@ -1,0 +1,16 @@
+abstract;
+strict ( 2 );
+with hierarchy;
+define behavior for ZMM_D_PRODUCT_H //alias <alias_name>
+{
+field( suppress ) dummy;
+
+association product;
+}
+
+define behavior for ZMM_D_PRODUCT_C alias _product
+{
+
+field( suppress ) dummy;
+
+}

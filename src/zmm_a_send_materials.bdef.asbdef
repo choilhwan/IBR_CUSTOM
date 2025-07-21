@@ -1,0 +1,14 @@
+unmanaged implementation in class zbp_mm_a_send_materials unique;
+strict ( 2 );
+
+define behavior for ZMM_A_SEND_MATERIALS //alias <alias_name>
+lock master
+authorization master ( instance , global )
+//etag master <field_name>
+{
+//  create;
+//  update;
+//  delete;
+field ( readonly  ) product, plant;
+  static action transfer deep parameter ZMM_D_PRODUCT_H result  [0..*] $self;
+}

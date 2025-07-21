@@ -1,0 +1,4 @@
+@EndUserText.label: '[MM] Send Material Data To CJ WMS'
+define service ZMM_API_SEND_MAT_CJ {
+  expose ZMM_A_SEND_MATERIALS;
+}

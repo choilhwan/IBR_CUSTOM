@@ -1,0 +1,16 @@
+unmanaged implementation in class zbp_mm_r_productplant unique;
+strict ( 2 );
+
+define behavior for ZMM_R_PRODUCTPLANT //alias <alias_name>
+//persistent table <???>
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  field ( readonly ) Product, Plant;
+//  static action transfer deep parameter ZMM_D_PRODUCT_H result [0..*] $self;
+   action transfer result [1] $self;
+}

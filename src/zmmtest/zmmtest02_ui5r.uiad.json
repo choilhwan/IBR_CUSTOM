@@ -1,0 +1,46 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "test",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD"
+  },
+  "ui5AppDetails": {
+    "appId": "customer.manageproduct.appvar.ih"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_54766E62FA36D46CD6EA707BAF675D3D8ECC647F_TM",
+    "semanticObject": "MaterialIH",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "parameters": [
+      {
+        "name": "sap-appvar-id",
+        "filterValue": "customer.manageproduct.appvar.ih",
+        "required": true
+      }
+    ]
+  },
+  "tiles": [
+    {
+      "id": "UI5R_54766E62FA36D46CD6EA707BAF675D3D8ECC647F_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "test",
+        "subtitle": "test",
+        "tileNavigationParameters": [
+          {
+            "name": "sap-appvar-id",
+            "value": "customer.manageproduct.appvar.ih"
+          }
+        ]
+      }
+    }
+  ]
+}

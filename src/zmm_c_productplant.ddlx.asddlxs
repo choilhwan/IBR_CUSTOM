@@ -1,0 +1,57 @@
+@Metadata.layer: #CORE
+@UI.headerInfo:{
+    typeName: 'ProductPlant',
+    typeNamePlural: 'ProductsPlants'
+//    title:  { value: '_PlantCVH.PlantName' },
+//    description: {value: 'Plant'},
+//    imageUrl: '_Product.ProductImageURL'
+}
+
+annotate view ZMM_C_PRODUCTPLANT with
+{
+
+  @UI.facet: [
+  {
+    id: 'PartnerHeader',
+    purpose: #HEADER,
+    position: 10,
+    importance: #HIGH,
+    type: #FIELDGROUP_REFERENCE,
+    label: 'Partners',
+    targetQualifier: 'PartnerHeader'
+  },
+   {
+    label: 'General Information',
+    id: 'GeneralInfo',
+    type: #IDENTIFICATION_REFERENCE,
+    position: 10,
+    importance: #HIGH,
+    targetQualifier:'GeneralInfo'
+  }
+  ]
+  @UI.lineItem: [{ position: 10, importance: #HIGH ,label: 'test'
+//  ,type:#FOR_INTENT_BASED_NAVIGATION
+//  , semanticObjectAction: 'display'
+//  ,type:#WITH_URL , url:''
+   },
+
+    {invocationGrouping: #CHANGE_SET, position: 13, importance: #HIGH, type: #FOR_ACTION, dataAction: 'transfer', label: 'Transfer' }
+    ]
+  @UI.selectionField: [{position: 10 }]
+  @UI.identification: [{ qualifier: 'GeneralInfo', position: 10 }]
+  Product;
+
+  @UI.lineItem: [{ position: 20, importance: #HIGH  }]
+  @UI.selectionField: [{position: 20 }]
+  @UI.fieldGroup: [{qualifier: 'PlantGeneralData', position: 20 }]
+  Plant;
+
+  @UI.lineItem: [{ position: 30, importance: #HIGH  }]
+  @UI.selectionField: [{position: 30 }]
+  YY1_TransferDate_PLT;
+  @UI.lineItem: [{ position: 40, importance: #HIGH  }]
+  @UI.selectionField: [{position: 40 }]
+  YY1_TransferStatus_PLT;
+
+
+}

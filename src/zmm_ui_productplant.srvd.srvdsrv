@@ -1,0 +1,4 @@
+@EndUserText.label: '[MM] Product Plant Service Definition'
+define service ZMM_UI_PRODUCTPLANT {
+  expose ZMM_C_PRODUCTPLANT as ProductPlant;
+}
