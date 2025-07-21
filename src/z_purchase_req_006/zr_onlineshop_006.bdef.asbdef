@@ -1,0 +1,56 @@
+managed implementation in class ZBP_R_ONLINESHOP_006 unique ;
+strict ( 2 );
+with draft;
+define behavior for ZR_ONLINESHOP_006 alias ZrOnlineshop006
+//persistent table zonlineshop_006
+with unmanaged save
+draft table zonlneshop_006_d
+etag master LocalLastchange
+lock master total etag Lastchange
+authorization master ( global, instance )
+//early numbering
+{
+  field ( readonly )
+  OrderUuid,
+  CreationUser,
+  ChangeUser,
+  LocalLastchange,
+  Lastchange,
+  creationtimestamp;
+
+  field ( numbering : managed )
+  OrderUuid;
+
+
+  create;
+  update;
+  delete;
+
+  field ( mandatory ) Ordereditem;
+  field ( readonly ) Creationdate, OrderId, deliverydate;
+  determination calculate_order_id on modify  { create;}
+  determination call_create_pr on  save  { create; update;  }
+  action test_pr result [0..*] $self;
+  internal action create_pr result  [0..*]  abp_behv_pid ;
+  determination update_determination on modify { update; }
+
+  draft action Activate with additional implementation;
+  draft action Discard;
+  draft action Edit with additional implementation;
+  draft action Resume;
+  draft determine action Prepare{
+
+  }
+  mapping for zonlineshop_006
+    {
+      OrderUuid       = order_uuid;
+      OrderId         = order_id;
+      Ordereditem     = ordereditem;
+      Deliverydate    = deliverydate;
+      Creationdate    = creationdate;
+      CreationUser    = creation_user;
+      ChangeUser      = change_user;
+      LocalLastchange = local_lastchange;
+      Lastchange      = lastchange;
+    }
+}

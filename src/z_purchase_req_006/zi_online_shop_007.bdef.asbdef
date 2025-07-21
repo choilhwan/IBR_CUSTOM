@@ -1,0 +1,19 @@
+managed implementation in class zbp_i_online_shop_007 unique;
+define behavior for ZI_ONLINE_SHOP_007 alias Online_Shop
+with additional save
+
+persistent table ZONLINESHOP_007
+lock master
+authorization master ( instance )
+
+{
+ field ( numbering : managed, readonly ) order_Uuid;
+ field ( mandatory ) Ordereditem;
+ field ( readonly ) Creationdate, order_id, deliverydate;
+ determination calculate_order_id on modify { create; }
+ internal action create_pr;
+
+ create;
+ update;
+ delete;
+}
