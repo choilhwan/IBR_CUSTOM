@@ -5,7 +5,7 @@
    <VSEOCLASS>
     <CLSNAME>YCL_TEST_IH02</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>cho il hwan test class 01</DESCRIPT>
+    <DESCRIPT>check_at_rule_activation</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

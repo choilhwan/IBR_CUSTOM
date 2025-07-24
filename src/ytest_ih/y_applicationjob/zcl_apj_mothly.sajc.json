@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "catalog Entry for zcl_apj_monthly",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "className": "ZCL_APJ_MONTHLY"
+  },
+  "sections": [
+    {
+      "name": "SECTION_1",
+      "title": "Section with CheckBoxes"
+    },
+    {
+      "name": "SECTION_2",
+      "title": "Section with Text Field"
+    }
+  ],
+  "groups": [
+    {
+      "name": "GROUP_1",
+      "title": "Group with Numbers",
+      "section": "SECTION_1"
+    },
+    {
+      "name": "GROUP_2",
+      "title": "Group with Text Field",
+      "section": "SECTION_1"
+    },
+    {
+      "name": "GROUP_3",
+      "title": "Group with Text Field",
+      "section": "SECTION_2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "NUMBERS_AVAILABLE",
+      "title": "Numbers available",
+      "group": "GROUP_1",
+      "screenElement": "checkbox"
+    },
+    {
+      "name": "NUMBERS",
+      "title": "Numbers",
+      "group": "GROUP_1",
+      "indented": true,
+      "enabledByParameter": "NUMBERS_AVAILABLE"
+    },
+    {
+      "name": "NAMES_AVAILABLE",
+      "title": "Names available",
+      "group": "GROUP_2",
+      "screenElement": "checkbox"
+    },
+    {
+      "name": "NAMES",
+      "title": "Names",
+      "group": "GROUP_2",
+      "indented": true,
+      "enabledByParameter": "NAMES_AVAILABLE"
+    },
+    {
+      "name": "TEXT",
+      "title": "Some text",
+      "group": "GROUP_3",
+      "textEditorLines": 4
+    },
+    {
+      "name": "ANOTHER_PUBLIC_ATTRIBUTE",
+      "title": "Public attribute which is not used on the selection screen"
+    }
+  ]
+}

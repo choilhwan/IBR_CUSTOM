@@ -3,13 +3,15 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>YCL_TEST_IH03</CLSNAME>
+    <CLSNAME>ZMM_TC_PRODUCTPLANT</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>create_v2_local_proxy</DESCRIPT>
+    <DESCRIPT>Test Class for ZMM_C_Prodcutplant</DESCRIPT>
+    <CATEGORY>05</CATEGORY>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>
     <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
    </VSEOCLASS>
   </asx:values>
  </asx:abap>

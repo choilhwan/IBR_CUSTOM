@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>YCL_TEST_IH03</CLSNAME>
+    <CLSNAME>ZCL_BADI_MATERIAL_REF01</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>create_v2_local_proxy</DESCRIPT>
+    <DESCRIPT>Class For BADI_MATERIAL_REF Implementation</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

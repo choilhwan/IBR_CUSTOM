@@ -20,7 +20,7 @@ CLASS ycl_test_ih03 DEFINITION
 
 try.
 DATA(lo_client_proxy)  =
-CL_WEB_ODATA_CLIENT_FACTORY=>create_v2_local_proxy( VALUE #( service_id = '/IWPGW/TM_PGW_SVC_MODEL' service_version = '0001'  ) ) .
+CL_WEB_ODATA_CLIENT_FACTORY=>create_v2_local_proxy( VALUE #( service_id = 'SGBT_NTE_CDS_API_D_SRV' service_version = '0001'  ) ) .
 DATA(lo_entity_list_resource) = lo_client_proxy->create_resource_for_entity_set( 'TaskCollection' ).
 DATA(lo_read_list_request) = lo_entity_list_resource->create_request_for_read( ).
 DATA(lo_read_list_response) = lo_read_list_request->execute( ).

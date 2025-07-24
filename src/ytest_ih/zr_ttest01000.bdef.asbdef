@@ -1,0 +1,24 @@
+managed implementation in class ZBP_R_TTEST01000 unique;
+strict ( 2 );
+define behavior for ZR_TTEST01000 alias ZrTtest01000
+persistent table ZTTEST01
+lock master
+authorization master( global )
+
+{
+  field ( mandatory : create )
+   Dummy;
+
+  field ( readonly : update )
+   Dummy;
+
+
+  create;
+  update;
+  delete;
+
+  mapping for ZTTEST01
+  {
+    Dummy = dummy;
+  }
+}

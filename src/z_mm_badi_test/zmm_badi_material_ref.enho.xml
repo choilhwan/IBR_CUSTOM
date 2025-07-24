@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_IMPL</TOOL>
+   <SHORTTEXT>BADI_MATERIAL_REF Implementation</SHORTTEXT>
+   <SPOT_NAME>BADI_MATERIAL_REF</SPOT_NAME>
+   <IMPL>
+    <ENH_BADI_IMPL_DATA>
+     <SPOT_NAME>BADI_MATERIAL_REF</SPOT_NAME>
+     <BADI_NAME>BADI_MATERIAL_REF</BADI_NAME>
+     <IMPL_NAME>ZMM_BADI_MATERIAL_REF</IMPL_NAME>
+     <IMPL_CLASS>ZCL_BADI_MATERIAL_REF01</IMPL_CLASS>
+     <ACTIVE>X</ACTIVE>
+     <LOCKED_IN_CUSTOMIZING>X</LOCKED_IN_CUSTOMIZING>
+    </ENH_BADI_IMPL_DATA>
+   </IMPL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,41 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "test",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "catalogName": "ZCL_APJ_MOTHLY"
+  },
+  "parameters": {
+    "singleValueParameters": [
+      {
+        "name": "ANOTHER_PUBLIC_ATTRIBUTE",
+        "value": ""
+      },
+      {
+        "name": "NAMES_AVAILABLE",
+        "value": "X"
+      },
+      {
+        "name": "NUMBERS_AVAILABLE",
+        "value": "X"
+      },
+      {
+        "name": "TEXT",
+        "value": ""
+      }
+    ],
+    "valueRangesParameters": [
+      {
+        "name": "NAMES",
+        "valueRanges": []
+      },
+      {
+        "name": "NUMBERS",
+        "valueRanges": []
+      }
+    ]
+  }
+}

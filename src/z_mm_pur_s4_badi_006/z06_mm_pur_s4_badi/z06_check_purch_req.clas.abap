@@ -13,7 +13,7 @@ ENDCLASS.
 
 
 
-CLASS Z06_CHECK_PURCH_REQ IMPLEMENTATION.
+CLASS z06_check_purch_req IMPLEMENTATION.
 
 
   METHOD if_mm_pur_s4_pr_check~check.
