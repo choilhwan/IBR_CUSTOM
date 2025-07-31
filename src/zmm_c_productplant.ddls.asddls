@@ -3,7 +3,7 @@
 @Metadata.ignorePropagatedAnnotations: true
 @Metadata.allowExtensions: true
 define root view entity ZMM_C_PRODUCTPLANT provider contract transactional_query as projection on ZMM_R_PRODUCTPLANT
-{   
+{   @Consumption.semanticObject: 'Material'
     @ObjectModel.foreignKey.association: '_Product'
   key Product,
 

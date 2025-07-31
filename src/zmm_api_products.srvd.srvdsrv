@@ -1,0 +1,4 @@
+@EndUserText.label: '[MM] Send Products'
+define service ZMM_API_PRODUCTS {
+  expose ZMM_A_PRODUCT as Product;
+}

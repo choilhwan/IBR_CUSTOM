@@ -28,27 +28,196 @@
     <INBOUND>
      <item>
       <COMMUNICATION_SCENARIO_ID>ZMM_COM_CJWMS</COMMUNICATION_SCENARIO_ID>
-      <INBOUND_ID>0001</INBOUND_ID>
-      <IBS_ID>ZMM_API_SEND_MAT_CJ_O4_0001_G4BA</IBS_ID>
+      <INBOUND_ID>0003</INBOUND_ID>
+      <IBS_ID>ZMM_API_PRODUCTS_0001_G4BA</IBS_ID>
       <RELEASE_STATUS>1</RELEASE_STATUS>
       <IBS_TYPE>G4BA</IBS_TYPE>
       <IBS_TYPE_TEXT>OData V4</IBS_TYPE_TEXT>
-      <TEXT>ZMM_API_SEND_MAT_CJ_O4</TEXT>
+      <TEXT>ZMM_API_PRODUCTS</TEXT>
       <SRVC_TYPE>HT</SRVC_TYPE>
-      <SRVC_NAME>9834C2263ACC80D4A143E9B2E7A385</SRVC_NAME>
-     </item>
-     <item>
-      <COMMUNICATION_SCENARIO_ID>ZMM_COM_CJWMS</COMMUNICATION_SCENARIO_ID>
-      <INBOUND_ID>0002</INBOUND_ID>
-      <IBS_ID>ZMM_TEST_0001_G4BA</IBS_ID>
-      <RELEASE_STATUS>1</RELEASE_STATUS>
-      <IBS_TYPE>G4BA</IBS_TYPE>
-      <IBS_TYPE_TEXT>OData V4</IBS_TYPE_TEXT>
-      <TEXT>ZMM_TEST</TEXT>
-      <SRVC_TYPE>HT</SRVC_TYPE>
-      <SRVC_NAME>94C14DE9F784E1D8EA65672689E65C</SRVC_NAME>
+      <SRVC_NAME>B067C0DB1BA29A035776C60C7681A8</SRVC_NAME>
      </item>
     </INBOUND>
+    <AUTH>
+     <item>
+      <AUTH_OBJECT>M_MATE_MAN</AUTH_OBJECT>
+      <STATUS>U</STATUS>
+      <TEXT>Material Master: Data at Client Level</TEXT>
+      <AUTH_ITEM>
+       <item>
+        <UUID>+hY+oDhRH+CaxfTmbyEcoA==</UUID>
+        <AUTH_OBJECT>M_MATE_MAN</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
+        <TEXT>Material Master: Data at Client Level</TEXT>
+        <STATUS>U</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Display</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CaxfTmbyE8oA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+        </VALUES>
+       </item>
+      </AUTH_ITEM>
+     </item>
+     <item>
+      <AUTH_OBJECT>M_MATE_MAR</AUTH_OBJECT>
+      <STATUS>U</STATUS>
+      <TEXT>Material Master: Material Types</TEXT>
+      <AUTH_ITEM>
+       <item>
+        <UUID>+hY+oDhRH+CaxfTmbyFcoA==</UUID>
+        <AUTH_OBJECT>M_MATE_MAR</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
+        <TEXT>Material Master: Material Types</TEXT>
+        <STATUS>U</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Display</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CaxfTmbyF8oA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
+          <FIELD>BEGRU</FIELD>
+          <TEXT>Authorization Group</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+        </VALUES>
+       </item>
+      </AUTH_ITEM>
+     </item>
+     <item>
+      <AUTH_OBJECT>M_MATE_MAT</AUTH_OBJECT>
+      <STATUS>U</STATUS>
+      <TEXT>Material Master: Materials</TEXT>
+      <AUTH_ITEM>
+       <item>
+        <UUID>+hY+oDhRH+CaxfTmbyGcoA==</UUID>
+        <AUTH_OBJECT>M_MATE_MAT</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
+        <TEXT>Material Master: Materials</TEXT>
+        <STATUS>U</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Display</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CaxfTmbyG8oA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
+          <FIELD>BEGRU</FIELD>
+          <TEXT>Authorization Group</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+        </VALUES>
+       </item>
+      </AUTH_ITEM>
+     </item>
+     <item>
+      <AUTH_OBJECT>M_MATE_WGR</AUTH_OBJECT>
+      <STATUS>U</STATUS>
+      <TEXT>Material Master: Material Groups</TEXT>
+      <AUTH_ITEM>
+       <item>
+        <UUID>+hY+oDhRH+CaxfTmbyHcoA==</UUID>
+        <AUTH_OBJECT>M_MATE_WGR</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
+        <TEXT>Material Master: Material Groups</TEXT>
+        <STATUS>U</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Display</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CaxfTmbyH8oA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
+          <FIELD>BEGRU</FIELD>
+          <TEXT>Authorization Group</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+        </VALUES>
+       </item>
+      </AUTH_ITEM>
+     </item>
+     <item>
+      <AUTH_OBJECT>M_MATE_WRK</AUTH_OBJECT>
+      <STATUS>U</STATUS>
+      <TEXT>Material Master: Plants</TEXT>
+      <AUTH_ITEM>
+       <item>
+        <UUID>+hY+oDhRH+CaxfTmbyIcoA==</UUID>
+        <AUTH_OBJECT>M_MATE_WRK</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
+        <TEXT>Material Master: Plants</TEXT>
+        <STATUS>U</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Display</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CaxfTmbyI8oA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
+          <FIELD>WERKS</FIELD>
+          <VALUE>4310 - 4310, 1710 - 1710</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CaxfTmbyJcoA==</UUID>
+            <LOW_VALUE>4310</LOW_VALUE>
+            <HIGH_VALUE>4310</HIGH_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CaxfTmbyJ8oA==</UUID>
+            <LOW_VALUE>1710</LOW_VALUE>
+            <HIGH_VALUE>1710</HIGH_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Plant</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+        </VALUES>
+       </item>
+      </AUTH_ITEM>
+     </item>
+    </AUTH>
     <PUBLISH_STATUS>p</PUBLISH_STATUS>
     <PLUGIN_CONFIG>
      <item>

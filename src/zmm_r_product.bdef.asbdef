@@ -1,0 +1,15 @@
+unmanaged implementation in class zbp_mm_r_product unique;
+strict ( 2 );
+
+define behavior for ZMM_R_PRODUCT alias Product
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  field ( readonly ) Product;
+ static action transfer_cjwms deep parameter ZMM_D_PRODUCT_H result [0..*] zmm_s_response ;
+
+}

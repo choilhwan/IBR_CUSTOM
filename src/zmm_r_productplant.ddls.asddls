@@ -2,7 +2,7 @@
 @EndUserText.label: '[MM] ProductPlant Root View'
 @Metadata.ignorePropagatedAnnotations: true
 
-define root view entity ZMM_R_PRODUCTPLANT
+define view entity ZMM_R_PRODUCTPLANT
   as select from I_ProductPlantBasic
 {
       @ObjectModel.foreignKey.association: '_Product'

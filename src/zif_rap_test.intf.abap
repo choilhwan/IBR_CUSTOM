@@ -1,0 +1,4 @@
+INTERFACE zif_rap_test
+  PUBLIC .
+
+ENDINTERFACE.

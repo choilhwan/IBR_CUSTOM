@@ -1,0 +1,15 @@
+unmanaged implementation in class zbp_mm_r_purchaseorder unique;
+strict ( 2 );
+
+define behavior for ZMM_R_PURCHASEORDER //alias <alias_name>
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  field ( readonly ) PurchaseOrder;
+   action( features : instance, authorization : instance ) downpayment result [0..*] $self;
+}

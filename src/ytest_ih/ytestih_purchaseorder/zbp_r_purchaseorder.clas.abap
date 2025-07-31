@@ -1,0 +1,5 @@
+CLASS zbp_r_purchaseorder DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF y_r_purchaseorder.
+ENDCLASS.
+
+CLASS zbp_r_purchaseorder IMPLEMENTATION.
+ENDCLASS.

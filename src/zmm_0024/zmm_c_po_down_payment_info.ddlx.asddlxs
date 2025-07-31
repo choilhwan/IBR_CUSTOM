@@ -1,0 +1,782 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.typeName: 'Projection CDS View for ZMM_I_PURCHASEORDER'
+@UI.headerInfo.typeNamePlural: 'Projection CDS View for ZMM_I_PURCHASEORDER'
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'PurchaseOrder'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'PurchaseOrder'
+annotate view ZMM_C_PO_DOWN_PAYMENT_INFO with
+{
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 
+  } ]
+  @UI.lineItem: [ 
+  { position: 10 , type: #FOR_ACTION , dataAction: 'downpayment', label: 'downpayment' , invocationGrouping: #CHANGE_SET
+  },
+  {
+    position: 10 
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  PurchaseOrder;
+    @UI.selectionField: [ {
+    position: 20 
+  } ]
+    @UI.lineItem: [ {
+    position: 20 
+  } ]
+  CompanyCode;
+    @UI.selectionField: [ {
+    position: 30 
+  } ]
+      @UI.lineItem: [ {
+    position: 30 
+  } ]
+  Supplier;
+    @UI.selectionField: [ {
+    position: 40 
+  } ]
+        @UI.lineItem: [ {
+    position: 40 
+  } ]
+  PurchaseOrderDate;
+      @UI.selectionField: [ {
+    position: 50
+  } ]
+        @UI.lineItem: [ {
+    position: 50 
+  } ]
+    DownPaymentAmount;
+      @UI.selectionField: [ {
+    position: 60 
+  } ]
+        @UI.lineItem: [ {
+    position: 60 
+  } ]
+  CreationDate;
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+        @UI.lineItem: [ {
+    position: 70 
+  } ]
+  CreatedByUser;
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+        @UI.lineItem: [ {
+    position: 80 
+  } ]
+  SupplyingPlant;
+//  
+//  
+//  @UI.identification: [ {
+//    position: 20 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 20 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 20 
+//  } ]
+//  PurchaseOrderType;
+//  
+//  @UI.identification: [ {
+//    position: 30 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 30 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 30 
+//  } ]
+//  PurchaseOrderSubtype;
+//  
+//  @UI.identification: [ {
+//    position: 40 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 40 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 40 
+//  } ]
+//  PurchasingDocumentOrigin;
+//  
+//  @UI.identification: [ {
+//    position: 50 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 50 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 50 
+//  } ]
+//  CreatedByUser;
+//  
+//  @UI.identification: [ {
+//    position: 60 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 60 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 60 
+//  } ]
+//  CreationDate;
+//  
+//  @UI.identification: [ {
+//    position: 70 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 70 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 70 
+//  } ]
+//  PurchaseOrderDate;
+//  
+//  @UI.identification: [ {
+//    position: 80 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 80 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 80 
+//  } ]
+//  Language;
+//  
+//  @UI.identification: [ {
+//    position: 90 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 90 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 90 
+//  } ]
+//  CorrespncExternalReference;
+//  
+//  @UI.identification: [ {
+//    position: 100 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 100 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 100 
+//  } ]
+//  CorrespncInternalReference;
+//  
+//  @UI.identification: [ {
+//    position: 110 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 110 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 110 
+//  } ]
+//  PurchasingDocumentDeletionCode;
+//  
+//  @UI.identification: [ {
+//    position: 120 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 120 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 120 
+//  } ]
+//  ReleaseIsNotCompleted;
+//  
+//  @UI.identification: [ {
+//    position: 130 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 130 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 130 
+//  } ]
+//  PurchasingCompletenessStatus;
+//  
+//  @UI.identification: [ {
+//    position: 140 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 140 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 140 
+//  } ]
+//  PurchasingProcessingStatus;
+//  
+//  @UI.identification: [ {
+//    position: 150 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 150 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 150 
+//  } ]
+//  PurgReleaseSequenceStatus;
+//  
+//  @UI.identification: [ {
+//    position: 160 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 160 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 160 
+//  } ]
+//  ReleaseCode;
+//  
+//  @UI.identification: [ {
+//    position: 170 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 170 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 170 
+//  } ]
+//  CompanyCode;
+//  
+//  @UI.identification: [ {
+//    position: 180 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 180 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 180 
+//  } ]
+//  PurchasingOrganization;
+//  
+//  @UI.identification: [ {
+//    position: 190 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 190 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 190 
+//  } ]
+//  PurchasingGroup;
+//  
+//  @UI.identification: [ {
+//    position: 200 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 200 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 200 
+//  } ]
+//  Supplier;
+//  
+//  @UI.identification: [ {
+//    position: 210 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 210 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 210 
+//  } ]
+//  ManualSupplierAddressID;
+//  
+//  @UI.identification: [ {
+//    position: 220 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 220 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 220 
+//  } ]
+//  SupplierRespSalesPersonName;
+//  
+//  @UI.identification: [ {
+//    position: 230 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 230 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 230 
+//  } ]
+//  SupplierPhoneNumber;
+//  
+//  @UI.identification: [ {
+//    position: 240 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 240 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 240 
+//  } ]
+//  SupplyingSupplier;
+//  
+//  @UI.identification: [ {
+//    position: 250 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 250 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 250 
+//  } ]
+//  SupplyingPlant;
+//  
+//  @UI.identification: [ {
+//    position: 260 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 260 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 260 
+//  } ]
+//  InvoicingParty;
+//  
+//  @UI.identification: [ {
+//    position: 270 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 270 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 270 
+//  } ]
+//  Customer;
+//  
+//  @UI.identification: [ {
+//    position: 280 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 280 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 280 
+//  } ]
+//  SupplierQuotationExternalID;
+//  
+//  @UI.identification: [ {
+//    position: 290 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 290 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 290 
+//  } ]
+//  PaymentTerms;
+//  
+//  @UI.identification: [ {
+//    position: 300 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 300 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 300 
+//  } ]
+//  CashDiscount1Days;
+//  
+//  @UI.identification: [ {
+//    position: 310 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 310 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 310 
+//  } ]
+//  CashDiscount2Days;
+//  
+//  @UI.identification: [ {
+//    position: 320 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 320 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 320 
+//  } ]
+//  NetPaymentDays;
+//  
+//  @UI.identification: [ {
+//    position: 330 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 330 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 330 
+//  } ]
+//  CashDiscount1Percent;
+//  
+//  @UI.identification: [ {
+//    position: 340 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 340 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 340 
+//  } ]
+//  CashDiscount2Percent;
+//  
+//  @UI.identification: [ {
+//    position: 350 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 350 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 350 
+//  } ]
+//  DownPaymentType;
+//  
+//  @UI.identification: [ {
+//    position: 360 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 360 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 360 
+//  } ]
+//  DownPaymentPercentageOfTotAmt;
+//  
+//  @UI.identification: [ {
+//    position: 370 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 370 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 370 
+//  } ]
+//  DownPaymentAmount;
+//  
+//  @UI.identification: [ {
+//    position: 380 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 380 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 380 
+//  } ]
+//  DownPaymentDueDate;
+//  
+//  @UI.identification: [ {
+//    position: 390 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 390 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 390 
+//  } ]
+//  IncotermsClassification;
+//  
+//  @UI.identification: [ {
+//    position: 400 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 400 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 400 
+//  } ]
+//  IncotermsTransferLocation;
+//  
+//  @UI.identification: [ {
+//    position: 410 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 410 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 410 
+//  } ]
+//  IncotermsVersion;
+//  
+//  @UI.identification: [ {
+//    position: 420 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 420 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 420 
+//  } ]
+//  IncotermsLocation1;
+//  
+//  @UI.identification: [ {
+//    position: 430 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 430 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 430 
+//  } ]
+//  IncotermsLocation2;
+//  
+//  @UI.identification: [ {
+//    position: 440 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 440 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 440 
+//  } ]
+//  IsIntrastatReportingRelevant;
+//  
+//  @UI.identification: [ {
+//    position: 450 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 450 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 450 
+//  } ]
+//  IsIntrastatReportingExcluded;
+//  
+//  @UI.identification: [ {
+//    position: 460 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 460 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 460 
+//  } ]
+//  PricingDocument;
+//  
+//  @UI.identification: [ {
+//    position: 470 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 470 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 470 
+//  } ]
+//  PricingProcedure;
+//  
+//  @UI.identification: [ {
+//    position: 480 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 480 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 480 
+//  } ]
+//  ValidityStartDate;
+//  
+//  @UI.identification: [ {
+//    position: 490 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 490 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 490 
+//  } ]
+//  ValidityEndDate;
+//  
+//  @UI.identification: [ {
+//    position: 500 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 500 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 500 
+//  } ]
+//  ExchangeRate;
+//  
+//  @UI.identification: [ {
+//    position: 510 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 510 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 510 
+//  } ]
+//  ExchangeRateIsFixed;
+//  
+//  @UI.identification: [ {
+//    position: 520 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 520 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 520 
+//  } ]
+//  LastChangeDateTime;
+//  
+//  @UI.identification: [ {
+//    position: 530 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 530 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 530 
+//  } ]
+//  TaxReturnCountry;
+//  
+//  @UI.identification: [ {
+//    position: 540 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 540 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 540 
+//  } ]
+//  VATRegistration;
+//  
+//  @UI.identification: [ {
+//    position: 550 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 550 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 550 
+//  } ]
+//  VATRegistrationCountry;
+//  
+//  @UI.identification: [ {
+//    position: 560 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 560 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 560 
+//  } ]
+//  PurgReasonForDocCancellation;
+//  
+//  @UI.identification: [ {
+//    position: 570 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 570 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 570 
+//  } ]
+//  PurgReleaseTimeTotalAmount;
+//  
+//  @UI.identification: [ {
+//    position: 580 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 580 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 580 
+//  } ]
+//  PurgAggrgdProdCmplncSuplrSts;
+//  
+//  @UI.identification: [ {
+//    position: 590 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 590 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 590 
+//  } ]
+//  PurgAggrgdProdMarketabilitySts;
+//  
+//  @UI.identification: [ {
+//    position: 600 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 600 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 600 
+//  } ]
+//  PurgAggrgdSftyDataSheetStatus;
+//  
+//  @UI.identification: [ {
+//    position: 610 
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 610 
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 610 
+//  } ]
+//  PurgProdCmplncTotDngrsGoodsSts;
+//  
+//  @EndUserText.label: '_PurchaseOrderItem'
+//  @UI.identification: [ {
+//    position: 620 , 
+//    label: '_PurchaseOrderItem'
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 620 , 
+//    label: '_PurchaseOrderItem'
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 620 
+//  } ]
+//  _PurchaseOrderItem;
+//  
+//  @EndUserText.label: '_PurchasingGroup'
+//  @UI.identification: [ {
+//    position: 630 , 
+//    label: '_PurchasingGroup'
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 630 , 
+//    label: '_PurchasingGroup'
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 630 
+//  } ]
+//  _PurchasingGroup;
+//  
+//  @EndUserText.label: '_Supplier'
+//  @UI.identification: [ {
+//    position: 640 , 
+//    label: '_Supplier'
+//  } ]
+//  @UI.lineItem: [ {
+//    position: 640 , 
+//    label: '_Supplier'
+//  } ]
+//  @UI.selectionField: [ {
+//    position: 640 
+//  } ]
+//  _Supplier;
+}

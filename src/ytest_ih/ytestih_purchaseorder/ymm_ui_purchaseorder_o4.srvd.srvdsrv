@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for YMM_C_PURCHASEORDER'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'YMM_C_PURCHASEORDER'
+  }
+}
+define service YMM_UI_PURCHASEORDER_O4 provider contracts odata_v4_ui {
+  expose YMM_C_PURCHASEORDER;
+}

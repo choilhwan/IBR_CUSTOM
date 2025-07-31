@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOINTERF>
-    <CLSNAME>ZIF_PRODUCT_CREATED_V1</CLSNAME>
+    <CLSNAME>ZIF_RAP_BATCH_PAYLOAD_MAPPER</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Generated event interface for ZCL_001_BASE</DESCRIPT>
+    <DESCRIPT>Mapping For Odata Batch Sender</DESCRIPT>
     <EXPOSURE>2</EXPOSURE>
     <STATE>1</STATE>
     <UNICODE>X</UNICODE>

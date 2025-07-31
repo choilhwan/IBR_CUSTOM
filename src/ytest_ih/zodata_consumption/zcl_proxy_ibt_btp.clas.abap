@@ -32,10 +32,7 @@ CLASS zcl_proxy_IBT_BTP DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-
-
-CLASS ZCL_PROXY_IBT_BTP IMPLEMENTATION.
-
+CLASS zcl_proxy_IBT_BTP IMPLEMENTATION.
 
   METHOD get_master.
 
@@ -96,62 +93,62 @@ CLASS ZCL_PROXY_IBT_BTP IMPLEMENTATION.
 
 ********************************************************************** Read
 *    " 3. Navigate to the resource and create a request for the read operation
-*    TRY.
-*        lo_r_request = lo_client_proxy->create_resource_for_entity_set( 'MASTER' )->create_request_for_read( ).
-**        lo_r_request->set_top( 50 )->set_skip( 0 ).
-*        " 4. Execute the request and retrieve the business data
-*        lo_r_response = lo_r_request->execute( ).
-*        lo_r_request->check_execution(  ).
-*        lo_r_response->get_business_data( IMPORTING   et_business_data = et_master_data   ).
-*      CATCH /iwbep/cx_cp_remote  INTO DATA(err6).
-*        ev_text = err6->get_text( ).
-*        RETURN.
-*      CATCH /iwbep/cx_gateway INTO DATA(err7).
-*        "handle exception
-*        ev_text = err7->get_text( ).
-*        RETURN.
-*    ENDTRY.
-********************************************************************** Create
     TRY.
-
-DATA lv_timestamp TYPE timestampl.
-
-GET TIME STAMP FIELD lv_timestamp.
-
-
-
-* Prepare business data
-        ls_in_master = VALUE #(
-                  brand_id = conv string( lv_timestamp )
-                  brand_name =   conv string( sy-mandt )  ). "080: dev , "100:custom
-
-        " Navigate to the resource and create a request for the create operation
-        lo_c_request = lo_client_proxy->create_resource_for_entity_set( 'MASTER' )->create_request_for_create( ).
-
-        " Set the business data for the created entity
-        lo_c_request->set_business_data( ls_in_master ).
-
-        " Execute the request
-        lo_c_response = lo_c_request->execute( ).
-
-        " Get the after image
-        lo_c_response->get_business_data( IMPORTING es_business_data = ls_out_master ).
-        et_master_data = value #( ( ls_out_master ) ) .
-      CATCH /iwbep/cx_cp_remote INTO DATA(lx_remote).
-        " Handle remote Exception
-        " It contains details about the problems of your http(s) connection
-        ev_text = lx_remote->get_text( ).
+        lo_r_request = lo_client_proxy->create_resource_for_entity_set( 'MASTER' )->create_request_for_read( ).
+*        lo_r_request->set_top( 50 )->set_skip( 0 ).
+        " 4. Execute the request and retrieve the business data
+        lo_r_response = lo_r_request->execute( ).
+        lo_r_request->check_execution(  ).
+        lo_r_response->get_business_data( IMPORTING   et_business_data = et_master_data   ).
+      CATCH /iwbep/cx_cp_remote  INTO DATA(err6).
+        ev_text = err6->get_text( ).
         RETURN.
-
-      CATCH /iwbep/cx_gateway INTO DATA(lx_gateway).
-        " Handle Exception
-        ev_text = lx_gateway->get_text( ).
-        RETURN.
-      CATCH cx_web_http_client_error INTO DATA(lx_web_http_client_error).
-        " Handle Exception
-        ev_text = lx_web_http_client_error->get_text( ).
+      CATCH /iwbep/cx_gateway INTO DATA(err7).
+        "handle exception
+        ev_text = err7->get_text( ).
         RETURN.
     ENDTRY.
+********************************************************************** Create
+*    TRY.
+*
+*DATA lv_timestamp TYPE timestampl.
+*
+*GET TIME STAMP FIELD lv_timestamp.
+*
+*
+*
+** Prepare business data
+*        ls_in_master = VALUE #(
+*                  brand_id = conv string( lv_timestamp )
+*                  brand_name =   conv string( sy-mandt )  ). "080: dev , "100:custom
+*
+*        " Navigate to the resource and create a request for the create operation
+*        lo_c_request = lo_client_proxy->create_resource_for_entity_set( 'MASTER' )->create_request_for_create( ).
+*
+*        " Set the business data for the created entity
+*        lo_c_request->set_business_data( ls_in_master ).
+*
+*        " Execute the request
+*        lo_c_response = lo_c_request->execute( ).
+*
+*        " Get the after image
+*        lo_c_response->get_business_data( IMPORTING es_business_data = ls_out_master ).
+*        et_master_data = value #( ( ls_out_master ) ) .
+*      CATCH /iwbep/cx_cp_remote INTO DATA(lx_remote).
+*        " Handle remote Exception
+*        " It contains details about the problems of your http(s) connection
+*        ev_text = lx_remote->get_text( ).
+*        RETURN.
+*
+*      CATCH /iwbep/cx_gateway INTO DATA(lx_gateway).
+*        " Handle Exception
+*        ev_text = lx_gateway->get_text( ).
+*        RETURN.
+*      CATCH cx_web_http_client_error INTO DATA(lx_web_http_client_error).
+*        " Handle Exception
+*        ev_text = lx_web_http_client_error->get_text( ).
+*        RETURN.
+*    ENDTRY.
 
 
 ********************************************************************** Create Batch
@@ -194,7 +191,6 @@ GET TIME STAMP FIELD lv_timestamp.
 
   ENDMETHOD.
 
-
   METHOD if_oo_adt_classrun~main.
     DATA business_data TYPE tt_master.
     DATA lv_text TYPE string.
@@ -220,4 +216,8 @@ GET TIME STAMP FIELD lv_timestamp.
 
   METHOD if_rap_query_provider~select.
   ENDMETHOD.
+
+
 ENDCLASS.
+
+
