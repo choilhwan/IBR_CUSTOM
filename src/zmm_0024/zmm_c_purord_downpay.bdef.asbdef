@@ -1,0 +1,9 @@
+projection;
+strict ( 2 );
+
+define behavior for ZMM_C_PURORD_DOWNPAY //alias <alias_name>
+{
+
+
+  use action updateDownPayment;
+}

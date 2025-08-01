@@ -1,0 +1,15 @@
+unmanaged implementation in class zbp_mm_i_purord_downpay unique;
+strict ( 2 );
+
+define behavior for ZMM_I_PURORD_DOWNPAY //alias <alias_name>
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  field ( readonly ) PurchaseOrder;
+ action( features : instance, authorization : instance ) updateDownPayment result [0..*] $self;
+}

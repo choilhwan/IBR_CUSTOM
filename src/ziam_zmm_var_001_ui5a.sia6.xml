@@ -98,7 +98,7 @@
       <TEXT>Warehouse Product</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+CbvhjVqSFcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2DPlE8og==</UUID>
         <AUTH_OBJECT>/SCWM/PROD</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -111,7 +111,7 @@
           <FIELD>/SCWM/LGNU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSF8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlFcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Warehouse Number/Warehouse Complex</TEXT>
@@ -121,7 +121,7 @@
           <FIELD>/SCWM/PROD</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSGcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlF8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Product</TEXT>
@@ -131,7 +131,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSG8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlGcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -141,7 +141,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+CbvhjVqSHcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2DPlG8og==</UUID>
         <AUTH_OBJECT>/SCWM/PROD</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -154,11 +154,11 @@
           <VALUE>Display,F4</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSH8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlHcog==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSIcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlH8og==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -170,7 +170,7 @@
           <FIELD>/SCWM/LGNU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSI8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlIcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Warehouse Number/Warehouse Complex</TEXT>
@@ -180,7 +180,7 @@
           <FIELD>/SCWM/PROD</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSJcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlI8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Product</TEXT>
@@ -196,7 +196,7 @@
       <TEXT>Business Partner: BP Roles</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+CbvhjVqSJ8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2DPlJcog==</UUID>
         <AUTH_OBJECT>B_BUPA_RLT</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -210,7 +210,7 @@
           <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSKcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlJ8og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
           </VALUES>
@@ -222,7 +222,7 @@
           <FIELD>RLTYP</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSK8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlKcog==</UUID>
            </item>
           </VALUES>
           <TEXT>BP Role</TEXT>
@@ -231,7 +231,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+CbvhjVqSLcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2DPlK8og==</UUID>
         <AUTH_OBJECT>B_BUPA_RLT</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -244,11 +244,11 @@
           <VALUE>Display,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSL8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlLcog==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSMcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlL8og==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -260,7 +260,7 @@
           <FIELD>RLTYP</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSM8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlMcog==</UUID>
            </item>
           </VALUES>
           <TEXT>BP Role</TEXT>
@@ -276,7 +276,7 @@
       <TEXT>Business Partner Processing</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+CbvhjVqSNcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2DPlM8og==</UUID>
         <AUTH_OBJECT>B_BUP_DCPD</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -290,11 +290,11 @@
           <VALUE>Display,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSN8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlNcog==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSOcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlN8og==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -306,7 +306,7 @@
           <FIELD>DATA_CTRLR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSO8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlOcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Data Controller</TEXT>
@@ -316,7 +316,7 @@
           <FIELD>PURPSE</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSPcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlO8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Purpose</TEXT>
@@ -325,7 +325,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+CbvhjVqSP8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2DPlPcog==</UUID>
         <AUTH_OBJECT>B_BUP_DCPD</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -337,7 +337,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSQcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlP8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -348,7 +348,7 @@
           <FIELD>DATA_CTRLR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSQ8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlQcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Data Controller</TEXT>
@@ -358,7 +358,7 @@
           <FIELD>PURPSE</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSRcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlQ8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Purpose</TEXT>
@@ -374,7 +374,7 @@
       <TEXT>CC Change Master - Authorization Group</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+CbvhjVqSR8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2DPlRcog==</UUID>
         <AUTH_OBJECT>C_AENR_BGR</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -388,39 +388,39 @@
           <VALUE>Create or generate,Change,Display,Delete,Enter, Include, Assign,Execute Digital Signature,Schedule,Reverse,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSScoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlR8og==</UUID>
             <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSS8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlScog==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSTcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlS8og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqST8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlTcog==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSUcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlT8og==</UUID>
             <LOW_VALUE>22</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSU8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlUcog==</UUID>
             <LOW_VALUE>73</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSVcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlU8og==</UUID>
             <LOW_VALUE>81</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSV8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlVcog==</UUID>
             <LOW_VALUE>85</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSWcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlV8og==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -432,7 +432,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSW8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlWcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -441,7 +441,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+CbvhjVqSXcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2DPlW8og==</UUID>
         <AUTH_OBJECT>C_AENR_BGR</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>B43653D2B5BDF22C94731438154B4A</IBS_SOURCE>
@@ -454,7 +454,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSX8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlXcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -464,7 +464,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSYcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlX8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -474,7 +474,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+CbvhjVqSY8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2DPlYcog==</UUID>
         <AUTH_OBJECT>C_AENR_BGR</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0003</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -486,7 +486,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSZcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlY8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -497,7 +497,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSZ8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlZcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -506,7 +506,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+CbvhjVqSacoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2DPlZ8og==</UUID>
         <AUTH_OBJECT>C_AENR_BGR</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0004</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>B43653D2B5BDF22C94731438154B4A</IBS_SOURCE>
@@ -518,7 +518,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSa8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlacog==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -529,7 +529,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSbcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPla8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -545,7 +545,7 @@
       <TEXT>CC Eng. Chg. Mgmt. Enhanced Authorization Check</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+CbvhjVqSb8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2DPlbcog==</UUID>
         <AUTH_OBJECT>C_AENR_ERW</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -559,39 +559,39 @@
           <VALUE>Create or generate,Change,Display,Delete,Enter, Include, Assign,Execute Digital Signature,Schedule,Reverse,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSccoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlb8og==</UUID>
             <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSc8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlccog==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSdcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlc8og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSd8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPldcog==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSecoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPld8og==</UUID>
             <LOW_VALUE>22</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSe8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlecog==</UUID>
             <LOW_VALUE>73</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSfcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPle8og==</UUID>
             <LOW_VALUE>81</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSf8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlfcog==</UUID>
             <LOW_VALUE>85</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSgcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlf8og==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -604,19 +604,19 @@
           <VALUE>&apos; &apos;,1,2,3</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSg8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlgcog==</UUID>
             <LOW_VALUE>&apos; &apos;</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqShcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlg8og==</UUID>
             <LOW_VALUE>1</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSh8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlhcog==</UUID>
             <LOW_VALUE>2</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSicoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlh8og==</UUID>
             <LOW_VALUE>3</LOW_VALUE>
            </item>
           </VALUES>
@@ -627,7 +627,7 @@
           <FIELD>AENST</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CbvhjVqSi8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPlicog==</UUID>
            </item>
           </VALUES>
           <TEXT>Status of change number</TEXT>
@@ -637,7 +637,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t42coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPli8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -647,7 +647,7 @@
           <FIELD>RLKEY</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t428oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2DPljcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Release Key for Change Master Record</TEXT>
@@ -656,7 +656,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t43coQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2DPlj8og==</UUID>
         <AUTH_OBJECT>C_AENR_ERW</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>B43653D2B5BDF22C94731438154B4A</IBS_SOURCE>
@@ -669,7 +669,7 @@
           <FIELD>AEFUN</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t438oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLBucog==</UUID>
            </item>
           </VALUES>
           <TEXT>Change number function</TEXT>
@@ -679,7 +679,7 @@
           <FIELD>AENST</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t44coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLBu8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Status of change number</TEXT>
@@ -689,7 +689,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t448oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLBvcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -699,7 +699,7 @@
           <FIELD>RLKEY</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t45coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLBv8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Release Key for Change Master Record</TEXT>
@@ -709,7 +709,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t458oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLBwcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -719,7 +719,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t46coQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLBw8og==</UUID>
         <AUTH_OBJECT>C_AENR_ERW</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0003</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -732,7 +732,7 @@
           <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t468oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLBxcog==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
           </VALUES>
@@ -744,7 +744,7 @@
           <FIELD>AEFUN</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t47coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLBx8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Change number function</TEXT>
@@ -754,7 +754,7 @@
           <FIELD>AENST</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t478oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLBycog==</UUID>
            </item>
           </VALUES>
           <TEXT>Status of change number</TEXT>
@@ -764,7 +764,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t48coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLBy8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -774,7 +774,69 @@
           <FIELD>RLKEY</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t488oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLBzcog==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Release Key for Change Master Record</TEXT>
+          <STATUS>S</STATUS>
+         </item>
+        </VALUES>
+       </item>
+       <item>
+        <UUID>+hY+oDhRH+Cb1V2bLBz8og==</UUID>
+        <AUTH_OBJECT>C_AENR_ERW</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0004</AUTH_OBJECT_INSTANCE>
+        <IBS_SOURCE>B43653D2B5BDF22C94731438154B4A</IBS_SOURCE>
+        <IBS_SOURCE_TYPE>HT</IBS_SOURCE_TYPE>
+        <TEXT>CC Eng. Chg. Mgmt. Enhanced Authorization Check</TEXT>
+        <STATUS>S</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLB0cog==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>S</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
+          <FIELD>AEFUN</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLB08og==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Change number function</TEXT>
+          <STATUS>S</STATUS>
+         </item>
+         <item>
+          <FIELD>AENST</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLB1cog==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Status of change number</TEXT>
+          <STATUS>S</STATUS>
+         </item>
+         <item>
+          <FIELD>BEGRU</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLB18og==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Authorization Group</TEXT>
+          <STATUS>S</STATUS>
+         </item>
+         <item>
+          <FIELD>RLKEY</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLB2cog==</UUID>
            </item>
           </VALUES>
           <TEXT>Release Key for Change Master Record</TEXT>
@@ -786,11 +848,11 @@
      </item>
      <item>
       <AUTH_OBJECT>C_AENR_RV1</AUTH_OBJECT>
-      <STATUS>U</STATUS>
+      <STATUS>S</STATUS>
       <TEXT>CC Engineering change mgmt - revision level for materials</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t49coQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLB28og==</UUID>
         <AUTH_OBJECT>C_AENR_RV1</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -804,11 +866,11 @@
           <VALUE>Create or generate,Change</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t498oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLB3cog==</UUID>
             <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t4+coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLB38og==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
           </VALUES>
@@ -818,15 +880,39 @@
          </item>
         </VALUES>
        </item>
+       <item>
+        <UUID>+hY+oDhRH+Cb1V2bLB4cog==</UUID>
+        <AUTH_OBJECT>C_AENR_RV1</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
+        <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
+        <IBS_SOURCE_TYPE>HT</IBS_SOURCE_TYPE>
+        <TEXT>CC Engineering change mgmt - revision level for materials</TEXT>
+        <STATUS>S</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>03</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLB48og==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>S</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+        </VALUES>
+       </item>
       </AUTH_ITEM>
      </item>
      <item>
       <AUTH_OBJECT>C_CABN</AUTH_OBJECT>
-      <STATUS>U</STATUS>
+      <STATUS>S</STATUS>
       <TEXT>Authorization for Characteristics Maintenance</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t4+8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLB5cog==</UUID>
         <AUTH_OBJECT>C_CABN</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -840,7 +926,7 @@
           <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t4/coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLB58og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
           </VALUES>
@@ -851,7 +937,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t4/8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLB6cog==</UUID>
         <AUTH_OBJECT>C_CABN</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>B43653D2B5BDF22C94731438154B4A</IBS_SOURCE>
@@ -865,12 +951,64 @@
           <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5AcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLB68og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
           <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+        </VALUES>
+       </item>
+       <item>
+        <UUID>+hY+oDhRH+Cb1V2bLB7cog==</UUID>
+        <AUTH_OBJECT>C_CABN</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0003</AUTH_OBJECT_INSTANCE>
+        <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
+        <IBS_SOURCE_TYPE>HT</IBS_SOURCE_TYPE>
+        <TEXT>Authorization for Characteristics Maintenance</TEXT>
+        <STATUS>S</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Display,Display in Value Help</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLB78og==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLB8cog==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>S</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+        </VALUES>
+       </item>
+       <item>
+        <UUID>+hY+oDhRH+Cb1V2bLB88og==</UUID>
+        <AUTH_OBJECT>C_CABN</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0004</AUTH_OBJECT_INSTANCE>
+        <IBS_SOURCE>B43653D2B5BDF22C94731438154B4A</IBS_SOURCE>
+        <IBS_SOURCE_TYPE>HT</IBS_SOURCE_TYPE>
+        <TEXT>Authorization for Characteristics Maintenance</TEXT>
+        <STATUS>S</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Display</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLB9cog==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>S</STATUS>
           <IS_ACTVT>X</IS_ACTVT>
          </item>
         </VALUES>
@@ -883,7 +1021,7 @@
       <TEXT>Create/Change/Display/Delete Object Link</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5A8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLB98og==</UUID>
         <AUTH_OBJECT>C_DRAD_OBJ</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -896,7 +1034,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5BcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLB+cog==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -907,15 +1045,15 @@
           <VALUE>BUS1001001,BUS1001006,MARA</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5B8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLB+8og==</UUID>
             <LOW_VALUE>BUS1001001</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5CcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLB/cog==</UUID>
             <LOW_VALUE>BUS1001006</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5C8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLB/8og==</UUID>
             <LOW_VALUE>MARA</LOW_VALUE>
            </item>
           </VALUES>
@@ -926,7 +1064,7 @@
           <FIELD>STATUS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5DcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCAcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Status</TEXT>
@@ -936,7 +1074,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5D8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCA8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -946,7 +1084,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5EcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLCBcog==</UUID>
         <AUTH_OBJECT>C_DRAD_OBJ</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>6168B0EEE641300C0A50D13BE02063</IBS_SOURCE>
@@ -959,7 +1097,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5E8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCB8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -969,7 +1107,7 @@
           <FIELD>DOKOB</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5FcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCCcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Linked SAP Object</TEXT>
@@ -979,7 +1117,7 @@
           <FIELD>STATUS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5F8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCC8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Status</TEXT>
@@ -989,12 +1127,138 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5GcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCDcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
           <STATUS>G</STATUS>
           <IS_ACTVT>X</IS_ACTVT>
+         </item>
+        </VALUES>
+       </item>
+       <item>
+        <UUID>+hY+oDhRH+Cb1V2bLCD8og==</UUID>
+        <AUTH_OBJECT>C_DRAD_OBJ</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0003</AUTH_OBJECT_INSTANCE>
+        <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
+        <IBS_SOURCE_TYPE>HT</IBS_SOURCE_TYPE>
+        <TEXT>Create/Change/Display/Delete Object Link</TEXT>
+        <STATUS>S</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Create or generate,Change,Display,Delete,08,Display in Value Help</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCEcog==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCE8og==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCFcog==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCF8og==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCGcog==</UUID>
+            <LOW_VALUE>08</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCG8og==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>S</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
+          <FIELD>DOKAR</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCHcog==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Document Type</TEXT>
+          <STATUS>S</STATUS>
+         </item>
+         <item>
+          <FIELD>DOKOB</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCH8og==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Linked SAP Object</TEXT>
+          <STATUS>S</STATUS>
+         </item>
+         <item>
+          <FIELD>STATUS</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCIcog==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Document Status</TEXT>
+          <STATUS>S</STATUS>
+         </item>
+        </VALUES>
+       </item>
+       <item>
+        <UUID>+hY+oDhRH+Cb1V2bLCI8og==</UUID>
+        <AUTH_OBJECT>C_DRAD_OBJ</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0004</AUTH_OBJECT_INSTANCE>
+        <IBS_SOURCE>6168B0EEE641300C0A50D13BE02063</IBS_SOURCE>
+        <IBS_SOURCE_TYPE>HT</IBS_SOURCE_TYPE>
+        <TEXT>Create/Change/Display/Delete Object Link</TEXT>
+        <STATUS>S</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCJcog==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>S</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
+          <FIELD>DOKAR</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCJ8og==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Document Type</TEXT>
+          <STATUS>S</STATUS>
+         </item>
+         <item>
+          <FIELD>DOKOB</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCKcog==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Linked SAP Object</TEXT>
+          <STATUS>S</STATUS>
+         </item>
+         <item>
+          <FIELD>STATUS</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCK8og==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Document Status</TEXT>
+          <STATUS>S</STATUS>
          </item>
         </VALUES>
        </item>
@@ -1006,7 +1270,7 @@
       <TEXT>Authorization for document access</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5G8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLCLcog==</UUID>
         <AUTH_OBJECT>C_DRAW_DOK</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -1019,7 +1283,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5HcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCL8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1029,7 +1293,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5H8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCMcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1039,7 +1303,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5IcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLCM8og==</UUID>
         <AUTH_OBJECT>C_DRAW_DOK</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>6168B0EEE641300C0A50D13BE02063</IBS_SOURCE>
@@ -1052,7 +1316,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5I8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCNcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1062,12 +1326,110 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5JcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCN8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
           <STATUS>G</STATUS>
           <IS_ACTVT>X</IS_ACTVT>
+         </item>
+        </VALUES>
+       </item>
+       <item>
+        <UUID>+hY+oDhRH+Cb1V2bLCOcog==</UUID>
+        <AUTH_OBJECT>C_DRAW_DOK</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0003</AUTH_OBJECT_INSTANCE>
+        <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
+        <IBS_SOURCE_TYPE>HT</IBS_SOURCE_TYPE>
+        <TEXT>Authorization for document access</TEXT>
+        <STATUS>S</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>01,02,03,06,22,73,81,85,F4</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCO8og==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCPcog==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCP8og==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCQcog==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCQ8og==</UUID>
+            <LOW_VALUE>22</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCRcog==</UUID>
+            <LOW_VALUE>73</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCR8og==</UUID>
+            <LOW_VALUE>81</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCScog==</UUID>
+            <LOW_VALUE>85</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCS8og==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>S</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
+          <FIELD>DOKAR</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCTcog==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Document Type</TEXT>
+          <STATUS>S</STATUS>
+         </item>
+        </VALUES>
+       </item>
+       <item>
+        <UUID>+hY+oDhRH+Cb1V2bLCT8og==</UUID>
+        <AUTH_OBJECT>C_DRAW_DOK</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0004</AUTH_OBJECT_INSTANCE>
+        <IBS_SOURCE>6168B0EEE641300C0A50D13BE02063</IBS_SOURCE>
+        <IBS_SOURCE_TYPE>HT</IBS_SOURCE_TYPE>
+        <TEXT>Authorization for document access</TEXT>
+        <STATUS>S</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCUcog==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>S</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
+          <FIELD>DOKAR</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cb1V2bLCU8og==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Document Type</TEXT>
+          <STATUS>S</STATUS>
          </item>
         </VALUES>
        </item>
@@ -1079,7 +1441,7 @@
       <TEXT>Authorization for document status</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5J8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLCVcog==</UUID>
         <AUTH_OBJECT>C_DRAW_STA</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -1092,7 +1454,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5KcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCV8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1102,7 +1464,7 @@
           <FIELD>DOKST</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5K8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCWcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Status</TEXT>
@@ -1111,7 +1473,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5LcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLCW8og==</UUID>
         <AUTH_OBJECT>C_DRAW_STA</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>6168B0EEE641300C0A50D13BE02063</IBS_SOURCE>
@@ -1124,7 +1486,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5L8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCXcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1134,7 +1496,7 @@
           <FIELD>DOKST</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5McoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCX8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Status</TEXT>
@@ -1150,7 +1512,7 @@
       <TEXT>Authorization for document activities</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5M8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLCYcog==</UUID>
         <AUTH_OBJECT>C_DRAW_TCD</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -1163,7 +1525,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5NcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCY8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1173,7 +1535,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5N8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCZcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1183,7 +1545,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5OcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLCZ8og==</UUID>
         <AUTH_OBJECT>C_DRAW_TCD</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>6168B0EEE641300C0A50D13BE02063</IBS_SOURCE>
@@ -1196,7 +1558,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5O8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCacog==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1206,7 +1568,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5PcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCa8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1223,7 +1585,7 @@
       <TEXT>Status-Dependent Authorizations for Documents</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5P8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLCbcog==</UUID>
         <AUTH_OBJECT>C_DRAW_TCS</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -1236,7 +1598,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5QcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCb8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1246,7 +1608,7 @@
           <FIELD>DOKST</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5Q8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCccog==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Status</TEXT>
@@ -1256,7 +1618,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5RcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCc8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1266,7 +1628,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5R8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLCdcog==</UUID>
         <AUTH_OBJECT>C_DRAW_TCS</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>6168B0EEE641300C0A50D13BE02063</IBS_SOURCE>
@@ -1279,7 +1641,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5ScoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCd8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1289,7 +1651,7 @@
           <FIELD>DOKST</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5S8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCecog==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Status</TEXT>
@@ -1299,7 +1661,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5TcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCe8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1316,7 +1678,7 @@
       <TEXT>Authorization for Classification</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5T8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLCfcog==</UUID>
         <AUTH_OBJECT>C_KLAH_BKL</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -1330,15 +1692,15 @@
           <VALUE>Create or generate,Change,Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5UcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCf8og==</UUID>
             <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5U8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCgcog==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5VcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCg8og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
           </VALUES>
@@ -1350,7 +1712,7 @@
           <FIELD>BGRKL</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5V8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLChcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Classification Authorization Group</TEXT>
@@ -1359,7 +1721,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5WcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLCh8og==</UUID>
         <AUTH_OBJECT>C_KLAH_BKL</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>B43653D2B5BDF22C94731438154B4A</IBS_SOURCE>
@@ -1372,7 +1734,7 @@
           <FIELD>BGRKL</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5W8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCicog==</UUID>
            </item>
           </VALUES>
           <TEXT>Classification Authorization Group</TEXT>
@@ -1382,7 +1744,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5XcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCi8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1399,7 +1761,7 @@
       <TEXT>Authorization for Class Maintenance</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5X8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLCjcog==</UUID>
         <AUTH_OBJECT>C_KLAH_BKP</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>B43653D2B5BDF22C94731438154B4A</IBS_SOURCE>
@@ -1412,7 +1774,7 @@
           <FIELD>BGRKP</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5YcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCj8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Class Maintenance Authorization Group</TEXT>
@@ -1422,7 +1784,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5Y8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCkcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1439,7 +1801,7 @@
       <TEXT>CS BOM Authorizations</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5ZcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLCk8og==</UUID>
         <AUTH_OBJECT>C_STUE_BER</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>B43653D2B5BDF22C94731438154B4A</IBS_SOURCE>
@@ -1452,7 +1814,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5Z8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLClcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -1462,7 +1824,7 @@
           <FIELD>STLAN</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5acoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCl8og==</UUID>
            </item>
           </VALUES>
           <TEXT>BOM Usage</TEXT>
@@ -1472,7 +1834,7 @@
           <FIELD>STLTY</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5a8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCmcog==</UUID>
            </item>
           </VALUES>
           <TEXT>BOM category</TEXT>
@@ -1482,7 +1844,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5bcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCm8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1499,7 +1861,7 @@
       <TEXT>CS BOM Plant (Plant Assignments)</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5b8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLCncog==</UUID>
         <AUTH_OBJECT>C_STUE_WRK</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>B43653D2B5BDF22C94731438154B4A</IBS_SOURCE>
@@ -1513,7 +1875,7 @@
           <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5ccoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCn8og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
           </VALUES>
@@ -1525,7 +1887,7 @@
           <FIELD>CSWRK</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5c8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCocog==</UUID>
            </item>
           </VALUES>
           <TEXT>Plant</TEXT>
@@ -1541,7 +1903,7 @@
       <TEXT>Authorization for Class Types</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5dcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLCo8og==</UUID>
         <AUTH_OBJECT>C_TCLA_BKA</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -1555,23 +1917,23 @@
           <VALUE>001,026,200,300,399</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5d8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCpcog==</UUID>
             <LOW_VALUE>001</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5ecoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCp8og==</UUID>
             <LOW_VALUE>026</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5e8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCqcog==</UUID>
             <LOW_VALUE>200</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5fcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCq8og==</UUID>
             <LOW_VALUE>300</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5f8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCrcog==</UUID>
             <LOW_VALUE>399</LOW_VALUE>
            </item>
           </VALUES>
@@ -1581,7 +1943,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5gcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLCr8og==</UUID>
         <AUTH_OBJECT>C_TCLA_BKA</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>B43653D2B5BDF22C94731438154B4A</IBS_SOURCE>
@@ -1594,7 +1956,7 @@
           <FIELD>KLART</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5g8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCscog==</UUID>
            </item>
           </VALUES>
           <TEXT>Class Type</TEXT>
@@ -1610,7 +1972,7 @@
       <TEXT>Variant Configuration - Object Dependencies</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5hcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLCs8og==</UUID>
         <AUTH_OBJECT>C_VC_MODEL</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>B43653D2B5BDF22C94731438154B4A</IBS_SOURCE>
@@ -1624,7 +1986,7 @@
           <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5h8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCtcog==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
           </VALUES>
@@ -1636,7 +1998,7 @@
           <FIELD>LOV_OBJTYP</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5icoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLCt8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Object Type from Variant Configuration</TEXT>
@@ -1652,7 +2014,7 @@
       <TEXT>General Ledger: Authorization for Ledger</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5i8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLaGcog==</UUID>
         <AUTH_OBJECT>F_FAGL_LDR</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -1666,19 +2028,19 @@
           <VALUE>Create or generate,Change,Display,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5jcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaG8og==</UUID>
             <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5j8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaHcog==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5kcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaH8og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5k8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaIcog==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -1690,7 +2052,7 @@
           <FIELD>BUKRS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5lcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaI8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Company Code</TEXT>
@@ -1700,7 +2062,7 @@
           <FIELD>GLRLDNR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5l8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaJcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Ledger</TEXT>
@@ -1710,7 +2072,7 @@
           <FIELD>GLRRCTY</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5mcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaJ8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Record Type</TEXT>
@@ -1720,7 +2082,7 @@
           <FIELD>GLRVERS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5m8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaKcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Version</TEXT>
@@ -1736,7 +2098,7 @@
       <TEXT>Customer: Account Authorization</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5ncoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLaK8og==</UUID>
         <AUTH_OBJECT>F_KNA1_BED</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -1749,7 +2111,7 @@
           <FIELD>BRGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5n8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaLcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -1759,7 +2121,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5ocoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaL8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1776,7 +2138,7 @@
       <TEXT>Customer: Central Data</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5o8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLaMcog==</UUID>
         <AUTH_OBJECT>F_KNA1_GEN</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -1789,7 +2151,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5pcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaM8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1806,7 +2168,7 @@
       <TEXT>Customer: Account Group Authorization</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5p8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLaNcog==</UUID>
         <AUTH_OBJECT>F_KNA1_GRP</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -1819,7 +2181,7 @@
           <FIELD>KTOKD</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5qcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaN8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Customer Account Group</TEXT>
@@ -1829,7 +2191,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5q8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaOcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1846,7 +2208,7 @@
       <TEXT>Vendor: Account Authorization</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5rcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLaO8og==</UUID>
         <AUTH_OBJECT>F_LFA1_BEK</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -1859,7 +2221,7 @@
           <FIELD>BRGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5r8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaPcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -1869,7 +2231,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5scoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaP8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1886,7 +2248,7 @@
       <TEXT>Vendor: Central Data</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5s8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLaQcog==</UUID>
         <AUTH_OBJECT>F_LFA1_GEN</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -1899,7 +2261,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5tcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaQ8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1916,7 +2278,7 @@
       <TEXT>Vendor: Account Group Authorization</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5t8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLaRcog==</UUID>
         <AUTH_OBJECT>F_LFA1_GRP</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -1929,7 +2291,7 @@
           <FIELD>KTOKK</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5ucoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaR8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Supplier Account Group</TEXT>
@@ -1939,7 +2301,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5u8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaScog==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1956,7 +2318,7 @@
       <TEXT>CO-PC: Product Costing</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5vcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLaS8og==</UUID>
         <AUTH_OBJECT>K_KEKO</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -1970,7 +2332,7 @@
           <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5v8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaTcog==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
           </VALUES>
@@ -1982,7 +2344,7 @@
           <FIELD>BUKRS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5wcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaT8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Company Code</TEXT>
@@ -1992,7 +2354,7 @@
           <FIELD>KLVAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5w8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaUcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Costing Variant</TEXT>
@@ -2008,7 +2370,7 @@
       <TEXT>CO Material Ledger: Valuation Area</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t5xcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLaU8og==</UUID>
         <AUTH_OBJECT>K_ML_VA</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -2022,19 +2384,19 @@
           <VALUE>Change,Display,Create in DB,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5x8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaVcog==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5ycoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaV8og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5y8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaWcog==</UUID>
             <LOW_VALUE>40</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5zcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaW8og==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -2046,7 +2408,7 @@
           <FIELD>BWKEY</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t5z8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaXcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Valuation Area</TEXT>
@@ -2062,7 +2424,7 @@
       <TEXT>EC-PCA: Summary and Line Item Reports</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0t50coQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLaX8og==</UUID>
         <AUTH_OBJECT>K_PCAR_REP</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -2075,7 +2437,7 @@
           <FIELD>BUKRS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t508oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaYcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Company Code</TEXT>
@@ -2085,7 +2447,7 @@
           <FIELD>KSTAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t51coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaY8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Cost Element</TEXT>
@@ -2095,7 +2457,7 @@
           <FIELD>PRCTR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0t518oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaZcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Profit Center</TEXT>
@@ -2105,7 +2467,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uRscoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaZ8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2122,7 +2484,7 @@
       <TEXT>EC-PCA: Authorization Object for Profit Center Master Data</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0uRs8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLaacog==</UUID>
         <AUTH_OBJECT>K_PCA_MD</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -2135,7 +2497,7 @@
           <FIELD>KOKRS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uRtcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaa8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Controlling Area</TEXT>
@@ -2145,7 +2507,7 @@
           <FIELD>PRCTR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uRt8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLabcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Profit Center</TEXT>
@@ -2155,7 +2517,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uRucoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLab8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2172,7 +2534,7 @@
       <TEXT>Material Master: Data at Client Level</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0uRu8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLaccog==</UUID>
         <AUTH_OBJECT>M_MATE_MAN</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -2186,23 +2548,23 @@
           <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uRvcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLac8og==</UUID>
             <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uRv8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLadcog==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uRwcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLad8og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uRw8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaecog==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uRxcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLae8og==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -2213,7 +2575,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0uRx8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLafcog==</UUID>
         <AUTH_OBJECT>M_MATE_MAN</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>D64C646C4F106296115E64EC008D2B</IBS_SOURCE>
@@ -2227,23 +2589,23 @@
           <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uRycoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaf8og==</UUID>
             <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uRy8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLagcog==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uRzcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLag8og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uRz8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLahcog==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR0coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLah8og==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -2261,7 +2623,7 @@
       <TEXT>Material Master: Material Types</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0uR08oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLaicog==</UUID>
         <AUTH_OBJECT>M_MATE_MAR</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -2275,23 +2637,23 @@
           <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR1coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLai8og==</UUID>
             <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR18oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLajcog==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR2coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaj8og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR28oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLakcog==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR3coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLak8og==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -2303,7 +2665,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR38oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLalcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -2319,7 +2681,7 @@
       <TEXT>Material Master: Materials</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0uR4coQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLal8og==</UUID>
         <AUTH_OBJECT>M_MATE_MAT</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -2333,23 +2695,23 @@
           <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR48oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLamcog==</UUID>
             <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR5coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLam8og==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR58oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLancog==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR6coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLan8og==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR68oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaocog==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -2361,7 +2723,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR7coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLao8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -2370,7 +2732,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0uR78oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLapcog==</UUID>
         <AUTH_OBJECT>M_MATE_MAT</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>D64C646C4F106296115E64EC008D2B</IBS_SOURCE>
@@ -2384,23 +2746,23 @@
           <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR8coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLap8og==</UUID>
             <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR88oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaqcog==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR9coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaq8og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR98oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLarcog==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR+coQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLar8og==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -2412,7 +2774,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR+8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLascog==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -2428,7 +2790,7 @@
       <TEXT>Material Master: Create</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0uR/coQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLas8og==</UUID>
         <AUTH_OBJECT>M_MATE_NEU</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -2442,7 +2804,7 @@
           <VALUE>*</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uR/8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLatcog==</UUID>
             <LOW_VALUE>*</LOW_VALUE>
            </item>
           </VALUES>
@@ -2459,7 +2821,7 @@
       <TEXT>Material Master: Maintenance Statuses</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0uSAcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLat8og==</UUID>
         <AUTH_OBJECT>M_MATE_STA</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -2473,23 +2835,23 @@
           <VALUE>Create or generate,Change,Display,Delete,Display change documents</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSA8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaucog==</UUID>
             <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSBcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLau8og==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSB8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLavcog==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSCcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLav8og==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSC8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLawcog==</UUID>
             <LOW_VALUE>08</LOW_VALUE>
            </item>
           </VALUES>
@@ -2501,7 +2863,7 @@
           <FIELD>STATM</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSDcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaw8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Maintenance Status of Material Master Record</TEXT>
@@ -2510,7 +2872,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0uSD8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLaxcog==</UUID>
         <AUTH_OBJECT>M_MATE_STA</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>D64C646C4F106296115E64EC008D2B</IBS_SOURCE>
@@ -2524,23 +2886,23 @@
           <VALUE>Create or generate,Change,Display,Delete,Display change documents</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSEcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLax8og==</UUID>
             <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSE8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaycog==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSFcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLay8og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSF8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLazcog==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSGcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLaz8og==</UUID>
             <LOW_VALUE>08</LOW_VALUE>
            </item>
           </VALUES>
@@ -2552,7 +2914,7 @@
           <FIELD>STATM</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSG8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa0cog==</UUID>
            </item>
           </VALUES>
           <TEXT>Maintenance Status of Material Master Record</TEXT>
@@ -2568,7 +2930,7 @@
       <TEXT>Material Master: Sales Organization/Distribution Channel</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0uSHcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLa08og==</UUID>
         <AUTH_OBJECT>M_MATE_VKO</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -2582,27 +2944,27 @@
           <VALUE>Create or generate,Change,Display,Delete,Display change documents,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSH8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa1cog==</UUID>
             <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSIcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa18og==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSI8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa2cog==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSJcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa28og==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSJ8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa3cog==</UUID>
             <LOW_VALUE>08</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSKcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa38og==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -2614,7 +2976,7 @@
           <FIELD>VKORG</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSK8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa4cog==</UUID>
            </item>
           </VALUES>
           <TEXT>Sales Organization</TEXT>
@@ -2624,7 +2986,7 @@
           <FIELD>VTWEG</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSLcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa48og==</UUID>
            </item>
           </VALUES>
           <TEXT>Distribution Channel</TEXT>
@@ -2640,7 +3002,7 @@
       <TEXT>Material Master: Material Groups</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0uSL8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLa5cog==</UUID>
         <AUTH_OBJECT>M_MATE_WGR</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -2654,23 +3016,23 @@
           <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSMcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa58og==</UUID>
             <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSM8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa6cog==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSNcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa68og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSN8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa7cog==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSOcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa78og==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -2682,7 +3044,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSO8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa8cog==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -2691,7 +3053,7 @@
         </VALUES>
        </item>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0uSPcoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLa88og==</UUID>
         <AUTH_OBJECT>M_MATE_WGR</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>D64C646C4F106296115E64EC008D2B</IBS_SOURCE>
@@ -2705,23 +3067,23 @@
           <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSP8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa9cog==</UUID>
             <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSQcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa98og==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSQ8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa+cog==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSRcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa+8og==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSR8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa/cog==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -2733,7 +3095,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSScoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLa/8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -2749,7 +3111,7 @@
       <TEXT>Material Master: Plants</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0uSS8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLbAcog==</UUID>
         <AUTH_OBJECT>M_MATE_WRK</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -2763,27 +3125,27 @@
           <VALUE>Create or generate,Change,Display,Delete,Display change documents,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSTcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbA8og==</UUID>
             <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uST8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbBcog==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSUcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbB8og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSU8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbCcog==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSVcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbC8og==</UUID>
             <LOW_VALUE>08</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSV8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbDcog==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -2795,7 +3157,7 @@
           <FIELD>WERKS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSWcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbD8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Plant</TEXT>
@@ -2811,7 +3173,7 @@
       <TEXT>Material Documents: Plant</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0uSW8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLbEcog==</UUID>
         <AUTH_OBJECT>M_MSEG_WMB</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -2825,11 +3187,11 @@
           <VALUE>Display,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSXcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbE8og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSX8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbFcog==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -2841,7 +3203,7 @@
           <FIELD>WERKS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSYcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbF8og==</UUID>
            </item>
           </VALUES>
           <TEXT>Plant</TEXT>
@@ -2857,7 +3219,7 @@
       <TEXT>Dynamic Modification Rule</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0uSY8oQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLbGcog==</UUID>
         <AUTH_OBJECT>Q_DYNMODRL</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -2871,11 +3233,11 @@
           <VALUE>Display,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSZcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbG8og==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSZ8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbHcog==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -2893,7 +3255,7 @@
       <TEXT>Material Authorization</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0uSacoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLbH8og==</UUID>
         <AUTH_OBJECT>Q_MATERIAL</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -2906,7 +3268,7 @@
           <FIELD>QMATAUTH</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSa8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbIcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Material Authorization Group for Activities in QM</TEXT>
@@ -2917,7 +3279,7 @@
           <VALUE>A</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSbcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbI8og==</UUID>
             <LOW_VALUE>A</LOW_VALUE>
            </item>
           </VALUES>
@@ -2928,7 +3290,7 @@
           <FIELD>WERKS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSb8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbJcog==</UUID>
            </item>
           </VALUES>
           <TEXT>Plant</TEXT>
@@ -2944,7 +3306,7 @@
       <TEXT>CDS Entity Data</TEXT>
       <AUTH_ITEM>
        <item>
-        <UUID>+hY+oDhRH+Cbvhj0uSccoQ==</UUID>
+        <UUID>+hY+oDhRH+Cb1V2bLbJ8og==</UUID>
         <AUTH_OBJECT>SDDLVIEW</AUTH_OBJECT>
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
@@ -2958,7 +3320,7 @@
           <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSc8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbKcog==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
           </VALUES>
@@ -2970,7 +3332,7 @@
           <FIELD>DDLNAME</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSdcoQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbK8og==</UUID>
            </item>
           </VALUES>
           <TEXT>ACM: Name of an CDS Entity</TEXT>
@@ -2981,7 +3343,7 @@
           <VALUE>ESH_S_PRODUCT</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cbvhj0uSd8oQ==</UUID>
+            <UUID>+hY+oDhRH+Cb1V2bLbLcog==</UUID>
             <LOW_VALUE>ESH_S_PRODUCT</LOW_VALUE>
            </item>
           </VALUES>

@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DDLS>
-    <DDLNAME>ZMM_R_PURCHASEORDER</DDLNAME>
+    <DDLNAME>ZMM_I_PURORD_DOWNPAY</DDLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DDTEXT>[MM] Wrapper View for I_PurchaseOrderAPI01</DDTEXT>
+    <DDTEXT>[MM] 구매오더 선금 처리 - CDS data model</DDTEXT>
     <SOURCE_TYPE>W</SOURCE_TYPE>
    </DDLS>
   </asx:values>

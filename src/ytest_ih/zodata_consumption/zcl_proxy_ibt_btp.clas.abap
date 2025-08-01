@@ -59,7 +59,7 @@ CLASS zcl_proxy_IBT_BTP IMPLEMENTATION.
         DATA(lo_destination) = cl_http_destination_provider=>create_by_comm_arrangement(
                                                     comm_scenario  = lv_comm_scenario
 **                                                comm_system_id = '<Comm System ID>'
-*                                                 service_id     = ''
+                                                 service_id     = 'Z_OBS_IBR_BTP_REST'
     ).
       CATCH cx_http_dest_provider_error INTO DATA(err).
         ev_text = err->get_text( ).

@@ -3,10 +3,10 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DDLS>
-    <DDLNAME>ZMM_I_PURCHASEORDER</DDLNAME>
+    <DDLNAME>ZMM_I_DOWNPAYUPDATED_VH</DDLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DDTEXT>[MM] Wrapper Interface View for I_PurchaseOrderAPI01</DDTEXT>
-    <SOURCE_TYPE>P</SOURCE_TYPE>
+    <DDTEXT>[MM] 구매오더 선금 업데이트 여부 필드 - Value Help View</DDTEXT>
+    <SOURCE_TYPE>W</SOURCE_TYPE>
    </DDLS>
   </asx:values>
  </asx:abap>

@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition-ZMM_C_PURORD_DOWNPAY'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZMM_C_PURORD_DOWNPAY'
+  }
+}
+define service ZMM_UI_PURORD_DOWNPAY {
+  expose ZMM_C_PURORD_DOWNPAY;
+}

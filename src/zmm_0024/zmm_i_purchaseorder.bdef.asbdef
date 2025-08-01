@@ -1,9 +1,0 @@
-interface;
-
-define behavior for ZMM_I_PURCHASEORDER alias ZMM_R_PURCHASEORDER
-{
-  use create;
-  use update;
-  use delete;
-  use action downpayment;
-}

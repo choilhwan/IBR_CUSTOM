@@ -3,15 +3,13 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>ZBP_MM_R_PURCHASEORDER</CLSNAME>
+    <CLSNAME>ZCL_BASIC_INTERFACE_SRV</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Behavior Implementation for ZMM_R_PURCHASEORDER</DESCRIPT>
-    <CATEGORY>06</CATEGORY>
+    <DESCRIPT>ZCL_Basic_Interface_Srv</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>
     <UNICODE>X</UNICODE>
-    <CLSDEFINT>ZMM_R_PURCHASEORDER</CLSDEFINT>
    </VSEOCLASS>
   </asx:values>
  </asx:abap>

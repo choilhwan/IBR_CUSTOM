@@ -1,0 +1,89 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.typeName: 'Projection View  ZMM_I_PURORD_DOWNPAY'
+@UI.headerInfo.typeNamePlural: 'Projection View ZMM_I_PURORD_DOWNPAY'
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'PurchaseOrder'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'PurchaseOrder'
+@Search.searchable: true
+annotate entity ZMM_C_PURORD_DOWNPAY with
+{
+   @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 
+  } ]
+  @UI.lineItem: [ 
+  { position: 10 , type: #FOR_ACTION , dataAction: 'updateDownPayment', label: '선금업데이트' , invocationGrouping: #ISOLATED
+  },
+  {
+    position: 10 
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  @Search.defaultSearchElement: true
+  PurchaseOrder;
+      @UI.selectionField: [ {
+    position: 20 
+  } ]
+    @UI.lineItem: [ {
+    position: 20 
+  } ]
+  DownPaymentUpdated;
+    @UI.selectionField: [ {
+    position: 30 
+  } ]
+    @UI.lineItem: [ {
+    position: 30 
+  } ]
+  CompanyCode;
+    @UI.selectionField: [ {
+    position: 40 
+  } ]
+      @UI.lineItem: [ {
+    position: 40 
+  } ]
+  Supplier;
+    @UI.selectionField: [ {
+    position: 50 
+  } ]
+        @UI.lineItem: [ {
+    position: 50 
+  } ]
+  PurchaseOrderDate;
+      @UI.selectionField: [ {
+    position: 60
+  } ]
+        @UI.lineItem: [ {
+    position: 60 
+  } ]
+    DownPaymentAmount;
+      @UI.selectionField: [ {
+    position: 70 
+  } ]
+        @UI.lineItem: [ {
+    position: 70 
+  } ]
+  CreationDate;
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+        @UI.lineItem: [ {
+    position: 80 
+  } ]
+  CreatedByUser;
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+        @UI.lineItem: [ {
+    position: 90 
+  } ]
+  SupplyingPlant;
+    
+}
