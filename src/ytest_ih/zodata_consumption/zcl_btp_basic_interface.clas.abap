@@ -55,27 +55,27 @@ data:lv_timel type timestampl.
 
 
 get TIME STAMP FIELD lv_timel.
-
+ls_business_data = CORRESPONDING #( keys ).
 * Prepare business data
-ls_business_data = VALUE #(
-          brand_id                = 'test1'
-          brand_name              = 'test1'
-          company_id              = 'CompanyId'
-          company_name            = 'CompanyName'
-          mall_type_cd            = 'MallTypeCd'
-          mall_type_name          = 'MallTypeName'
-          mall_country_cd         = 'MallCountryCd'
-          platform_id             = 'PlatformId'
-          platform_name           = 'PlatformName'
-          available_warehouse_cd  = 'AvailableWarehouseCd'
-          delivery_wharehouse_cd  = 'DeliveryWharehouseCd'
-          return_warehouse_cd     = 'ReturnWarehouseCd'
-          pg_id                   = 'PgId'
-          pg_name                 = 'PgName'
-          created_at              = lv_timel
-          created_by              = 'CreatedBy'
-          modified_at             = lv_timel
-          modified_by             = 'ModifiedBy' ).
+*ls_business_data = VALUE #(
+*          brand_id                = 'test1'
+*          brand_name              = 'test1'
+*          company_id              = 'CompanyId'
+*          company_name            = 'CompanyName'
+*          mall_type_cd            = 'MallTypeCd'
+*          mall_type_name          = 'MallTypeName'
+*          mall_country_cd         = 'MallCountryCd'
+*          platform_id             = 'PlatformId'
+*          platform_name           = 'PlatformName'
+*          available_warehouse_cd  = 'AvailableWarehouseCd'
+*          delivery_wharehouse_cd  = 'DeliveryWharehouseCd'
+*          return_warehouse_cd     = 'ReturnWarehouseCd'
+*          pg_id                   = 'PgId'
+*          pg_name                 = 'PgName'
+*          created_at              = lv_timel
+*          created_by              = 'CreatedBy'
+*          modified_at             = lv_timel
+*          modified_by             = 'ModifiedBy' ).
 
 " Navigate to the resource and create a request for the create operation
 lo_request = lo_client_proxy->create_resource_for_entity_set( 'MASTER' )->create_request_for_create( ).
