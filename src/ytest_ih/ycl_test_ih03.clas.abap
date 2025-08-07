@@ -13,7 +13,7 @@ ENDCLASS.
 
 
 
-CLASS ycl_test_ih03 IMPLEMENTATION.
+CLASS YCL_TEST_IH03 IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

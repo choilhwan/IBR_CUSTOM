@@ -458,7 +458,9 @@ CLASS z_basic_interface_srv DEFINITION
 ENDCLASS.
 
 
-CLASS z_basic_interface_srv IMPLEMENTATION.
+
+CLASS Z_BASIC_INTERFACE_SRV IMPLEMENTATION.
+
 
   METHOD /iwbep/if_v4_mp_basic_pm~define.
 
@@ -472,6 +474,19 @@ CLASS z_basic_interface_srv IMPLEMENTATION.
     def_master_2( ).
     def_get_flex_token( ).
     define_primitive_types( ).
+
+  ENDMETHOD.
+
+
+  METHOD define_primitive_types.
+
+    DATA lo_primitive_type TYPE REF TO /iwbep/if_v4_pm_prim_type.
+
+
+    lo_primitive_type = mo_model->create_primitive_type_by_elem(
+                            iv_primitive_type_name = 'RETURN'
+                            iv_element             = VALUE tys_types_for_prim_types-return( ) ).
+    lo_primitive_type->set_edm_type( 'String' ) ##NO_TEXT.
 
   ENDMETHOD.
 
@@ -783,6 +798,29 @@ CLASS z_basic_interface_srv IMPLEMENTATION.
   ENDMETHOD.
 
 
+  METHOD def_get_flex_token.
+
+    DATA:
+      lo_function        TYPE REF TO /iwbep/if_v4_pm_function,
+      lo_function_import TYPE REF TO /iwbep/if_v4_pm_func_imp,
+      lo_parameter       TYPE REF TO /iwbep/if_v4_pm_func_param,
+      lo_return          TYPE REF TO /iwbep/if_v4_pm_func_return.
+
+
+    lo_function = mo_model->create_function( 'GET_FLEX_TOKEN' ).
+    lo_function->set_edm_name( 'getFlexToken' ) ##NO_TEXT.
+
+    lo_function_import = lo_function->create_function_import( 'GET_FLEX_TOKEN_2' ).
+    lo_function_import->set_edm_name( 'getFlexToken' ) ##NO_TEXT.
+
+
+    lo_return = lo_function->create_return( ).
+    lo_return->set_primitive_type( 'RETURN' ).
+    lo_return->set_is_nullable( ).
+
+  ENDMETHOD.
+
+
   METHOD def_mall_2.
 
     DATA:
@@ -1033,41 +1071,4 @@ CLASS z_basic_interface_srv IMPLEMENTATION.
     lo_primitive_property->create_vcs_value_control( ).
 
   ENDMETHOD.
-
-
-  METHOD def_get_flex_token.
-
-    DATA:
-      lo_function        TYPE REF TO /iwbep/if_v4_pm_function,
-      lo_function_import TYPE REF TO /iwbep/if_v4_pm_func_imp,
-      lo_parameter       TYPE REF TO /iwbep/if_v4_pm_func_param,
-      lo_return          TYPE REF TO /iwbep/if_v4_pm_func_return.
-
-
-    lo_function = mo_model->create_function( 'GET_FLEX_TOKEN' ).
-    lo_function->set_edm_name( 'getFlexToken' ) ##NO_TEXT.
-
-    lo_function_import = lo_function->create_function_import( 'GET_FLEX_TOKEN_2' ).
-    lo_function_import->set_edm_name( 'getFlexToken' ) ##NO_TEXT.
-
-
-    lo_return = lo_function->create_return( ).
-    lo_return->set_primitive_type( 'RETURN' ).
-    lo_return->set_is_nullable( ).
-
-  ENDMETHOD.
-
-
-  METHOD define_primitive_types.
-
-    DATA lo_primitive_type TYPE REF TO /iwbep/if_v4_pm_prim_type.
-
-
-    lo_primitive_type = mo_model->create_primitive_type_by_elem(
-                            iv_primitive_type_name = 'RETURN'
-                            iv_element             = VALUE tys_types_for_prim_types-return( ) ).
-    lo_primitive_type->set_edm_type( 'String' ) ##NO_TEXT.
-
-  ENDMETHOD.
-
 ENDCLASS.

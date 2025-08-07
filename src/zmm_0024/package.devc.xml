@@ -4,6 +4,8 @@
   <asx:values>
    <DEVC>
     <CTEXT>[MM] 선금 정보 처리 APP</CTEXT>
+    <LANGUAGE>E</LANGUAGE>
+    <MASTERLANG>E</MASTERLANG>
    </DEVC>
   </asx:values>
  </asx:abap>

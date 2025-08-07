@@ -77,5 +77,7 @@ TYPES: BEGIN OF ty_logi_item_info,
            END OF ty_payload.
 ENDCLASS.
 
-CLASS zbp_mm_r_product IMPLEMENTATION.
+
+
+CLASS ZBP_MM_R_PRODUCT IMPLEMENTATION.
 ENDCLASS.

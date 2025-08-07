@@ -1,13 +1,14 @@
 {
-  "formatVersion": "1",
+  "formatVersion": "2",
   "header": {
-    "description": "Manage Product Master Variant",
+    "description": "Manage Product Master Data",
     "originalLanguage": "en",
     "abapLanguageVersion": "cloudDevelopment"
   },
   "generalInformation": {
     "appType": "ui5",
-    "catalogId": "SAP_TC_UI5_REPO_UIAD"
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Manage Product Master Variant"
   },
   "ui5AppDetails": {
     "appId": "customer.app.variant"

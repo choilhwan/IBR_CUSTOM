@@ -1,0 +1,8 @@
+projection;
+strict ( 2 );
+
+define behavior for ZMM_A_PRODUCT_CJWMS //alias <alias_name>
+{
+
+  use action TransferToWMS;
+}

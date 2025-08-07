@@ -1,0 +1,13 @@
+abstract;
+strict ( 2 );
+with hierarchy;
+define behavior for ZMM_D_PAYLOAD_CJWMS_HD alias Header
+{
+  field ( suppress ) hd_key;
+  association _Item;
+}
+define behavior for ZMM_D_PAYLOAD_CJWMS_ITEM alias Item
+{
+  field ( suppress ) hd_key, item_key;
+
+}

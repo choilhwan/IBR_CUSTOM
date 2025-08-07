@@ -8,7 +8,11 @@ CLASS ycl_test_ih04 DEFINITION PUBLIC
       RETURNING VALUE(rv_pr_number) TYPE string.
 ENDCLASS.
 
-CLASS ycl_test_ih04 IMPLEMENTATION.
+
+
+CLASS YCL_TEST_IH04 IMPLEMENTATION.
+
+
   METHOD create_purchase_requisition.
     DATA:
       lv_number            TYPE banfn  , "

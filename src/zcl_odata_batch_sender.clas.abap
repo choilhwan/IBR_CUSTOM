@@ -26,7 +26,10 @@ CLASS zcl_odata_batch_sender DEFINITION
 
 ENDCLASS.
 
-CLASS zcl_odata_batch_sender IMPLEMENTATION.
+
+
+CLASS ZCL_ODATA_BATCH_SENDER IMPLEMENTATION.
+
 
   METHOD send_batch_create_requests.
     LOOP AT et_results INTO DATA(lt_tmp).
@@ -117,5 +120,4 @@ CLASS zcl_odata_batch_sender IMPLEMENTATION.
     ENDTRY.
 
   ENDMETHOD.
-
 ENDCLASS.

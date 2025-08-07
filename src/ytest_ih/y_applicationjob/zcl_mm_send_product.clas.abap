@@ -8,7 +8,9 @@ CLASS zcl_mm_send_product  DEFINITION PUBLIC.
 ENDCLASS.
 
 
-CLASS zcl_mm_send_product IMPLEMENTATION.
+
+CLASS ZCL_MM_SEND_PRODUCT IMPLEMENTATION.
+
 
   METHOD send.
 
@@ -83,5 +85,4 @@ CLASS zcl_mm_send_product IMPLEMENTATION.
     o_data = lv_response_status-code.
 
   ENDMETHOD.
-
 ENDCLASS.

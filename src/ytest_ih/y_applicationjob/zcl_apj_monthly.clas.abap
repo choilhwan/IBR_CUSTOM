@@ -26,7 +26,20 @@ CLASS zcl_apj_monthly DEFINITION PUBLIC FINAL CREATE PUBLIC .
     "! <p class="shorttext synchronized" lang="en">Public attribute which is not used on the selection screen</p>
     DATA another_public_attribute TYPE c LENGTH 10.
 ENDCLASS.
-CLASS zcl_apj_monthly IMPLEMENTATION.
+
+
+
+CLASS ZCL_APJ_MONTHLY IMPLEMENTATION.
+
+
+  METHOD if_apj_dt_defaults~fill_attribute_defaults.
+
+    numbers = VALUE #( ( sign = 'I' option = 'BT' low = '1' high = '10' )
+                       ( sign = 'I' option = 'BT' low = '91' high = '100' ) ).
+    text = 'Some text'.
+  ENDMETHOD.
+
+
   METHOD if_apj_rt_run~execute.
     TRY.
 
@@ -94,11 +107,4 @@ CLASS zcl_apj_monthly IMPLEMENTATION.
     ENDTRY.
 **********************************************************************
   ENDMETHOD.
-  METHOD if_apj_dt_defaults~fill_attribute_defaults.
-
-    numbers = VALUE #( ( sign = 'I' option = 'BT' low = '1' high = '10' )
-                       ( sign = 'I' option = 'BT' low = '91' high = '100' ) ).
-    text = 'Some text'.
-  ENDMETHOD.
 ENDCLASS.
-

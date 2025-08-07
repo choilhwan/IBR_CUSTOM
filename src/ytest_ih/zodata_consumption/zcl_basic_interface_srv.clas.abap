@@ -23,7 +23,44 @@ ENDCLASS.
 
 
 
-CLASS zcl_basic_interface_srv IMPLEMENTATION.
+CLASS ZCL_BASIC_INTERFACE_SRV IMPLEMENTATION.
+
+
+  METHOD if_oo_adt_classrun~main.
+    DATA business_data Type ts_external_system.
+    DATA business_datas TYPE tt_external_system.
+    business_data = VALUE #(
+          system_id  = '1010'
+          seq        = 1
+    ).
+    APPEND business_data TO business_datas.
+    business_data = VALUE #(
+          system_id  = '1010'
+          seq        = 2
+    ).
+    APPEND business_data TO business_datas.
+    DATA lv_text TYPE string.
+    TRY.
+        send_external_system(
+
+          EXPORTING
+            lt_items   = business_datas
+          IMPORTING
+            ev_text = lv_text
+          ) .
+
+          if business_datas is not INITIAL.
+          out->write( business_datas ).
+          ENDIF.
+          out->write( lv_text ).
+      CATCH cx_root INTO DATA(exception).
+        out->write( cl_message_helper=>get_latest_t100_exception( exception )->if_message~get_text( ) ).
+
+
+    ENDTRY.
+  ENDMETHOD.
+
+
     METHOD send_external_system.
     "Variables Setting
 
@@ -113,37 +150,4 @@ CLASS zcl_basic_interface_srv IMPLEMENTATION.
 
 
     ENDMETHOD.
-  METHOD if_oo_adt_classrun~main.
-    DATA business_data Type ts_external_system.
-    DATA business_datas TYPE tt_external_system.
-    business_data = VALUE #(
-          system_id  = '1010'
-          seq        = 1
-    ).
-    APPEND business_data TO business_datas.
-    business_data = VALUE #(
-          system_id  = '1010'
-          seq        = 2
-    ).
-    APPEND business_data TO business_datas.
-    DATA lv_text TYPE string.
-    TRY.
-        send_external_system(
-
-          EXPORTING
-            lt_items   = business_datas
-          IMPORTING
-            ev_text = lv_text
-          ) .
-
-          if business_datas is not INITIAL.
-          out->write( business_datas ).
-          ENDIF.
-          out->write( lv_text ).
-      CATCH cx_root INTO DATA(exception).
-        out->write( cl_message_helper=>get_latest_t100_exception( exception )->if_message~get_text( ) ).
-
-
-    ENDTRY.
-  ENDMETHOD.
 ENDCLASS.

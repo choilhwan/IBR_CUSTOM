@@ -1,0 +1,4 @@
+@EndUserText.label: '[MM] Outbound Service for CJWMS'
+define service ZMM_API_PRODUCT_CJWMS {
+  expose ZMM_A_PRODUCT_CJWMS;
+}

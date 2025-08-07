@@ -13,7 +13,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_mm_badi_imp_test01 IMPLEMENTATION.
+CLASS ZCL_MM_BADI_IMP_TEST01 IMPLEMENTATION.
 
 
   METHOD if_mm_pur_s4_po_post~post.

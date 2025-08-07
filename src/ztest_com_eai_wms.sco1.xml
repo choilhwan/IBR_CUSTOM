@@ -6,9 +6,11 @@
     <COMMUNICATION_SCENARIO_ID>ZTEST_COM_EAI_WMS</COMMUNICATION_SCENARIO_ID>
     <COMMUNICATION_SCENARIO_TYPE>1</COMMUNICATION_SCENARIO_TYPE>
     <ALLOWED_CA_INSTANCES>1</ALLOWED_CA_INSTANCES>
+    <CONTAINS_INBOUND>X</CONTAINS_INBOUND>
     <IB_TRUST_PSE_ID>SSLC_CUSTOMER_DEFAULT</IB_TRUST_PSE_ID>
     <IB_BASIC_AUTH>X</IB_BASIC_AUTH>
     <IB_X509_AUTH>X</IB_X509_AUTH>
+    <IB_OAUTH2_AUTH>X</IB_OAUTH2_AUTH>
     <INBOUND_ROLE_ID>ZCR_7ILD5IBYKEP6BG4HGQ3DAPV4UA</INBOUND_ROLE_ID>
     <CONTAINS_OUTBOUND>X</CONTAINS_OUTBOUND>
     <OB_AUTH_PSE_ID>SSLC_CUSTOMER_DEFAULT</OB_AUTH_PSE_ID>
@@ -31,6 +33,19 @@
     </MAIN_OBJECT>
     <SCOPE_STATUS>3</SCOPE_STATUS>
     <SCOPE_STATUS_TEXT>On</SCOPE_STATUS_TEXT>
+    <INBOUND>
+     <item>
+      <COMMUNICATION_SCENARIO_ID>ZTEST_COM_EAI_WMS</COMMUNICATION_SCENARIO_ID>
+      <INBOUND_ID>0001</INBOUND_ID>
+      <IBS_ID>ZMM_API_PRODUCT_CJWMS_O4_0001_G4BA</IBS_ID>
+      <RELEASE_STATUS>1</RELEASE_STATUS>
+      <IBS_TYPE>G4BA</IBS_TYPE>
+      <IBS_TYPE_TEXT>OData V4</IBS_TYPE_TEXT>
+      <TEXT>ZMM_API_PRODUCT_CJWMS_O4</TEXT>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <SRVC_NAME>069D5C6A40F0A601B85B26E6DF7D84</SRVC_NAME>
+     </item>
+    </INBOUND>
     <OUTBOUND>
      <item>
       <COMMUNICATION_SCENARIO_ID>ZTEST_COM_EAI_WMS</COMMUNICATION_SCENARIO_ID>
@@ -46,6 +61,201 @@
       <TEXT>test outbound service</TEXT>
      </item>
     </OUTBOUND>
+    <AUTH>
+     <item>
+      <AUTH_OBJECT>M_MATE_MAN</AUTH_OBJECT>
+      <STATUS>U</STATUS>
+      <TEXT>Material Master: Data at Client Level</TEXT>
+      <AUTH_ITEM>
+       <item>
+        <UUID>+hY+oDhRH+Cc6muna/r8rA==</UUID>
+        <AUTH_OBJECT>M_MATE_MAN</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
+        <TEXT>Material Master: Data at Client Level</TEXT>
+        <STATUS>U</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Display</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cc7PQfebIcrQ==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+        </VALUES>
+       </item>
+      </AUTH_ITEM>
+     </item>
+     <item>
+      <AUTH_OBJECT>M_MATE_MAR</AUTH_OBJECT>
+      <STATUS>U</STATUS>
+      <TEXT>Material Master: Material Types</TEXT>
+      <AUTH_ITEM>
+       <item>
+        <UUID>+hY+oDhRH+Cc6muna/s8rA==</UUID>
+        <AUTH_OBJECT>M_MATE_MAR</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
+        <TEXT>Material Master: Material Types</TEXT>
+        <STATUS>U</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Display</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cc7PQfebI8rQ==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
+          <FIELD>BEGRU</FIELD>
+          <VALUE>*</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cc7PQfebJcrQ==</UUID>
+            <LOW_VALUE>*</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Authorization Group</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+        </VALUES>
+       </item>
+      </AUTH_ITEM>
+     </item>
+     <item>
+      <AUTH_OBJECT>M_MATE_MAT</AUTH_OBJECT>
+      <STATUS>U</STATUS>
+      <TEXT>Material Master: Materials</TEXT>
+      <AUTH_ITEM>
+       <item>
+        <UUID>+hY+oDhRH+Cc6muna/ucrA==</UUID>
+        <AUTH_OBJECT>M_MATE_MAT</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
+        <TEXT>Material Master: Materials</TEXT>
+        <STATUS>U</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Display</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cc7PQfebJ8rQ==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
+          <FIELD>BEGRU</FIELD>
+          <VALUE>*</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cc7PQfebKcrQ==</UUID>
+            <LOW_VALUE>*</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Authorization Group</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+        </VALUES>
+       </item>
+      </AUTH_ITEM>
+     </item>
+     <item>
+      <AUTH_OBJECT>M_MATE_WGR</AUTH_OBJECT>
+      <STATUS>U</STATUS>
+      <TEXT>Material Master: Material Groups</TEXT>
+      <AUTH_ITEM>
+       <item>
+        <UUID>+hY+oDhRH+Cc6muna/v8rA==</UUID>
+        <AUTH_OBJECT>M_MATE_WGR</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
+        <TEXT>Material Master: Material Groups</TEXT>
+        <STATUS>U</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Display</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cc7PQfebK8rQ==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
+          <FIELD>BEGRU</FIELD>
+          <VALUE>*</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cc7PQfebLcrQ==</UUID>
+            <LOW_VALUE>*</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Authorization Group</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+        </VALUES>
+       </item>
+      </AUTH_ITEM>
+     </item>
+     <item>
+      <AUTH_OBJECT>M_MATE_WRK</AUTH_OBJECT>
+      <STATUS>U</STATUS>
+      <TEXT>Material Master: Plants</TEXT>
+      <AUTH_ITEM>
+       <item>
+        <UUID>+hY+oDhRH+Cc6muna/xcrA==</UUID>
+        <AUTH_OBJECT>M_MATE_WRK</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
+        <TEXT>Material Master: Plants</TEXT>
+        <STATUS>U</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Display</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cc7PQfebL8rQ==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
+          <FIELD>WERKS</FIELD>
+          <VALUE>*</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+Cc7PQfebMcrQ==</UUID>
+            <LOW_VALUE>*</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Plant</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+        </VALUES>
+       </item>
+      </AUTH_ITEM>
+     </item>
+    </AUTH>
     <PUBLISH_STATUS>p</PUBLISH_STATUS>
     <PLUGIN_CONFIG>
      <item>
@@ -57,6 +267,9 @@
       <UI_OBJECT>cscn_obs_ping_supported</UI_OBJECT>
       <IS_VISIBLE>X</IS_VISIBLE>
       <IS_ENABLED>X</IS_ENABLED>
+     </item>
+     <item>
+      <UI_OBJECT>auth_edit_logic</UI_OBJECT>
      </item>
      <item>
       <UI_OBJECT>cscn_allow_create_by_key_checkbox</UI_OBJECT>

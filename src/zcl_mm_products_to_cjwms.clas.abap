@@ -116,7 +116,20 @@ CLASS zcl_mm_products_to_cjwms DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_mm_products_to_cjwms IMPLEMENTATION.
+
+CLASS ZCL_MM_PRODUCTS_TO_CJWMS IMPLEMENTATION.
+
+
+  METHOD constructor.
+
+
+  ENDMETHOD.
+
+
+  METHOD if_oo_adt_classrun~main.
+    out->write( |Run TRANSFER logic via action binding.| ).
+  ENDMETHOD.
+
 
   METHOD transfer.
     DATA: lt_result TYPE TABLE FOR ACTION RESULT zmm_r_product\\product~transfer_cjwms,
@@ -156,17 +169,4 @@ CLASS zcl_mm_products_to_cjwms IMPLEMENTATION.
     e_result = lt_result.
 
   ENDMETHOD.
-
-
-
-  METHOD if_oo_adt_classrun~main.
-    out->write( |Run TRANSFER logic via action binding.| ).
-  ENDMETHOD.
-
-  METHOD constructor.
-
-
-  ENDMETHOD.
-
 ENDCLASS.
-

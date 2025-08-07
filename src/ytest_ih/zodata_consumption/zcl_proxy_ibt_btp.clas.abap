@@ -32,7 +32,10 @@ CLASS zcl_proxy_IBT_BTP DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zcl_proxy_IBT_BTP IMPLEMENTATION.
+
+
+CLASS ZCL_PROXY_IBT_BTP IMPLEMENTATION.
+
 
   METHOD get_master.
 
@@ -191,6 +194,7 @@ CLASS zcl_proxy_IBT_BTP IMPLEMENTATION.
 
   ENDMETHOD.
 
+
   METHOD if_oo_adt_classrun~main.
     DATA business_data TYPE tt_master.
     DATA lv_text TYPE string.
@@ -216,8 +220,4 @@ CLASS zcl_proxy_IBT_BTP IMPLEMENTATION.
 
   METHOD if_rap_query_provider~select.
   ENDMETHOD.
-
-
 ENDCLASS.
-
-

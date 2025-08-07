@@ -10,7 +10,10 @@ CLASS zcl_apl_01 DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_apl_01 IMPLEMENTATION.
+
+CLASS ZCL_APL_01 IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
     TRY.

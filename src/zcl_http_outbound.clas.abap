@@ -71,7 +71,10 @@ CLASS zcl_http_outbound DEFINITION
         RETURNING VALUE(rv_response) TYPE ty_response.
 ENDCLASS.
 
+
+
 CLASS zcl_http_outbound IMPLEMENTATION.
+
 
   METHOD send_batch_create_requests.
 *    LOOP AT et_results INTO DATA(lt_tmp).
@@ -167,67 +170,6 @@ CLASS zcl_http_outbound IMPLEMENTATION.
 
   ENDMETHOD.
 
-  METHOD send_rest_request.
-
-    DATA: lo_destination TYPE REF TO if_http_destination,
-          lo_http_client TYPE REF TO if_web_http_client,
-          lo_request     TYPE REF TO if_web_http_request,
-          lo_response    TYPE REF TO if_web_http_response,
-          lv_json        TYPE string.
-
-    FIELD-SYMBOLS : <fs_payloads> TYPE ANY TABLE.
-
-    TRY.
-
-        " 1. payload mapping (optional)
-
-        IF io_mapper IS BOUND AND i_payload IS SUPPLIED.
-          DATA(lo_payloads) = io_mapper->map_keys_to_payloads( i_payload ).
-          ASSIGN lo_payloads->* TO <fs_payloads>.
-          IF sy-subrc = 0.
-            lv_json = /ui2/cl_json=>serialize(
-                        data          = <fs_payloads>
-                        format_output = abap_true ).
-          ENDIF.
-        ENDIF.
-
-        " 2. HTTP call
-        lo_destination = cl_http_destination_provider=>create_by_comm_arrangement(
-                           comm_scenario = iv_comm_scenario
-                           service_id    = iv_outbound_service ).
-
-        lo_http_client = cl_web_http_client_manager=>create_by_http_destination( lo_destination ).
-        lo_request     = lo_http_client->get_http_request( ).
-
-        IF lv_json IS NOT INITIAL.
-          lo_request->set_text( lv_json ).
-          lo_request->set_header_field( i_name = gc_header_name i_value = gc_header_value ).
-        ENDIF.
-
-        lo_response = lo_http_client->execute( iv_http_method ).
-
-        rv_response = _build_response(
-                        iv_status = lo_response->get_status( )
-                        iv_body   = lo_response->get_text( ) ).
-
-        lo_http_client->close( ).
-
-      CATCH cx_root INTO DATA(lx_root).
-        rv_response = _handle_exception( lx_root ).
-    ENDTRY.
-
-  ENDMETHOD.
-  METHOD _build_response.
-    rv_response = VALUE #( status = iv_status body = iv_body ).
-  ENDMETHOD.
-
-  METHOD _handle_exception.
-    rv_response = VALUE #(
-      status = VALUE #( code = 500 reason = 'Exception' )
-      body   = |HTTP 오류: { io_error->get_text( ) }|
-    ).
-  ENDMETHOD.
-
 
   METHOD send_batch_patch_requests.
 
@@ -301,4 +243,71 @@ CLASS zcl_http_outbound IMPLEMENTATION.
   ENDMETHOD.
 
 
+  METHOD send_rest_request.
+
+    DATA: lo_destination TYPE REF TO if_http_destination,
+          lo_http_client TYPE REF TO if_web_http_client,
+          lo_request     TYPE REF TO if_web_http_request,
+          lo_response    TYPE REF TO if_web_http_response,
+          lv_json        TYPE string.
+
+    FIELD-SYMBOLS : <fs_payloads> TYPE ANY TABLE.
+
+    TRY.
+
+        " 1. payload mapping (optional)
+
+*        IF io_mapper IS BOUND AND i_payload IS SUPPLIED.
+*          DATA(lo_payloads) = io_mapper->map_keys_to_payloads( i_payload ).
+*          ASSIGN lo_payloads->* TO <fs_payloads>.
+*          IF sy-subrc = 0.
+*            lv_json = /ui2/cl_json=>serialize(
+*                        data          = <fs_payloads>
+*                        format_output = abap_true ).
+*          ENDIF.
+*        ENDIF.
+        lv_json = /ui2/cl_json=>serialize(
+                                data          = i_payload
+                                format_output = abap_true ).
+
+
+        " 2. HTTP call
+        lo_destination = cl_http_destination_provider=>create_by_comm_arrangement(
+                           comm_scenario = iv_comm_scenario
+                           service_id    = iv_outbound_service ).
+
+        lo_http_client = cl_web_http_client_manager=>create_by_http_destination( lo_destination ).
+        lo_request     = lo_http_client->get_http_request( ).
+
+        IF lv_json IS NOT INITIAL.
+          lo_request->set_text( lv_json ).
+          lo_request->set_header_field( i_name = gc_header_name i_value = gc_header_value ).
+        ENDIF.
+
+        lo_response = lo_http_client->execute( iv_http_method ).
+
+        rv_response = _build_response(
+                        iv_status = lo_response->get_status( )
+                        iv_body   = lo_response->get_text( ) ).
+
+        lo_http_client->close( ).
+
+      CATCH cx_root INTO DATA(lx_root).
+        rv_response = _handle_exception( lx_root ).
+    ENDTRY.
+
+  ENDMETHOD.
+
+
+  METHOD _build_response.
+    rv_response = VALUE #( status = iv_status body = iv_body ).
+  ENDMETHOD.
+
+
+  METHOD _handle_exception.
+    rv_response = VALUE #(
+      status = VALUE #( code = 500 reason = 'Exception' )
+      body   = |HTTP 오류: { io_error->get_text( ) }|
+    ).
+  ENDMETHOD.
 ENDCLASS.

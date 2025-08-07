@@ -11,5 +11,6 @@ authorization master ( instance )
   update;
   delete;
   field ( readonly ) PurchaseOrder;
- action( features : instance, authorization : instance ) updateDownPayment result [0..*] $self;
+// action( features : instance, authorization : instance ) updateDownPayment result [0..*] $self;
+ static action updateDownPayment  result [0..*] $self;
 }

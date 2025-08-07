@@ -1,0 +1,15 @@
+unmanaged implementation in class zbp_mm_r_product_cjwms unique;
+strict ( 2 );
+
+define behavior for ZMM_R_PRODUCT_CJWMS //alias <alias_name>
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+ // create;
+ // update;
+  //delete;
+
+  field(readonly) Product;
+  static action( authorization : global )TransferToWMS deep parameter ZMM_D_PAYLOAD_CJWMS_HD result [0..*] zmm_s_response_cjwms;
+}

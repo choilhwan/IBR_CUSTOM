@@ -108,30 +108,30 @@
         <INACTIVE>X</INACTIVE>
         <VALUES>
          <item>
-          <FIELD>/SCWM/LGNU</FIELD>
-          <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlFcog==</UUID>
-           </item>
-          </VALUES>
-          <TEXT>Warehouse Number/Warehouse Complex</TEXT>
-          <STATUS>U</STATUS>
-         </item>
-         <item>
           <FIELD>/SCWM/PROD</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlF8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJtcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Product</TEXT>
           <STATUS>U</STATUS>
          </item>
          <item>
+          <FIELD>/SCWM/LGNU</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLJt8qA==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Warehouse Number/Warehouse Complex</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+         <item>
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlGcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJucqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -151,14 +151,30 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Display,F4</VALUE>
+          <VALUE>Create or generate,Change,Display,Delete,Display change documents,F4</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlHcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJu8qA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLJvcqA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLJv8qA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlH8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJwcqA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLJw8qA==</UUID>
+            <LOW_VALUE>08</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLJxcqA==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -170,7 +186,7 @@
           <FIELD>/SCWM/LGNU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlIcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJx8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Warehouse Number/Warehouse Complex</TEXT>
@@ -180,7 +196,7 @@
           <FIELD>/SCWM/PROD</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlI8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJycqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Product</TEXT>
@@ -206,27 +222,27 @@
         <INACTIVE>X</INACTIVE>
         <VALUES>
          <item>
+          <FIELD>RLTYP</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLJy8qA==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>BP Role</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+         <item>
           <FIELD>ACTVT</FIELD>
           <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlJ8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJzcqA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
           <STATUS>U</STATUS>
           <IS_ACTVT>X</IS_ACTVT>
-         </item>
-         <item>
-          <FIELD>RLTYP</FIELD>
-          <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlKcog==</UUID>
-           </item>
-          </VALUES>
-          <TEXT>BP Role</TEXT>
-          <STATUS>U</STATUS>
          </item>
         </VALUES>
        </item>
@@ -241,15 +257,9 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Display,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlLcog==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlL8og==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWLJz8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -260,7 +270,7 @@
           <FIELD>RLTYP</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlMcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJ0cqA==</UUID>
            </item>
           </VALUES>
           <TEXT>BP Role</TEXT>
@@ -273,7 +283,7 @@
      <item>
       <AUTH_OBJECT>B_BUP_DCPD</AUTH_OBJECT>
       <STATUS>S</STATUS>
-      <TEXT>Business Partner Processing</TEXT>
+      <TEXT>Business Partner: Data Categories</TEXT>
       <AUTH_ITEM>
        <item>
         <UUID>+hY+oDhRH+Cb1V2DPlM8og==</UUID>
@@ -281,20 +291,30 @@
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
         <IBS_SOURCE_TYPE>HT</IBS_SOURCE_TYPE>
-        <TEXT>Business Partner Processing</TEXT>
+        <TEXT>Business Partner: Data Categories</TEXT>
         <STATUS>U</STATUS>
         <INACTIVE>X</INACTIVE>
         <VALUES>
+         <item>
+          <FIELD>PURPSE</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLJ08qA==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Purpose</TEXT>
+          <STATUS>U</STATUS>
+         </item>
          <item>
           <FIELD>ACTVT</FIELD>
           <VALUE>Display,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlNcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJ1cqA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlN8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJ18qA==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -306,20 +326,10 @@
           <FIELD>DATA_CTRLR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlOcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJ2cqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Data Controller</TEXT>
-          <STATUS>U</STATUS>
-         </item>
-         <item>
-          <FIELD>PURPSE</FIELD>
-          <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlO8og==</UUID>
-           </item>
-          </VALUES>
-          <TEXT>Purpose</TEXT>
           <STATUS>U</STATUS>
          </item>
         </VALUES>
@@ -330,14 +340,36 @@
         <AUTH_OBJECT_INSTANCE>0002</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
         <IBS_SOURCE_TYPE>HT</IBS_SOURCE_TYPE>
-        <TEXT>Business Partner Processing</TEXT>
+        <TEXT>Business Partner: Data Categories</TEXT>
         <STATUS>S</STATUS>
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
+          <VALUE>Create or generate,Change,Display,06,08,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlP8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJ28qA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLJ3cqA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLJ38qA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLJ4cqA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLJ48qA==</UUID>
+            <LOW_VALUE>08</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLJ5cqA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -348,7 +380,7 @@
           <FIELD>DATA_CTRLR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlQcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJ58qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Data Controller</TEXT>
@@ -358,7 +390,7 @@
           <FIELD>PURPSE</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlQ8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJ6cqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Purpose</TEXT>
@@ -384,59 +416,59 @@
         <INACTIVE>X</INACTIVE>
         <VALUES>
          <item>
-          <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Enter, Include, Assign,Execute Digital Signature,Schedule,Reverse,Display in Value Help</VALUE>
+          <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlR8og==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWLJ68qA==</UUID>
            </item>
+          </VALUES>
+          <TEXT>Authorization Group</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete,Reverse,Enter, Include, Assign,Execute Digital Signature,Schedule</VALUE>
+          <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlScog==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlS8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJ7cqA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlTcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJ78qA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLJ8cqA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLJ88qA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLJ9cqA==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlT8og==</UUID>
-            <LOW_VALUE>22</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlUcog==</UUID>
-            <LOW_VALUE>73</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlU8og==</UUID>
-            <LOW_VALUE>81</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlVcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJ98qA==</UUID>
             <LOW_VALUE>85</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlV8og==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWLJ+cqA==</UUID>
+            <LOW_VALUE>22</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLJ+8qA==</UUID>
+            <LOW_VALUE>73</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLJ/cqA==</UUID>
+            <LOW_VALUE>81</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
           <STATUS>U</STATUS>
           <IS_ACTVT>X</IS_ACTVT>
-         </item>
-         <item>
-          <FIELD>BEGRU</FIELD>
-          <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlWcog==</UUID>
-           </item>
-          </VALUES>
-          <TEXT>Authorization Group</TEXT>
-          <STATUS>U</STATUS>
          </item>
         </VALUES>
        </item>
@@ -454,7 +486,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlXcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLJ/8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -464,7 +496,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlX8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLKAcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -484,9 +516,11 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
+          <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlY8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLKA8qA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -497,7 +531,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlZcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLKBcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -518,7 +552,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlacog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLKB8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -529,7 +563,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPla8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLKCcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -555,44 +589,68 @@
         <INACTIVE>X</INACTIVE>
         <VALUES>
          <item>
-          <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Enter, Include, Assign,Execute Digital Signature,Schedule,Reverse,Display in Value Help</VALUE>
+          <FIELD>AEFUN</FIELD>
+          <VALUE>3,1,2,&apos; &apos;</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlb8og==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWLKC8qA==</UUID>
+            <LOW_VALUE>3</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlccog==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWLKDcqA==</UUID>
+            <LOW_VALUE>1</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlc8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLKD8qA==</UUID>
+            <LOW_VALUE>2</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLKEcqA==</UUID>
+            <LOW_VALUE>&apos; &apos;</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Change number function</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete,Reverse,Enter, Include, Assign,Execute Digital Signature,Schedule</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLKE8qA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPldcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLKFcqA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLKF8qA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLKGcqA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLKG8qA==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPld8og==</UUID>
-            <LOW_VALUE>22</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlecog==</UUID>
-            <LOW_VALUE>73</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2DPle8og==</UUID>
-            <LOW_VALUE>81</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlfcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLKHcqA==</UUID>
             <LOW_VALUE>85</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlf8og==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWLKH8qA==</UUID>
+            <LOW_VALUE>22</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLKIcqA==</UUID>
+            <LOW_VALUE>73</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLKI8qA==</UUID>
+            <LOW_VALUE>81</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -600,34 +658,10 @@
           <IS_ACTVT>X</IS_ACTVT>
          </item>
          <item>
-          <FIELD>AEFUN</FIELD>
-          <VALUE>&apos; &apos;,1,2,3</VALUE>
-          <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlgcog==</UUID>
-            <LOW_VALUE>&apos; &apos;</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlg8og==</UUID>
-            <LOW_VALUE>1</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlhcog==</UUID>
-            <LOW_VALUE>2</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlh8og==</UUID>
-            <LOW_VALUE>3</LOW_VALUE>
-           </item>
-          </VALUES>
-          <TEXT>Change number function</TEXT>
-          <STATUS>U</STATUS>
-         </item>
-         <item>
           <FIELD>AENST</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPlicog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLKJcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Status of change number</TEXT>
@@ -637,7 +671,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPli8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLKJ8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -647,7 +681,7 @@
           <FIELD>RLKEY</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2DPljcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLKKcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Release Key for Change Master Record</TEXT>
@@ -669,7 +703,7 @@
           <FIELD>AEFUN</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLBucog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLKK8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Change number function</TEXT>
@@ -679,7 +713,7 @@
           <FIELD>AENST</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLBu8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLKLcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Status of change number</TEXT>
@@ -689,7 +723,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLBvcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLKL8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -699,7 +733,7 @@
           <FIELD>RLKEY</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLBv8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLKMcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Release Key for Change Master Record</TEXT>
@@ -709,7 +743,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLBwcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLKM8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -729,11 +763,15 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Display</VALUE>
+          <VALUE>Display,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLBxcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLabcqA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLab8qA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -744,7 +782,7 @@
           <FIELD>AEFUN</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLBx8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLaccqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Change number function</TEXT>
@@ -754,7 +792,7 @@
           <FIELD>AENST</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLBycog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLac8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Status of change number</TEXT>
@@ -764,7 +802,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLBy8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLadcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -774,7 +812,7 @@
           <FIELD>RLKEY</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLBzcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLad8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Release Key for Change Master Record</TEXT>
@@ -795,7 +833,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLB0cog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLaecqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -806,7 +844,7 @@
           <FIELD>AEFUN</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLB08og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLae8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Change number function</TEXT>
@@ -816,7 +854,7 @@
           <FIELD>AENST</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLB1cog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLafcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Status of change number</TEXT>
@@ -826,7 +864,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLB18og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLaf8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -836,7 +874,7 @@
           <FIELD>RLKEY</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLB2cog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLagcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Release Key for Change Master Record</TEXT>
@@ -866,11 +904,11 @@
           <VALUE>Create or generate,Change</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLB3cog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLag8qA==</UUID>
             <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLB38og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLahcqA==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
           </VALUES>
@@ -891,11 +929,43 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>03</VALUE>
+          <VALUE>Create or generate,Change,03,06,22,73,81,85,F4</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLB48og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLah8qA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLaicqA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLai8qA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLajcqA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLaj8qA==</UUID>
+            <LOW_VALUE>22</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLakcqA==</UUID>
+            <LOW_VALUE>73</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLak8qA==</UUID>
+            <LOW_VALUE>81</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLalcqA==</UUID>
+            <LOW_VALUE>85</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLal8qA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -926,7 +996,7 @@
           <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLB58og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLamcqA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
           </VALUES>
@@ -951,7 +1021,7 @@
           <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLB68og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLam8qA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
           </VALUES>
@@ -972,15 +1042,15 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Display,Display in Value Help</VALUE>
+          <VALUE>Create or generate,Change</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLB78og==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWLancqA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLB8cog==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWLan8qA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1000,11 +1070,9 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLB9cog==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWLaocqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1031,40 +1099,40 @@
         <INACTIVE>X</INACTIVE>
         <VALUES>
          <item>
-          <FIELD>DOKAR</FIELD>
-          <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLB+cog==</UUID>
-           </item>
-          </VALUES>
-          <TEXT>Document Type</TEXT>
-          <STATUS>U</STATUS>
-         </item>
-         <item>
           <FIELD>DOKOB</FIELD>
-          <VALUE>BUS1001001,BUS1001006,MARA</VALUE>
+          <VALUE>BUS1001006,MARA,BUS1001001</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLB+8og==</UUID>
-            <LOW_VALUE>BUS1001001</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLB/cog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLao8qA==</UUID>
             <LOW_VALUE>BUS1001006</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLB/8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLapcqA==</UUID>
             <LOW_VALUE>MARA</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLap8qA==</UUID>
+            <LOW_VALUE>BUS1001001</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Linked SAP Object</TEXT>
           <STATUS>U</STATUS>
          </item>
          <item>
+          <FIELD>DOKAR</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLaqcqA==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Document Type</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+         <item>
           <FIELD>STATUS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCAcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLaq8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Status</TEXT>
@@ -1074,7 +1142,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCA8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLarcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1097,7 +1165,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCB8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLar8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1107,7 +1175,7 @@
           <FIELD>DOKOB</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCCcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLascqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Linked SAP Object</TEXT>
@@ -1117,7 +1185,7 @@
           <FIELD>STATUS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCC8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLas8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Status</TEXT>
@@ -1127,7 +1195,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCDcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLatcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1147,31 +1215,11 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,08,Display in Value Help</VALUE>
+          <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCEcog==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCE8og==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCFcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLat8qA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCF8og==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCGcog==</UUID>
-            <LOW_VALUE>08</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCG8og==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1182,7 +1230,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCHcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLaucqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1192,7 +1240,7 @@
           <FIELD>DOKOB</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCH8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLau8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Linked SAP Object</TEXT>
@@ -1202,7 +1250,7 @@
           <FIELD>STATUS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCIcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLavcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Status</TEXT>
@@ -1223,7 +1271,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCJcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLav8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1234,7 +1282,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCJ8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLawcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1244,7 +1292,7 @@
           <FIELD>DOKOB</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCKcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLaw8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Linked SAP Object</TEXT>
@@ -1254,7 +1302,7 @@
           <FIELD>STATUS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCK8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLaxcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Status</TEXT>
@@ -1283,7 +1331,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCL8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLax8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1293,7 +1341,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCMcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLaycqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1316,7 +1364,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCNcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLay8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1326,7 +1374,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCN8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLazcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1346,43 +1394,9 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>01,02,03,06,22,73,81,85,F4</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCO8og==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCPcog==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCP8og==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCQcog==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCQ8og==</UUID>
-            <LOW_VALUE>22</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCRcog==</UUID>
-            <LOW_VALUE>73</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCR8og==</UUID>
-            <LOW_VALUE>81</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCScog==</UUID>
-            <LOW_VALUE>85</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCS8og==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWLaz8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1393,7 +1407,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCTcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLa0cqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1414,7 +1428,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCUcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLa08qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1425,7 +1439,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCU8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLa1cqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1437,7 +1451,7 @@
      </item>
      <item>
       <AUTH_OBJECT>C_DRAW_STA</AUTH_OBJECT>
-      <STATUS>U</STATUS>
+      <STATUS>S</STATUS>
       <TEXT>Authorization for document status</TEXT>
       <AUTH_ITEM>
        <item>
@@ -1454,7 +1468,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCV8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLa18qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1464,7 +1478,7 @@
           <FIELD>DOKST</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCWcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLa2cqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Status</TEXT>
@@ -1486,7 +1500,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCXcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLa28qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1496,11 +1510,73 @@
           <FIELD>DOKST</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCX8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLa3cqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Status</TEXT>
           <STATUS>U</STATUS>
+         </item>
+        </VALUES>
+       </item>
+       <item>
+        <UUID>+hY+oDhRH+CcmcrSe3h8pw==</UUID>
+        <AUTH_OBJECT>C_DRAW_STA</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0003</AUTH_OBJECT_INSTANCE>
+        <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
+        <IBS_SOURCE_TYPE>HT</IBS_SOURCE_TYPE>
+        <TEXT>Authorization for document status</TEXT>
+        <STATUS>S</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>DOKST</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLa38qA==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Document Status</TEXT>
+          <STATUS>S</STATUS>
+         </item>
+         <item>
+          <FIELD>DOKAR</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLa4cqA==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Document Type</TEXT>
+          <STATUS>S</STATUS>
+         </item>
+        </VALUES>
+       </item>
+       <item>
+        <UUID>+hY+oDhRH+CcnOSWLa48qA==</UUID>
+        <AUTH_OBJECT>C_DRAW_STA</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0004</AUTH_OBJECT_INSTANCE>
+        <IBS_SOURCE>6168B0EEE641300C0A50D13BE02063</IBS_SOURCE>
+        <IBS_SOURCE_TYPE>HT</IBS_SOURCE_TYPE>
+        <TEXT>Authorization for document status</TEXT>
+        <STATUS>S</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>DOKAR</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLa5cqA==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Document Type</TEXT>
+          <STATUS>S</STATUS>
+         </item>
+         <item>
+          <FIELD>DOKST</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLa58qA==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Document Status</TEXT>
+          <STATUS>S</STATUS>
          </item>
         </VALUES>
        </item>
@@ -1525,7 +1601,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCY8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLa6cqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1535,7 +1611,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCZcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLa68qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1558,7 +1634,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCacog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLa7cqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1568,7 +1644,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCa8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLa78qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1595,30 +1671,30 @@
         <INACTIVE>X</INACTIVE>
         <VALUES>
          <item>
-          <FIELD>DOKAR</FIELD>
-          <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCb8og==</UUID>
-           </item>
-          </VALUES>
-          <TEXT>Document Type</TEXT>
-          <STATUS>U</STATUS>
-         </item>
-         <item>
           <FIELD>DOKST</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCccog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLa8cqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Status</TEXT>
           <STATUS>U</STATUS>
          </item>
          <item>
+          <FIELD>DOKAR</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLa88qA==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Document Type</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+         <item>
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCc8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLa9cqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1641,7 +1717,7 @@
           <FIELD>DOKAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCd8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLa98qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Type</TEXT>
@@ -1651,7 +1727,7 @@
           <FIELD>DOKST</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCecog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLa+cqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Document Status</TEXT>
@@ -1661,7 +1737,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCe8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLa+8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1689,19 +1765,19 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display</VALUE>
+          <VALUE>Display,Change,Create or generate</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCf8og==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWLa/cqA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCgcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLa/8qA==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCg8og==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWLbAcqA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1712,7 +1788,7 @@
           <FIELD>BGRKL</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLChcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbA8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Classification Authorization Group</TEXT>
@@ -1734,7 +1810,7 @@
           <FIELD>BGRKL</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCicog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbBcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Classification Authorization Group</TEXT>
@@ -1744,7 +1820,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCi8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbB8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1774,17 +1850,17 @@
           <FIELD>BGRKP</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCj8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbCcqA==</UUID>
            </item>
           </VALUES>
-          <TEXT>Class Maintenance Authorization Group</TEXT>
+          <TEXT>Class Authorization Group</TEXT>
           <STATUS>U</STATUS>
          </item>
          <item>
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCkcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbC8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1811,10 +1887,20 @@
         <INACTIVE>X</INACTIVE>
         <VALUES>
          <item>
+          <FIELD>STLTY</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLbDcqA==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>BOM category</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+         <item>
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLClcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbD8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -1824,27 +1910,17 @@
           <FIELD>STLAN</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCl8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbEcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>BOM Usage</TEXT>
           <STATUS>U</STATUS>
          </item>
          <item>
-          <FIELD>STLTY</FIELD>
-          <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCmcog==</UUID>
-           </item>
-          </VALUES>
-          <TEXT>BOM category</TEXT>
-          <STATUS>U</STATUS>
-         </item>
-         <item>
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCm8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbE8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1875,7 +1951,7 @@
           <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCn8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbFcqA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
           </VALUES>
@@ -1887,7 +1963,7 @@
           <FIELD>CSWRK</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCocog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbF8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Plant</TEXT>
@@ -1914,27 +1990,27 @@
         <VALUES>
          <item>
           <FIELD>KLART</FIELD>
-          <VALUE>001,026,200,300,399</VALUE>
+          <VALUE>399,001,026,200,300</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCpcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbGcqA==</UUID>
+            <LOW_VALUE>399</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLbG8qA==</UUID>
             <LOW_VALUE>001</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCp8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbHcqA==</UUID>
             <LOW_VALUE>026</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCqcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbH8qA==</UUID>
             <LOW_VALUE>200</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCq8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbIcqA==</UUID>
             <LOW_VALUE>300</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCrcog==</UUID>
-            <LOW_VALUE>399</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Class Type</TEXT>
@@ -1956,7 +2032,7 @@
           <FIELD>KLART</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCscog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbI8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Class Type</TEXT>
@@ -1986,7 +2062,7 @@
           <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCtcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbJcqA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
           </VALUES>
@@ -1998,7 +2074,7 @@
           <FIELD>LOV_OBJTYP</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLCt8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbJ8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Object Type from Variant Configuration</TEXT>
@@ -2025,23 +2101,23 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaG8og==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaHcog==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaH8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbKcqA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaIcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbK8qA==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLbLcqA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLbL8qA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2052,7 +2128,7 @@
           <FIELD>BUKRS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaI8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbMcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Company Code</TEXT>
@@ -2062,7 +2138,7 @@
           <FIELD>GLRLDNR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaJcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbM8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Ledger</TEXT>
@@ -2072,7 +2148,7 @@
           <FIELD>GLRRCTY</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaJ8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbNcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Record Type</TEXT>
@@ -2082,7 +2158,7 @@
           <FIELD>GLRVERS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaKcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbN8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Version</TEXT>
@@ -2111,7 +2187,7 @@
           <FIELD>BRGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaLcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbOcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -2121,7 +2197,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaL8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbO8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2151,7 +2227,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaM8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbPcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2181,7 +2257,7 @@
           <FIELD>KTOKD</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaN8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbP8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Customer Account Group</TEXT>
@@ -2191,7 +2267,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaOcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbQcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2221,7 +2297,7 @@
           <FIELD>BRGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaPcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbQ8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -2231,7 +2307,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaP8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbRcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2261,7 +2337,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaQ8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbR8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2291,7 +2367,7 @@
           <FIELD>KTOKK</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaR8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbScqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Supplier Account Group</TEXT>
@@ -2301,7 +2377,7 @@
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaScog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbS8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2332,7 +2408,7 @@
           <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaTcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbTcqA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
           </VALUES>
@@ -2344,7 +2420,7 @@
           <FIELD>BUKRS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaT8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbT8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Company Code</TEXT>
@@ -2354,7 +2430,7 @@
           <FIELD>KLVAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaUcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbUcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Costing Variant</TEXT>
@@ -2381,23 +2457,23 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Change,Display,Create in DB,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create in DB</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaVcog==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaV8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbU8qA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaWcog==</UUID>
-            <LOW_VALUE>40</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWLbVcqA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaW8og==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWLbV8qA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLbWcqA==</UUID>
+            <LOW_VALUE>40</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2408,7 +2484,7 @@
           <FIELD>BWKEY</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaXcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbW8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Valuation Area</TEXT>
@@ -2434,10 +2510,20 @@
         <INACTIVE>X</INACTIVE>
         <VALUES>
          <item>
+          <FIELD>PRCTR</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLbXcqA==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Profit Center</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+         <item>
           <FIELD>BUKRS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaYcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbX8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Company Code</TEXT>
@@ -2447,27 +2533,17 @@
           <FIELD>KSTAR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaY8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbYcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Cost Element</TEXT>
           <STATUS>U</STATUS>
          </item>
          <item>
-          <FIELD>PRCTR</FIELD>
-          <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaZcog==</UUID>
-           </item>
-          </VALUES>
-          <TEXT>Profit Center</TEXT>
-          <STATUS>U</STATUS>
-         </item>
-         <item>
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaZ8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbY8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2494,30 +2570,30 @@
         <INACTIVE>X</INACTIVE>
         <VALUES>
          <item>
-          <FIELD>KOKRS</FIELD>
-          <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaa8og==</UUID>
-           </item>
-          </VALUES>
-          <TEXT>Controlling Area</TEXT>
-          <STATUS>U</STATUS>
-         </item>
-         <item>
           <FIELD>PRCTR</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLabcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbZcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Profit Center</TEXT>
           <STATUS>U</STATUS>
          </item>
          <item>
+          <FIELD>KOKRS</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWLbZ8qA==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Controlling Area</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+         <item>
           <FIELD>ACTVT</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLab8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLbacqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2545,27 +2621,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLac8og==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLadcog==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLad8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWLba8qA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaecog==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0NcqA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLae8og==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0N8qA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0OcqA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0O8qA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2586,27 +2662,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaf8og==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLagcog==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLag8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0PcqA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLahcog==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0P8qA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLah8og==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0QcqA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0Q8qA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0RcqA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2634,27 +2710,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLai8og==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLajcog==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaj8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0R8qA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLakcog==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0ScqA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLak8og==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0S8qA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0TcqA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0T8qA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2665,7 +2741,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLalcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0UcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -2692,27 +2768,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLamcog==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLam8og==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLancog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0U8qA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLan8og==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0VcqA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaocog==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0V8qA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0WcqA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0W8qA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2723,7 +2799,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLao8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0XcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -2743,27 +2819,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLap8og==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaqcog==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaq8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0X8qA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLarcog==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0YcqA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLar8og==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0Y8qA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0ZcqA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0Z8qA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2774,7 +2850,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLascog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0acqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -2804,7 +2880,7 @@
           <VALUE>*</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLatcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0a8qA==</UUID>
             <LOW_VALUE>*</LOW_VALUE>
            </item>
           </VALUES>
@@ -2832,27 +2908,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display change documents</VALUE>
+          <VALUE>Display,Change,Create or generate,Display change documents,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaucog==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLau8og==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLavcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0bcqA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLav8og==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0b8qA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLawcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0ccqA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0c8qA==</UUID>
             <LOW_VALUE>08</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0dcqA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2863,7 +2939,7 @@
           <FIELD>STATM</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaw8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0d8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Maintenance Status of Material Master Record</TEXT>
@@ -2883,27 +2959,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display change documents</VALUE>
+          <VALUE>Display,Change,Create or generate,Display change documents,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLax8og==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaycog==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLay8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0ecqA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLazcog==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0e8qA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLaz8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0fcqA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0f8qA==</UUID>
             <LOW_VALUE>08</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0gcqA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2914,7 +2990,7 @@
           <FIELD>STATM</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa0cog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0g8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Maintenance Status of Material Master Record</TEXT>
@@ -2941,31 +3017,31 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display change documents,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Display change documents,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa1cog==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa18og==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa2cog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0hcqA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa28og==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0h8qA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa3cog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0icqA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0i8qA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0jcqA==</UUID>
             <LOW_VALUE>08</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa38og==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0j8qA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2976,7 +3052,7 @@
           <FIELD>VKORG</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa4cog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0kcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Sales Organization</TEXT>
@@ -2986,7 +3062,7 @@
           <FIELD>VTWEG</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa48og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0k8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Distribution Channel</TEXT>
@@ -3013,27 +3089,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa58og==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa6cog==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa68og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0lcqA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa7cog==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0l8qA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa78og==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0mcqA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0m8qA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0ncqA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -3044,7 +3120,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa8cog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0n8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -3064,27 +3140,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa9cog==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa98og==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa+cog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0ocqA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa+8og==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0o8qA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa/cog==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0pcqA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0p8qA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0qcqA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -3095,7 +3171,7 @@
           <FIELD>BEGRU</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLa/8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0q8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Authorization Group</TEXT>
@@ -3122,31 +3198,31 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display change documents,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Display change documents,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbA8og==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbBcog==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbB8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0rcqA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbCcog==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0r8qA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbC8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0scqA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0s8qA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0tcqA==</UUID>
             <LOW_VALUE>08</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbDcog==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
+            <UUID>+hY+oDhRH+CcnOSWL0t8qA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -3157,7 +3233,7 @@
           <FIELD>WERKS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbD8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0ucqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Plant</TEXT>
@@ -3187,11 +3263,11 @@
           <VALUE>Display,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbE8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0u8qA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbFcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0vcqA==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -3203,7 +3279,7 @@
           <FIELD>WERKS</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbF8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0v8qA==</UUID>
            </item>
           </VALUES>
           <TEXT>Plant</TEXT>
@@ -3233,11 +3309,11 @@
           <VALUE>Display,Display in Value Help</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbG8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0wcqA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbHcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0w8qA==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
@@ -3268,10 +3344,20 @@
           <FIELD>QMATAUTH</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbIcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0xcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>Material Authorization Group for Activities in QM</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+         <item>
+          <FIELD>WERKS</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CcnOSWL0x8qA==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Plant</TEXT>
           <STATUS>U</STATUS>
          </item>
          <item>
@@ -3279,21 +3365,11 @@
           <VALUE>A</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbI8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0ycqA==</UUID>
             <LOW_VALUE>A</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity for QM Material Authorization</TEXT>
-          <STATUS>U</STATUS>
-         </item>
-         <item>
-          <FIELD>WERKS</FIELD>
-          <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbJcog==</UUID>
-           </item>
-          </VALUES>
-          <TEXT>Plant</TEXT>
           <STATUS>U</STATUS>
          </item>
         </VALUES>
@@ -3320,7 +3396,7 @@
           <VALUE>Display</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbKcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0y8qA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
           </VALUES>
@@ -3332,7 +3408,7 @@
           <FIELD>DDLNAME</FIELD>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbK8og==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0zcqA==</UUID>
            </item>
           </VALUES>
           <TEXT>ACM: Name of an CDS Entity</TEXT>
@@ -3343,7 +3419,7 @@
           <VALUE>ESH_S_PRODUCT</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+Cb1V2bLbLcog==</UUID>
+            <UUID>+hY+oDhRH+CcnOSWL0z8qA==</UUID>
             <LOW_VALUE>ESH_S_PRODUCT</LOW_VALUE>
            </item>
           </VALUES>
@@ -3355,7 +3431,7 @@
       </AUTH_ITEM>
      </item>
     </AUTH>
-    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+    <PUBLISH_STATUS>u</PUBLISH_STATUS>
    </SIA6>
   </asx:values>
  </asx:abap>

@@ -108,6 +108,17 @@
         <INACTIVE>X</INACTIVE>
         <VALUES>
          <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CanjRShP6coA==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
           <FIELD>/SCWM/LGNU</FIELD>
           <VALUES>
            <item>
@@ -126,17 +137,6 @@
           </VALUES>
           <TEXT>Product</TEXT>
           <STATUS>U</STATUS>
-         </item>
-         <item>
-          <FIELD>ACTVT</FIELD>
-          <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+CanjRShP6coA==</UUID>
-           </item>
-          </VALUES>
-          <TEXT>Activity</TEXT>
-          <STATUS>U</STATUS>
-          <IS_ACTVT>X</IS_ACTVT>
          </item>
         </VALUES>
        </item>
@@ -187,7 +187,7 @@
      <item>
       <AUTH_OBJECT>B_BUP_DCPD</AUTH_OBJECT>
       <STATUS>U</STATUS>
-      <TEXT>Business Partner Processing</TEXT>
+      <TEXT>Business Partner: Data Categories</TEXT>
       <AUTH_ITEM>
        <item>
         <UUID>+hY+oDhRH+CanjRShP8coA==</UUID>
@@ -195,7 +195,7 @@
         <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
         <IBS_SOURCE>E5B41D351F486DDF1BE26ABE744DA6</IBS_SOURCE>
         <IBS_SOURCE_TYPE>HT</IBS_SOURCE_TYPE>
-        <TEXT>Business Partner Processing</TEXT>
+        <TEXT>Business Partner: Data Categories</TEXT>
         <STATUS>U</STATUS>
         <INACTIVE>X</INACTIVE>
         <VALUES>
@@ -257,23 +257,31 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Enter, Include, Assign,Execute Digital Signature,Schedule,Reverse,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete,Reverse,Enter, Include, Assign,Execute Digital Signature,Schedule</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CanjRShP/coA==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRShQAcoA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRShQDcoA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRShP/8oA==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CanjRShQAcoA==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRShP/coA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRShQA8oA==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRShQC8oA==</UUID>
+            <LOW_VALUE>85</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRShQBcoA==</UUID>
@@ -286,14 +294,6 @@
            <item>
             <UUID>+hY+oDhRH+CanjRShQCcoA==</UUID>
             <LOW_VALUE>81</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRShQC8oA==</UUID>
-            <LOW_VALUE>85</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRShQDcoA==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -364,23 +364,31 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Enter, Include, Assign,Execute Digital Signature,Schedule,Reverse,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete,Reverse,Enter, Include, Assign,Execute Digital Signature,Schedule</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CanjRShQGcoA==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRShQHcoA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRShQKcoA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRShQG8oA==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CanjRShQHcoA==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRShQGcoA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRShQH8oA==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRShQJ8oA==</UUID>
+            <LOW_VALUE>85</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRShQIcoA==</UUID>
@@ -394,42 +402,10 @@
             <UUID>+hY+oDhRH+CanjRShQJcoA==</UUID>
             <LOW_VALUE>81</LOW_VALUE>
            </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRShQJ8oA==</UUID>
-            <LOW_VALUE>85</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRShQKcoA==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
-           </item>
           </VALUES>
           <TEXT>Activity</TEXT>
           <STATUS>U</STATUS>
           <IS_ACTVT>X</IS_ACTVT>
-         </item>
-         <item>
-          <FIELD>AEFUN</FIELD>
-          <VALUE>&apos; &apos;,1,2,3</VALUE>
-          <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+CanjRShQK8oA==</UUID>
-            <LOW_VALUE>&apos; &apos;</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRShQLcoA==</UUID>
-            <LOW_VALUE>1</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRShQL8oA==</UUID>
-            <LOW_VALUE>2</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRShQMcoA==</UUID>
-            <LOW_VALUE>3</LOW_VALUE>
-           </item>
-          </VALUES>
-          <TEXT>Change number function</TEXT>
-          <STATUS>U</STATUS>
          </item>
          <item>
           <FIELD>AENST</FIELD>
@@ -459,6 +435,30 @@
            </item>
           </VALUES>
           <TEXT>Release Key for Change Master Record</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+         <item>
+          <FIELD>AEFUN</FIELD>
+          <VALUE>1,2,&apos; &apos;,3</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CanjRShQLcoA==</UUID>
+            <LOW_VALUE>1</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRShQL8oA==</UUID>
+            <LOW_VALUE>2</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRShQK8oA==</UUID>
+            <LOW_VALUE>&apos; &apos;</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRShQMcoA==</UUID>
+            <LOW_VALUE>3</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Change number function</TEXT>
           <STATUS>U</STATUS>
          </item>
         </VALUES>
@@ -545,15 +545,15 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change</VALUE>
+          <VALUE>Change,Create or generate</VALUE>
           <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+CanjRShQR8oA==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
-           </item>
            <item>
             <UUID>+hY+oDhRH+CanjRShQScoA==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRShQR8oA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -658,9 +658,23 @@
           <STATUS>U</STATUS>
          </item>
          <item>
-          <FIELD>DOKOB</FIELD>
-          <VALUE>BUS1001001,BUS1001006,MARA</VALUE>
+          <FIELD>STATUS</FIELD>
           <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CanjRShQX8oA==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Document Status</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+         <item>
+          <FIELD>DOKOB</FIELD>
+          <VALUE>MARA,BUS1001001,BUS1001006</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CanjRShQXcoA==</UUID>
+            <LOW_VALUE>MARA</LOW_VALUE>
+           </item>
            <item>
             <UUID>+hY+oDhRH+CanjRShQWcoA==</UUID>
             <LOW_VALUE>BUS1001001</LOW_VALUE>
@@ -669,22 +683,8 @@
             <UUID>+hY+oDhRH+CanjRShQW8oA==</UUID>
             <LOW_VALUE>BUS1001006</LOW_VALUE>
            </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRShQXcoA==</UUID>
-            <LOW_VALUE>MARA</LOW_VALUE>
-           </item>
           </VALUES>
           <TEXT>Linked SAP Object</TEXT>
-          <STATUS>U</STATUS>
-         </item>
-         <item>
-          <FIELD>STATUS</FIELD>
-          <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+CanjRShQX8oA==</UUID>
-           </item>
-          </VALUES>
-          <TEXT>Document Status</TEXT>
           <STATUS>U</STATUS>
          </item>
         </VALUES>
@@ -1071,19 +1071,19 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display</VALUE>
+          <VALUE>Display,Change,Create or generate</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CanjRhlmBcoA==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhlmCcoA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhlmB8oA==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CanjRhlmCcoA==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhlmBcoA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1170,7 +1170,7 @@
             <UUID>+hY+oDhRH+CanjRhlmF8oA==</UUID>
            </item>
           </VALUES>
-          <TEXT>Class Maintenance Authorization Group</TEXT>
+          <TEXT>Class Authorization Group</TEXT>
           <STATUS>U</STATUS>
          </item>
         </VALUES>
@@ -1407,16 +1407,8 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate</VALUE>
           <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+CanjRhlmQcoA==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRhlmQ8oA==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhlmRcoA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
@@ -1424,6 +1416,14 @@
            <item>
             <UUID>+hY+oDhRH+CanjRhlmR8oA==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRhlmQ8oA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRhlmQcoA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1763,23 +1763,23 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Change,Display,Create in DB,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create in DB</VALUE>
           <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+CanjRhlme8oA==</UUID>
-            <LOW_VALUE>02</LOW_VALUE>
-           </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhlmfcoA==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CanjRhlmf8oA==</UUID>
-            <LOW_VALUE>40</LOW_VALUE>
-           </item>
-           <item>
             <UUID>+hY+oDhRH+CanjRhlmgcoA==</UUID>
             <LOW_VALUE>F4</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRhlme8oA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRhlmf8oA==</UUID>
+            <LOW_VALUE>40</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1927,27 +1927,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CanjRhlmmcoA==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhlmncoA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRhlmocoA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhlmm8oA==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CanjRhlmncoA==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhlmmcoA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhlmn8oA==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRhlmocoA==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -1968,27 +1968,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CanjRhlmpcoA==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhlmqcoA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRhlmrcoA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhlmp8oA==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CanjRhlmqcoA==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhlmpcoA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhlmq8oA==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRhlmrcoA==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2016,27 +2016,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CanjRhlmscoA==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhlmtcoA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRhlmucoA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhlms8oA==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CanjRhlmtcoA==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhlmscoA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhlmt8oA==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRhlmucoA==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2074,27 +2074,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CanjRhlmv8oA==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhlmw8oA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRhmNs8oA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhlmwcoA==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CanjRhlmw8oA==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhlmv8oA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhmNscoA==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRhmNs8oA==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2125,27 +2125,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CanjRhmNucoA==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhmNvcoA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRhmNwcoA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhmNu8oA==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CanjRhmNvcoA==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhmNucoA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhmNv8oA==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRhmNwcoA==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2214,27 +2214,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display change documents</VALUE>
+          <VALUE>Display,Change,Create or generate,Display change documents,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CanjRhmNy8oA==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhmNz8oA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhmNzcoA==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CanjRhmNz8oA==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRhmN0coA==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhmNy8oA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhmN08oA==</UUID>
             <LOW_VALUE>08</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRhmN0coA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2265,27 +2265,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display change documents</VALUE>
+          <VALUE>Display,Change,Create or generate,Display change documents,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CanjRhmN2coA==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhmN3coA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhmN28oA==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CanjRhmN3coA==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRhmN38oA==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhmN2coA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhmN4coA==</UUID>
             <LOW_VALUE>08</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRhmN38oA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2323,31 +2323,31 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display change documents,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Display change documents,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CanjRhmN58oA==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhmN68oA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRhmN8coA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhmN6coA==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CanjRhmN68oA==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRhmN7coA==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhmN58oA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhmN78oA==</UUID>
             <LOW_VALUE>08</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CanjRhmN8coA==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhmN7coA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2395,27 +2395,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CanjRhmN+coA==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhmN/coA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRhmOAcoA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhmN+8oA==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CanjRhmN/coA==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhmN+coA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhmN/8oA==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRhmOAcoA==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2446,27 +2446,27 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CanjRhmOB8oA==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhmOC8oA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRhmOD8oA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhmOCcoA==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CanjRhmOC8oA==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhmOB8oA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhmODcoA==</UUID>
             <LOW_VALUE>06</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRhmOD8oA==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2504,31 +2504,31 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Create or generate,Change,Display,Delete,Display change documents,Display in Value Help</VALUE>
+          <VALUE>Display,Display in Value Help,Change,Create or generate,Display change documents,Delete</VALUE>
           <VALUES>
            <item>
-            <UUID>+hY+oDhRH+CanjRhmOFcoA==</UUID>
-            <LOW_VALUE>01</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhmOGcoA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY+oDhRH+CanjRhmOH8oA==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhmOF8oA==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CanjRhmOGcoA==</UUID>
-            <LOW_VALUE>03</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>+hY+oDhRH+CanjRhmOG8oA==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhmOFcoA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
            </item>
            <item>
             <UUID>+hY+oDhRH+CanjRhmOHcoA==</UUID>
             <LOW_VALUE>08</LOW_VALUE>
            </item>
            <item>
-            <UUID>+hY+oDhRH+CanjRhmOH8oA==</UUID>
-            <LOW_VALUE>F4</LOW_VALUE>
+            <UUID>+hY+oDhRH+CanjRhmOG8oA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -2657,6 +2657,16 @@
           <STATUS>U</STATUS>
          </item>
          <item>
+          <FIELD>WERKS</FIELD>
+          <VALUES>
+           <item>
+            <UUID>+hY+oDhRH+CanjRhmON8oA==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Plant</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+         <item>
           <FIELD>QMATMODUS</FIELD>
           <VALUE>A</VALUE>
           <VALUES>
@@ -2666,16 +2676,6 @@
            </item>
           </VALUES>
           <TEXT>Activity for QM Material Authorization</TEXT>
-          <STATUS>U</STATUS>
-         </item>
-         <item>
-          <FIELD>WERKS</FIELD>
-          <VALUES>
-           <item>
-            <UUID>+hY+oDhRH+CanjRhmON8oA==</UUID>
-           </item>
-          </VALUES>
-          <TEXT>Plant</TEXT>
           <STATUS>U</STATUS>
          </item>
         </VALUES>
@@ -2737,7 +2737,7 @@
       </AUTH_ITEM>
      </item>
     </AUTH>
-    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+    <PUBLISH_STATUS>u</PUBLISH_STATUS>
    </SIA6>
   </asx:values>
  </asx:abap>

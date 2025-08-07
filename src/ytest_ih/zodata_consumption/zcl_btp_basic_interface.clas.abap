@@ -13,11 +13,13 @@ ENDCLASS.
 
 
 
-CLASS zcl_btp_basic_interface IMPLEMENTATION.
+CLASS ZCL_BTP_BASIC_INTERFACE IMPLEMENTATION.
+
 
   METHOD get_master.
 
   ENDMETHOD.
+
 
   METHOD send_master.
 
@@ -104,5 +106,4 @@ RAISE SHORTDUMP lx_web_http_client_error.
 ENDTRY.
 
   ENDMETHOD.
-
 ENDCLASS.

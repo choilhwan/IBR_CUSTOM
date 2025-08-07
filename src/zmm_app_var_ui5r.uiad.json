@@ -1,0 +1,47 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Manage Product Master Data",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Manage Product Master Variant"
+  },
+  "ui5AppDetails": {
+    "appId": "customer.app.variant.zmm.product.maintain"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_38FA5F292E9903062E0A2833FF7287876AFDD7EC_TM",
+    "semanticObject": "Material",
+    "action": "manageAppVariant",
+    "desktop": true,
+    "tablet": true,
+    "parameters": [
+      {
+        "name": "sap-appvar-id",
+        "filterValue": "customer.app.variant.zmm.product.maintain",
+        "required": true
+      }
+    ]
+  },
+  "tiles": [
+    {
+      "id": "UI5R_38FA5F292E9903062E0A2833FF7287876AFDD7EC_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Manage Product Master Variant",
+        "subtitle": "Manage Product Master Variant",
+        "tileNavigationParameters": [
+          {
+            "name": "sap-appvar-id",
+            "value": "customer.app.variant.zmm.product.maintain"
+          }
+        ]
+      }
+    }
+  ]
+}

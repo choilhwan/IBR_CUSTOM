@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS ycl_test_ih05 IMPLEMENTATION.
+CLASS YCL_TEST_IH05 IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
@@ -30,4 +30,3 @@ CLASS ycl_test_ih05 IMPLEMENTATION.
  commit WORK.
   ENDMETHOD.
 ENDCLASS.
-
